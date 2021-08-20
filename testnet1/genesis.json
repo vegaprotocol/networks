@@ -120,8 +120,8 @@
       "validators.epoch.length": "24h0m0s"
     },
     "network_limits": {
-      "propose_market_enabled": true,
-      "propose_asset_enabled": true
+      "propose_market_enabled": false,
+      "propose_asset_enabled": false
     }
   }
 }

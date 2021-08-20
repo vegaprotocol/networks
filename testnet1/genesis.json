@@ -92,7 +92,7 @@
       "governance.proposal.updateNetParam.minVoterBalance": "0",
       "governance.proposal.updateNetParam.requiredMajority": "0.66",
       "governance.proposal.updateNetParam.requiredParticipation": "0.00001",
-      "governance.vote.asset": "VOTE",
+      "governance.vote.asset": "VEGA",
       "market.auction.maximumDuration": "168h0m0s",
       "market.auction.minimumDuration": "30m0s",
       "market.fee.factors.infrastructureFee": "0.0005",

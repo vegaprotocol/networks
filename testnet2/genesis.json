@@ -59,6 +59,7 @@
       "replay_attack_threshold": 150
     },
     "network_parameters": {
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x898b9F9f9Cab971d9Ceb809F93799109Abbe2D10\", \"confirmations\": 3}",
       "governance.proposal.asset.maxClose": "8760h0m0s",
       "governance.proposal.asset.maxEnact": "8760h0m0s",
       "governance.proposal.asset.minClose": "48h0m0s",
@@ -91,7 +92,7 @@
       "governance.proposal.updateNetParam.minVoterBalance": "0",
       "governance.proposal.updateNetParam.requiredMajority": "0.66",
       "governance.proposal.updateNetParam.requiredParticipation": "0.00001",
-      "governance.vote.asset": "VOTE",
+      "governance.vote.asset": "VOTE2",
       "market.auction.maximumDuration": "168h0m0s",
       "market.auction.minimumDuration": "30m0s",
       "market.fee.factors.infrastructureFee": "0.0005",

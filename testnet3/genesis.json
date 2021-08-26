@@ -29,6 +29,15 @@
       },
       "power": "10",
       "name": ""
+    },
+    {
+      "address": "F94F1344E1D56681F16BD480D93D392EE565D91A",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "8rmnFrJqzqF8iAVTYgnxez0lVIkt2JLud03Y1Ce0UcI="
+      },
+      "power": "10",
+      "name": ""
     }
   ],
   "app_hash": "",
@@ -53,6 +62,12 @@
         "ethereum_address": "0xfab0B5ef65c173C2FaA0fF5B0c3D6b6816D16e33",
         "info_url": "",
         "country": ""
+      },
+      "8rmnFrJqzqF8iAVTYgnxez0lVIkt2JLud03Y1Ce0UcI=": {
+        "vega_pub_key": "052399db567d2ddad4f08cabd1e261bc0c010e0cfe76742d696a2f020307bfc9",
+        "ethereum_address": "0x674172eD75fd3D1Cd7385c4f341F67449A2a0cac",
+        "info_url": "https://rbf.capital/",
+        "country": "CZ"
       }
     },
     "network": {

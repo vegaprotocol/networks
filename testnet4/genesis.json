@@ -29,7 +29,17 @@
       },
       "power": "10",
       "name": ""
-    }
+    },
+    {
+       "address": "07C789B51F8793AEC83686C854B0766B7D6B7800",
+       "pub_key": {
+          "type": "tendermint/PubKeyEd25519",
+          "value": "ZomUQNP4S2zsuxN2zBXNOCE0ZMlDJiyQHXRIZALUYfE="
+        },
+        "power": "10",
+        "name": ""
+     },
+    { "address": "FCB1127DF82E8CF016CF4F0E75C5C444F5279A78", "pub_key": { "type": "tendermint/PubKeyEd25519", "value": "us0foPWWZcXE7ApEnlg0edZRxnaz6WWKspfJ3I889GM=" }, "power": "10", "name": "" } 
   ],
   "app_hash": "",
   "app_state": {
@@ -53,7 +63,14 @@
         "ethereum_address": "0x41fa284Ac8Dc049215837ed4AF0ad145183bB425",
         "info_url": "",
         "country": ""
-      }
+      },
+      "ZomUQNP4S2zsuxN2zBXNOCE0ZMlDJiyQHXRIZALUYfE=": {
+        "vega_pub_key": "2f4d6c7976c0a97d51cea3e9cb88601eb5f0b864272ff86163679a13f7dee744",
+        "ethereum_address": "0x6Ba76c8E310B78Db6470F93c167d3Cd5BD805321",
+        "info_url": "https://vega.xyz",
+        "country": "UK"
+      },
+      "us0foPWWZcXE7ApEnlg0edZRxnaz6WWKspfJ3I889GM=": { "vega_pub_key": "28fc2aa7ab666153fc251659e6e31ef9e0e1d2cde43b24748cc860d71d7a0897", "ethereum_address": "0xE1C133B8e7EDe790F34f4395E3b0bE61C72e4d32", "info_url": "hhtps://nodes.guru", "country": "UK" }
     },
     "network": {
       "replay_attack_threshold": 150

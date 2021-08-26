@@ -22,7 +22,7 @@
   },
   "validators": [
     {
-      "address": "7DDFE176E9571CD2BBD75A8AC8CB762B9DD648C8",
+      "address": "7DDFE176E9571CD2BBD75A8AC8CB762B9DD648C",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
         "value": "SLzvSYTFJoGWiSugsgLYCD04PFegIYvik44n2pRAmhY="

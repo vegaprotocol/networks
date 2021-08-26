@@ -29,6 +29,15 @@
       },
       "power": "10",
       "name": ""
+    },
+    {
+      "address": "E9522EBA6760AA611CE9456A327D1C7596EC4696",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "t4HC1RJax/BG5hh+cfybvtcNRSDn/9x7GfD54A9ISZI="
+      },
+      "power": "10",
+      "name": ""
     }
   ],
   "app_hash": "",
@@ -53,6 +62,12 @@
         "ethereum_address": "0x70bD208cc8ef78c14E86a3AC6265d904e537cE13",
         "info_url": "",
         "country": ""
+      }
+      "t4HC1RJax/BG5hh+cfybvtcNRSDn/9x7GfD54A9ISZI=": {
+        "vega_pub_key": "98f366b70c1c45160966006c3bee665f69ab396a4ce5368e0aa25ef5a4d3838a",
+        "ethereum_address": "0xA929Fe3A17438473B1C522e26308EEE5c71A8332",
+        "info_url": "https://vega.xyz",
+        "country": "UK"
       }
     },
     "network": {

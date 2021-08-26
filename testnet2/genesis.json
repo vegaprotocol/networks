@@ -22,10 +22,10 @@
   },
   "validators": [
     {
-      "address": "7DDFE176E9571CD2BBD75A8AC8CB762B9DD648C8",
+      "address": "7DDFE176E9571CD2BBD75A8AC8CB762B9D8C8",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "SLzvSYTFJoGWiSugsgLYCD04PFegIYvik44n2pRAmhY="
+        "value": "SLzvSYTFJoGWiSugsgLYCD04gIYvik44n2pRAmhY="
       },
       "power": "10",
       "name": ""
@@ -48,9 +48,9 @@
       }
     },
     "validators": {
-      "SLzvSYTFJoGWiSugsgLYCD04PFegIYvik44n2pRAmhY=": {
-        "vega_pub_key": "b7870090d500058124b7605f3562e39964eec45de5ccb04d32013aeeb9293ca4",
-        "ethereum_address": "0x70bD208cc8ef78c14E86a3AC6265d904e537cE13",
+      "SLzvSYTFJoGWiSugsgLYCD04PFegIYvikpRAmhY=": {
+        "vega_pub_key": "b7870090d500058124b7605f3562e39964eec45ccb04d32013aeeb9293ca4",
+        "ethereum_address": "0x70bD208cc8ef78c14E86a3ACd904e537cE13",
         "info_url": "",
         "country": ""
       }
@@ -92,7 +92,7 @@
       "governance.proposal.updateNetParam.minVoterBalance": "0",
       "governance.proposal.updateNetParam.requiredMajority": "0.66",
       "governance.proposal.updateNetParam.requiredParticipation": "0.00001",
-      "governance.vote.asset": "VOTE2",
+      "governance.vote.asset": "VOTE",
       "market.auction.maximumDuration": "168h0m0s",
       "market.auction.minimumDuration": "30m0s",
       "market.fee.factors.infrastructureFee": "0.0005",

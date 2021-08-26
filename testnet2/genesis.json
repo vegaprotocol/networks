@@ -22,7 +22,7 @@
   },
   "validators": [
     {
-      "address": "7DDFE176E9571CD2BBD75A8AC8CB762B9DD648C",
+      "address": "7DDFE176E9571CD2BBD75A8AC8CB762B9DD648C8",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
         "value": "SLzvSYTFJoGWiSugsgLYCD04PFegIYvik44n2pRAmhY="
@@ -50,7 +50,7 @@
     "validators": {
       "SLzvSYTFJoGWiSugsgLYCD04PFegIYvik44n2pRAmhY=": {
         "vega_pub_key": "b7870090d500058124b7605f3562e39964eec45de5ccb04d32013aeeb9293ca4",
-        "ethereum_address": "0x70bD208cc8ef78c14E86a3AC6265d904e537cE13",
+        "ethereum_address": "0x70bD208cc8ef78c14E86a3AC6265d904e537cE1",
         "info_url": "",
         "country": ""
       }

@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2021-08-26T07:32:59.715333007Z",
-  "chain_id": "test-chain-218BDO",
+  "genesis_time": "2021-08-26T07:52:54.676851686Z",
+  "chain_id": "test-chain-BNpkqi",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -22,10 +22,10 @@
   },
   "validators": [
     {
-      "address": "7DDFE176E9571CD2BBD75A8AC8CB762B9D8C8",
+      "address": "7DDFE176E9571CD2BBD75A8AC8CB762B9DD648C8",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "SLzvSYTFJoGWiSugsgLYCD04gIYvik44n2pRAmhY="
+        "value": "SLzvSYTFJoGWiSugsgLYCD04PFegIYvik44n2pRAmhY="
       },
       "power": "10",
       "name": ""
@@ -34,23 +34,23 @@
   "app_hash": "",
   "app_state": {
     "assets": {
-      "VOTE": {
-        "name": "VOTE",
-        "symbol": "VOTE",
-        "total_supply": "0",
+      "VEGA": {
+        "name": "VEGA (V2 Test)",
+        "symbol": "VEGA",
+        "total_supply": "6499972300000",
         "decimals": 5,
         "min_lp_stake": "1",
         "source": {
-          "builtin_asset": {
-            "max_faucet_amount_mint": "10000"
+          "erc20": {
+            "contract_address": "0xFa521aDcc11925266A518CdE33386FcD9cF2A4A6"
           }
         }
       }
     },
     "validators": {
-      "SLzvSYTFJoGWiSugsgLYCD04PFegIYvikpRAmhY=": {
-        "vega_pub_key": "b7870090d500058124b7605f3562e39964eec45ccb04d32013aeeb9293ca4",
-        "ethereum_address": "0x70bD208cc8ef78c14E86a3ACd904e537cE13",
+      "SLzvSYTFJoGWiSugsgLYCD04PFegIYvik44n2pRAmhY=": {
+        "vega_pub_key": "b7870090d500058124b7605f3562e39964eec45de5ccb04d32013aeeb9293ca4",
+        "ethereum_address": "0x70bD208cc8ef78c14E86a3AC6265d904e537cE13",
         "info_url": "",
         "country": ""
       }
@@ -92,7 +92,7 @@
       "governance.proposal.updateNetParam.minVoterBalance": "0",
       "governance.proposal.updateNetParam.requiredMajority": "0.66",
       "governance.proposal.updateNetParam.requiredParticipation": "0.00001",
-      "governance.vote.asset": "VOTE",
+      "governance.vote.asset": "VEGA",
       "market.auction.maximumDuration": "168h0m0s",
       "market.auction.minimumDuration": "30m0s",
       "market.fee.factors.infrastructureFee": "0.0005",

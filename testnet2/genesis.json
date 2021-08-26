@@ -22,15 +22,6 @@
   },
   "validators": [
     {
-      "address": "7DDFE176E9571CD2BBD75A8AC8CB762B9DD648C8",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "SLzvSYTFJoGWiSugsgLYCD04PFegIYvik44n2pRAmhY="
-      },
-      "power": "10",
-      "name": ""
-    },
-    {
       "address": "E9522EBA6760AA611CE9456A327D1C7596EC4696",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
@@ -57,12 +48,6 @@
       }
     },
     "validators": {
-      "SLzvSYTFJoGWiSugsgLYCD04PFegIYvik44n2pRAmhY=": {
-        "vega_pub_key": "b7870090d500058124b7605f3562e39964eec45de5ccb04d32013aeeb9293ca4",
-        "ethereum_address": "0x70bD208cc8ef78c14E86a3AC6265d904e537cE13",
-        "info_url": "",
-        "country": ""
-      },
       "t4HC1RJax/BG5hh+cfybvtcNRSDn/9x7GfD54A9ISZI=": {
         "vega_pub_key": "98f366b70c1c45160966006c3bee665f69ab396a4ce5368e0aa25ef5a4d3838a",
         "ethereum_address": "0xA929Fe3A17438473B1C522e26308EEE5c71A8332",

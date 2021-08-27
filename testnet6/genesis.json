@@ -29,7 +29,43 @@
       },
       "power": "10",
       "name": ""
-    }
+    },
+    {
+  "address": "4B8DFD2317F108A7EA73B7B6B6EADF15208C3082",
+  "pub_key": {
+    "type": "tendermint/PubKeyEd25519",
+    "value": "6Bep8OkuJFWee3/HVZ9P6u6AtSgt2X+Jh6l7jmLWaWg="
+  },
+  "power": "10",
+  "name": ""
+},
+    {
+  "address": "525E8EF5E09C8E81FAD670FF5B81B654D67D7A21",
+  "pub_key": {
+    "type": "tendermint/PubKeyEd25519",
+    "value": "RypZKjjOQSevfVQXBU2OASlRST8ZqYP2AWjID6Imtzo="
+  },
+  "power": "10",
+  "name": ""
+},
+    {
+  "address": "08D40BBD3C36381EC9C224068791993F9BC9E04A",
+  "pub_key": {
+    "type": "tendermint/PubKeyEd25519",
+    "value": "emsmGb27qa/76XPags8vHg0bJbtwT1/5TufgiKNV98g="
+  },
+  "power": "10",
+  "name": ""
+},
+    {
+  "address": "38688090E32783C7D2C7CDD3A4DE2BB74C577F41",
+  "pub_key": {
+    "type": "tendermint/PubKeyEd25519",
+    "value": "rBTJ1SFd44nWXyHTWAwATcXFRr3FZbjxxCZz4b5sIbQ="
+  },
+  "power": "10",
+  "name": ""
+}
   ],
   "app_hash": "",
   "app_state": {
@@ -53,7 +89,31 @@
         "ethereum_address": "0x725db0156bD36853f6781b1d37FFAc5687855Be2",
         "info_url": "",
         "country": ""
-      }
+      },
+     "6Bep8OkuJFWee3/HVZ9P6u6AtSgt2X+Jh6l7jmLWaWg=": {
+      "vega_pub_key": "612dace053ecd602f9537c97a3c7ddc547acda1e8309b6d51f088d9167ea7fa5",
+      "ethereum_address": "0x46aC40f055a35c5964c0d9BA437434dd44a91550",
+      "info_url": "https://vega.xyz",
+      "country": "DE"
+    },
+          "RypZKjjOQSevfVQXBU2OASlRST8ZqYP2AWjID6Imtzo=": {
+      "vega_pub_key": "edcb00228e67ec4c99238ad1ca6fff8ba4a078437badb58f42f5a6e7056bc18f",
+      "ethereum_address": "0x560a082c399b946bEad982e4376C98565937c11B",
+      "info_url": "https://stakingfacilities.com",
+      "country": "DE"
+    },
+          "emsmGb27qa/76XPags8vHg0bJbtwT1/5TufgiKNV98g=": {
+      "vega_pub_key": "48d98b49825c7ef04a6779e18ae49034ac01c56bce5be84eb2ad26287304d18a",
+      "ethereum_address": "0xA7235d2c021D93b886589e3063A9f3fCCbBEfe56",
+      "info_url": "https://chorus.one",
+      "country": "CH"
+    },
+          "rBTJ1SFd44nWXyHTWAwATcXFRr3FZbjxxCZz4b5sIbQ=": {
+      "vega_pub_key": "e5ac709cede07ba7209ab3b70622a763cdb8d2772e276066672c01a69efc0aa0",
+      "ethereum_address": "0x86AAE46F7bF0299f05B837db523619eD122C7c3D",
+      "info_url": "test.com",
+      "country": "UK"
+    }
     },
     "network": {
       "replay_attack_threshold": 150

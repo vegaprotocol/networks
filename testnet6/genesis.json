@@ -65,7 +65,8 @@
   },
   "power": "10",
   "name": ""
-}
+},
+    { "address": "8F80190054BEB094F4263338DCA5E95B5A53B7E4", "pub_key": { "type": "tendermint/PubKeyEd25519", "value": "9KtQTrgo8Fb/K4yoNHoffeT6IkIABHSLGhx6rDobR70=" }, "power": "10", "name": "" }
   ],
   "app_hash": "",
   "app_state": {
@@ -113,7 +114,8 @@
       "ethereum_address": "0x86AAE46F7bF0299f05B837db523619eD122C7c3D",
       "info_url": "test.com",
       "country": "UK"
-    }
+    },
+      "9KtQTrgo8Fb/K4yoNHoffeT6IkIABHSLGhx6rDobR70=": { "vega_pub_key": "02426d775008b0a543d304eebea35a436b51609aa94cfd7e9e5ae82f34e85c68", "ethereum_address": "0x3621ae322453E1242094ce339fE49eE03Fb458a6", "info_url": "https://bharvest.io/", "country": "South Korea" }
     },
     "network": {
       "replay_attack_threshold": 150

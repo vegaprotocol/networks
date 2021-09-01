@@ -24,15 +24,15 @@
   "app_hash": "",
   "app_state": {
     "assets": {
-      "f11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a": {
+      "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2": {
         "min_lp_stake": "1",
-        "decimals": 5,
-        "name": "VOTE (test)",
-        "symbol": "tVOTE",
-        "total_supply": "21000000",
+        "decimals": 18,
+        "name": "VEGA V2",
+        "symbol": "VEGA",
+        "total_supply": "64999723",
         "source": {
           "erc20": {
-            "contract_address": "0x7e503d51E18bF3d5825682A54B363799D4a8e344"
+            "contract_address": "0xcB84d72e61e383767C4DFEb2d8ff7f4FB89abc6e"
           }
         }
       }

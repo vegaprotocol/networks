@@ -1,0 +1,98 @@
+{
+"genesis_time": "2021-MM-DDTHH:MM:SS.SSSSSSSSSZ",
+  "chain_id": "mainnet-__SOME_UNIQUE_PERNETWORKLIFECYCLE_ID__",
+  "initial_height": "0",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "validators": [ "__TBD__" ],
+  "app_hash": "",
+  "app_state": {
+    "assets": {
+      "f11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a": {
+        "min_lp_stake": "1",
+        "decimals": 5,
+        "name": "VOTE (test)",
+        "symbol": "tVOTE",
+        "total_supply": "21000000",
+        "source": {
+          "erc20": {
+            "contract_address": "0x7e503d51E18bF3d5825682A54B363799D4a8e344"
+          }
+        }
+      }
+    },
+    "network": {
+      "replay_attack_threshold": 150
+    },
+    "network_parameters": {
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x47613C3F18BD1172efF3bC2AdC2210C2c2624883\", \"confirmations\": 3}",
+      "governance.proposal.asset.maxClose": "8760h0m0s",
+      "governance.proposal.asset.maxEnact": "8760h0m0s",
+      "governance.proposal.asset.minClose": "1m0s",
+      "governance.proposal.asset.minEnact": "2m0s",
+      "governance.proposal.asset.minProposerBalance": "1",
+      "governance.proposal.asset.minVoterBalance": "1",
+      "governance.proposal.asset.requiredMajority": "0.66",
+      "governance.proposal.asset.requiredParticipation": "0.5",
+      "governance.proposal.market.maxClose": "8760h0m0s",
+      "governance.proposal.market.maxEnact": "8760h0m0s",
+      "governance.proposal.market.minClose": "1m0s",
+      "governance.proposal.market.minEnact": "2m0s",
+      "governance.proposal.market.minProposerBalance": "1",
+      "governance.proposal.market.minVoterBalance": "1",
+      "governance.proposal.market.requiredMajority": "0.66",
+      "governance.proposal.market.requiredParticipation": "0.5",
+      "governance.proposal.updateMarket.maxClose": "8760h0m0s",
+      "governance.proposal.updateMarket.maxEnact": "8760h0m0s",
+      "governance.proposal.updateMarket.minClose": "1h0m0s",
+      "governance.proposal.updateMarket.minEnact": "1h0m0s",
+      "governance.proposal.updateMarket.minProposerBalance": "1",
+      "governance.proposal.updateMarket.minVoterBalance": "1",
+      "governance.proposal.updateMarket.requiredMajority": "0.66",
+      "governance.proposal.updateMarket.requiredParticipation": "0.3",
+      "governance.proposal.updateNetParam.maxClose": "8760h0m0s",
+      "governance.proposal.updateNetParam.maxEnact": "8760h0m0s",
+      "governance.proposal.updateNetParam.minClose": "24h0m0s",
+      "governance.proposal.updateNetParam.minEnact": "24h0m0s",
+      "governance.proposal.updateNetParam.minProposerBalance": "1",
+      "governance.proposal.updateNetParam.minVoterBalance": "1",
+      "governance.proposal.updateNetParam.requiredMajority": "0.5",
+      "governance.proposal.updateNetParam.requiredParticipation": "0.00001",
+      "governance.vote.asset": "f11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a",
+      "market.auction.maximumDuration": "168h0m0s",
+      "market.auction.minimumDuration": "10s",
+      "market.fee.factors.infrastructureFee": "0.0005",
+      "market.fee.factors.makerFee": "0.0002",
+      "market.liquidity.bondPenaltyParameter": "0.00001",
+      "market.liquidity.maximumLiquidityFeeFactorLevel": "1",
+      "market.liquidity.providers.fee.distributionTimeStep": "60m",
+      "market.liquidity.stakeToCcySiskas": "1.0",
+      "market.liquidity.targetstake.triggering.ratio": "0.7",
+      "market.liquidityProvision.shapes.maxSize": "100",
+      "market.liquidity.probabilityOfTrading.tau.scaling": "10.0",
+      "market.margin.scalingFactors": "{\"search_level\": 1.1, \"initial_margin\": 1.5, \"collateral_release\": 1.7}",
+      "market.monitor.price.defaultParameters": "{\"triggers\": [{\"auction_extension\": 300, \"horizon\": 43200, \"probability\": 0.9999999}] }",
+      "market.monitor.price.updateFrequency": "1s",
+      "market.stake.target.scalingFactor": "0.1",
+      "market.stake.target.timeWindow": "1h0m0s"
+    }
+  }
+}
+
+

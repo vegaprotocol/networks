@@ -23,7 +23,7 @@ First of all, in order to create a Vega network, you will need access to the lat
 
 ## Tendermint
 
-The Vega protocol software implements BFT consensus using vanilla Tendermint via ABCI integration. In order to ensure compatibility between Tendermint versions, and the Vega binary that you are using, the Vega binary ships with the correct Tendermint version compiled inside of it. You are free to use a separate Tendermint installation if you wish, but it is advisable to use the version that is made available to you by the Vega binary to ensure compatability across releases.
+The Vega protocol software implements BFT consensus using vanilla [Tendermint](https://github.com/tendermint/tendermint) via ABCI integration. In order to ensure compatibility between Tendermint versions, and the Vega binary that you are using, the Vega binary ships with the correct Tendermint version compiled inside of it. You are free to use a separate Tendermint installation if you wish, but it is advisable to use the version that is made available to you by the Vega binary to ensure compatability across releases.
 
 Tendermint is available using the command below:
 
@@ -108,7 +108,7 @@ I[2021-08-20|12:24:58.309] Generated genesis file                       module=m
 
 In order to join a network the public keys of your validator need to be included in a Genesis file. The Gensis files for public Veg networks are maintained in this repository. You will be required to generate the appropraite configuration for your validator, and submit a pull request on this repository for the Gensis file of the network you wish to join.
 
-### Gensis Config for Validator
+### Genesis Config for Validator
 
 Generate the Genesis config for your validator with the command below. You will need to enter your passphrase again.
 

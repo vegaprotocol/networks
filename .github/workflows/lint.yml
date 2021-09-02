@@ -33,3 +33,6 @@ jobs:
             rules:
               line-length:
                 max: 160
+
+      - name: Lint genesis network parameters containing embedded JSON
+        run: ./.lint-genesis-embedded-json.sh

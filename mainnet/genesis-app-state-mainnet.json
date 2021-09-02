@@ -1,5 +1,5 @@
 {
-"genesis_time": "2021-09-03T12:00:00.050701478Z",
+  "genesis_time": "2021-09-03T12:00:00.050701478Z",
   "chain_id": "vega-mainnet-0001",
   "initial_height": "0",
   "consensus_params": {
@@ -20,28 +20,46 @@
     },
     "version": {}
   },
-  "validators": [ "__TBD__" ],
+  "validators": [
+    {
+      "address": "413AB69A18692CCF05C0531DF5D8B8A33CEF90EF",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "0k5Nbe6N6Z3UmXO2DXWvSY+zkACb5jk8DmfN2F7SHBQ="
+      },
+      "power": "10",
+      "name": ""
+    }
+  ],
   "app_hash": "",
   "app_state": {
     "assets": {
       "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2": {
         "min_lp_stake": "1",
         "decimals": 18,
-        "name": "VEGA V2",
+        "name": "VEGA",
         "symbol": "VEGA",
         "total_supply": "64999723",
         "source": {
           "erc20": {
-            "contract_address": "0xcB84d72e61e383767C4DFEb2d8ff7f4FB89abc6e"
+            "contract_address": "0x16480156222D4525f02F0F2BdF8A45A23bd26431"
           }
         }
+      }
+    },
+    "validators": {
+      "0k5Nbe6N6Z3UmXO2DXWvSY+zkACb5jk8DmfN2F7SHBQ=": {
+        "vega_pub_key": "f327ab203faec3dc65e65e026424c040c39fcde0f9b6e04cd354246417d77939",
+        "ethereum_address": "0x5Ff90a193Cf89655B7796925bf40b971B26dD058",
+        "info_url": "https://vega.xyz",
+        "country": "UK"
       }
     },
     "network": {
       "replay_attack_threshold": 150
     },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x47613C3F18BD1172efF3bC2AdC2210C2c2624883\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xvesting_contract_address\", \"0xstaking_bridge_address\"]}",
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x47613C3F18BD1172efF3bC2AdC2210C2c2624883\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0x08C06ECDCf9b8f45e3cF1ec29B82eFd0171341D9\", \"0x6d3c5aaB0DF966BC0f88f2961FD599347e9B52c5\"]}",
       "governance.proposal.asset.maxClose": "720h0m0s",
       "governance.proposal.asset.maxEnact": "720h0m0s",
       "governance.proposal.asset.minClose": "168h0m0s",
@@ -91,15 +109,10 @@
       "market.monitor.price.updateFrequency": "1s",
       "market.stake.target.scalingFactor": "0.1",
       "market.stake.target.timeWindow": "1h0m0s",
-      "network.checkpoint.marketsFreezeDate": "2021-12-01T00:00:00",
-      "network.checkpoint.chainEndOfLifeDate": "2021-12-31T23:59:00",
-      "network.checkpoint.timeElapsedBetweenCheckpoints": "1m0s",
-      "validators.epoch.length": "86400",
+      "validators.epoch.length": "24h",
       "validators.delegation.minAmount": "2",
-      "validators.delegation.competitionFactor": "3.1",
-      "validators.delegation.delegatorShare": "0.883"
+      "reward.staking.delegation.competitionLevel": "3.1",
+      "reward.staking.delegation.delegatorShare": "0.883"
     }
   }
 }
-
-

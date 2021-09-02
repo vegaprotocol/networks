@@ -112,7 +112,10 @@
       "validators.epoch.length": "24h",
       "validators.delegation.minAmount": "2",
       "reward.staking.delegation.competitionLevel": "3.1",
-      "reward.staking.delegation.delegatorShare": "0.883"
+      "reward.staking.delegation.delegatorShare": "0.883",
+      "network.checkpoint.marketFreezeDate": "2021-12-01T00:00:00Z",
+      "network.checkpoint.networkEndOfLifeDate": "2021-12-31T23:59:00Z",
+      "network.checkpoint.timeElapsedBetweenCheckpoints": "1m0s"
     }
   }
 }

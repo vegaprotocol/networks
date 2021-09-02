@@ -41,7 +41,7 @@
       "replay_attack_threshold": 150
     },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x47613C3F18BD1172efF3bC2AdC2210C2c2624883\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xVesting_contract_address\", \"0xstaking_bridge_address\"]}",
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x47613C3F18BD1172efF3bC2AdC2210C2c2624883\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xvesting_contract_address\", \"0xstaking_bridge_address\"]}",
       "governance.proposal.asset.maxClose": "720h0m0s",
       "governance.proposal.asset.maxEnact": "720h0m0s",
       "governance.proposal.asset.minClose": "168h0m0s",

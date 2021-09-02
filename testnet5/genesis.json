@@ -14,9 +14,7 @@
       "max_bytes": "1048576"
     },
     "validator": {
-      "pub_key_types": [
-        "ed25519"
-      ]
+      "pub_key_types": ["ed25519"]
     },
     "version": {}
   },
@@ -31,14 +29,14 @@
       "name": ""
     },
     {
-       "address": "07C789B51F8793AEC83686C854B0766B7D6B7800",
-       "pub_key": {
-          "type": "tendermint/PubKeyEd25519",
-          "value": "ZomUQNP4S2zsuxN2zBXNOCE0ZMlDJiyQHXRIZALUYfE="
-        },
-        "power": "10",
-        "name": ""
-     }
+      "address": "07C789B51F8793AEC83686C854B0766B7D6B7800",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "ZomUQNP4S2zsuxN2zBXNOCE0ZMlDJiyQHXRIZALUYfE="
+      },
+      "power": "10",
+      "name": ""
+    }
   ],
   "app_hash": "",
   "app_state": {

@@ -1,0 +1,38 @@
+---
+
+name: Lint
+
+"on":
+  pull_request:
+    branches:
+      - main
+      - master
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Lint JSON
+        uses: creyD/prettier_action@v3.3
+        with:
+          prettier_options: --check **/*.json
+
+      - name: Lint YAML
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          config_data: |
+            extends: default
+            rules:
+              line-length:
+                max: 160
+
+      - name: Lint genesis network parameters containing embedded JSON
+        run: ./.lint-genesis-embedded-json.sh

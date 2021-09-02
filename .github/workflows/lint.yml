@@ -23,7 +23,7 @@ jobs:
       - name: Lint JSON
         uses: creyD/prettier_action@v3.3
         with:
-          prettier_options: --check '**/*.json'
+          prettier_options: --check **/*.json
 
       - name: Lnt YAML
         uses: ibiqlik/action-yamllint@v3

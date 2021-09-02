@@ -25,7 +25,7 @@ jobs:
         with:
           prettier_options: --check **/*.json
 
-      - name: Lnt YAML
+      - name: Lint YAML
         uses: ibiqlik/action-yamllint@v3
         with:
           config_data: |

@@ -22,10 +22,82 @@
   },
   "validators": [
     {
-      "address": "413AB69A18692CCF05C0531DF5D8B8A33CEF90EF",
+      "address": "5D7D10B14F5D1AA2C5C3C851C18B21F96CCBBB8D",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "0k5Nbe6N6Z3UmXO2DXWvSY+zkACb5jk8DmfN2F7SHBQ="
+        "value": "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "5D7D10B14F5D1AA2C5C3C851C18B21F96CCBBB8D",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "8E7F2C81033C9FE67B4497DF2589200DCB25C738",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "4715849927599241BBA91AA3891F985769735470",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "1A673ACEB7D6D883D8F95C100950F7868E893107",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "D9AA28222D3448D726A03468D47D72F26FC9CCCE",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "WmSx45czPR3dYWWnHlY/3sxdp3HqcLHZ2Bo7d7w/Fn4="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "81C27F13E77A99E4436420E400B4E95BCAE2BFE8",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "5Ob3d3k37IkGigTkU5I7gYQE6r6C2bJ5+3LlcarLF50="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "741382DC9360BF60E9B29A55B279EC65EE8DB195",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "2dSNXvbILJALJZt0KN374+uBLrr8D4CT1A5BcIZzCf0="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "2C05AF474C4C2CD421DF2F1CB4E5F1B5EB29FD75",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M="
       },
       "power": "10",
       "name": ""
@@ -48,11 +120,59 @@
       }
     },
     "validators": {
-      "0k5Nbe6N6Z3UmXO2DXWvSY+zkACb5jk8DmfN2F7SHBQ=": {
-        "vega_pub_key": "f327ab203faec3dc65e65e026424c040c39fcde0f9b6e04cd354246417d77939",
-        "ethereum_address": "0x5Ff90a193Cf89655B7796925bf40b971B26dD058",
-        "info_url": "https://vega.xyz",
+      "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM=": {
+        "vega_pub_key": "cee79327e70c3e48d9d7d039bce7b4bdb41af18837832773e74e5aa04620e89d",
+        "ethereum_address": "0x986BaF0542dD03842D3ccD537dFf8E2d6a9cE100",
+        "info_url": "https://www.greenfield.one",
+        "country": "Germany"
+      },
+      "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=": {
+        "vega_pub_key": "47738cce6c1c734c816f4a6584289f3866ceadd52e2d853754323af7101c8eb1",
+        "ethereum_address": "0x7983e1b304e696b7F485ccF924a01a374942E3C9",
+        "info_url": "https://ryabina.io",
         "country": "UK"
+      },
+      "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI=": {
+        "vega_pub_key": "c81a59aeadf8ac2ea1165a7189df6edcf40480ea02448d51aae142a20c0fbd46",
+        "ethereum_address": "0x2f4Fdb2b50542C2cb53cB6c9fac0672644241655",
+        "info_url": "https://stakingfacilities.com",
+        "country": "Germany"
+      },
+      "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=": {
+        "vega_pub_key": "99f391c2299ea293ee0379d79635b143c53a75891784ea304300b9269db29269",
+        "ethereum_address": "0x59eAf83cd47dDeF6F4627383a0EDa9f70D5f6Dcb",
+        "info_url": "https://nodes.guru",
+        "country": "Russia"
+      },
+      "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ=": {
+        "vega_pub_key": "fe71b6085fb445249e2a17bb0febbf5ae27b609a4116f1e7879f0734e7154209",
+        "ethereum_address": "0x5646253e305539D90ff69d069833458316C8140A",
+        "info_url": "https://figment.io",
+        "country": "Canada"
+      },
+      "WmSx45czPR3dYWWnHlY/3sxdp3HqcLHZ2Bo7d7w/Fn4=": {
+        "vega_pub_key": "c913742de859fb71e45629b2c0175e52b2b35024e997ffe9496fce8b893c1e68",
+        "ethereum_address": "0x5e6FEDca8A214A0136f7C03F132E9ACCA828f015",
+        "info_url": "https://xprv.io/",
+        "country": "UK"
+      },
+      "5Ob3d3k37IkGigTkU5I7gYQE6r6C2bJ5+3LlcarLF50=": {
+        "vega_pub_key": "3d56a05886a6117d9939907f3154a397e1f9549b6160478c370360c49b346dd4",
+        "ethereum_address": "0x66cC07FE724052893f1DdA588157170DFE03C2A1",
+        "info_url": "https://commodum.io",
+        "country": "UK"
+      },
+      "2dSNXvbILJALJZt0KN374+uBLrr8D4CT1A5BcIZzCf0=": {
+        "vega_pub_key": "af2915bc64c1f899e7aae0f8d1fef453710a643af2de7db3a6cfc326e321166a",
+        "ethereum_address": "0x465d3BDbb0b8c66a810870C1153DF64726331ebB",
+        "info_url": "https://p2p.org/",
+        "country": "RU"
+      },
+      "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M=": {
+        "vega_pub_key": "71bd5a19cfde208ac6ce1c75cdf460b98d891d046fdbb8835ebc5c3c279e81ed",
+        "ethereum_address": "0xeE22c67576C89A1Ec738C50b20C4892cEB9DFdd8",
+        "info_url": "https://www.naladao.com",
+        "country": "AU"
       }
     },
     "network": {

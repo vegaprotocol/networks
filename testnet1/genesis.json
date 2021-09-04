@@ -31,10 +31,10 @@
       "name": ""
     },
     {
-      "address": "5D7D10B14F5D1AA2C5C3C851C18B21F96CCBBB8D",
+      "address": "3715DCCC24106B73AC1DA33158DE63DD13A8A09D",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM="
+        "value": "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U="
       },
       "power": "10",
       "name": ""

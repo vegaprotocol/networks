@@ -101,6 +101,15 @@
       },
       "power": "10",
       "name": ""
+    },
+    {
+      "address": "735CD1023AB8660CF08CDD51B5F07ECE7B2D16D9",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "A9dCI5URaK3MZnGg7OXq1ddjdqS241/9rLuHuPKWvN8="
+      },
+      "power": "10",
+      "name": ""
     }
   ],
   "app_hash": "",
@@ -173,6 +182,12 @@
         "ethereum_address": "0xeE22c67576C89A1Ec738C50b20C4892cEB9DFdd8",
         "info_url": "https://www.naladao.com",
         "country": "AU"
+      },
+      "A9dCI5URaK3MZnGg7OXq1ddjdqS241/9rLuHuPKWvN8=": {
+        "vega_pub_key": "498fedb8e1637bde2493abff4f58d543a85e7c29e7e27ebce00ace8708894a5d",
+        "ethereum_address": "0xa8CE9eF6ac6C4a1cE18aEd13bA1EFfa718c0e481",
+        "info_url": "https://lovali.xyz",
+        "country": "FI"
       }
     },
     "network": {

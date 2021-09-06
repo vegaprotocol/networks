@@ -190,9 +190,4 @@ TBC
 
 The Vega blockchain implements a bridge to Ethereum, where collateral assets are stored in a smart contract. In order to keep the Vega network in sync with events on Ethereum it is necessary to run the Event Queue application alongside your validator. The Event Queue is a relatively simple Node.js application.
 
-There are a few smart contracts on the Ethereum side that the bridge watches for events. These are listed below, along with example deployments:
-
-| Contract               | Description                                                      | Deployed address                                                                                                      | Source                                                             |
-| ---------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| Staking bridge         | Staking & delegation of VEGA tokens                              | [0x195064D33f09e0c42cF98E665D9506e0dC17de68](https://etherscan.io/address/0x195064D33f09e0c42cF98E665D9506e0dC17de68) | [Staking_Bridge](https://github.com/vegaprotocol/Staking_Bridge)   |
-| ERC20 bridge           | Deposit assets to use them on a VEGA network                     | [0x4149257d844Ef09f11b02f2e73CbDfaB4c911a73](https://etherscan.io/address/0x4149257d844Ef09f11b02f2e73CbDfaB4c911a73) | [smart-contracts](https://github.com/vegaprotocol/smart-contracts) |
+There are a few smart contracts on the Ethereum side that the bridge watches for events. For details & addresses, see [contracts.md](./contracts.md).

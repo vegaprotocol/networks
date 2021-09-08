@@ -186,8 +186,6 @@ The Data Node exposes APIs that make it easier to interact with the Vega network
 TBC
 
 ## Ethereum Event Queue
-- [vegaprotocol/ethereum-event-forwarder](https://github.com/vegaprotocol/ethereum-event-forwarder)
-
 The Vega blockchain implements a bridge to Ethereum, where collateral assets are stored in a smart contract. In order to keep the Vega network in sync with events on Ethereum it is necessary to run the Event Queue application alongside your validator. The Event Queue is a relatively simple Node.js application.
 
 There are a few smart contracts on the Ethereum side that the bridge watches for events. For details & addresses, see [contracts.md](./contracts.md).

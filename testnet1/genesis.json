@@ -1,0 +1,263 @@
+{
+  "genesis_time": "2021-09-03T12:00:00.050701478Z",
+  "chain_id": "vega-mainnet-0001",
+  "initial_height": "0",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "validators": [
+    {
+      "address": "5D7D10B14F5D1AA2C5C3C851C18B21F96CCBBB8D",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "3715DCCC24106B73AC1DA33158DE63DD13A8A09D",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "8E7F2C81033C9FE67B4497DF2589200DCB25C738",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "4715849927599241BBA91AA3891F985769735470",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "1A673ACEB7D6D883D8F95C100950F7868E893107",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "D9AA28222D3448D726A03468D47D72F26FC9CCCE",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "WmSx45czPR3dYWWnHlY/3sxdp3HqcLHZ2Bo7d7w/Fn4="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "81C27F13E77A99E4436420E400B4E95BCAE2BFE8",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "5Ob3d3k37IkGigTkU5I7gYQE6r6C2bJ5+3LlcarLF50="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "741382DC9360BF60E9B29A55B279EC65EE8DB195",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "2dSNXvbILJALJZt0KN374+uBLrr8D4CT1A5BcIZzCf0="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "2C05AF474C4C2CD421DF2F1CB4E5F1B5EB29FD75",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M="
+      },
+      "power": "10",
+      "name": ""
+    },
+    {
+      "address": "735CD1023AB8660CF08CDD51B5F07ECE7B2D16D9",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "A9dCI5URaK3MZnGg7OXq1ddjdqS241/9rLuHuPKWvN8="
+      },
+      "power": "10",
+      "name": ""
+    }
+  ],
+  "app_hash": "",
+  "app_state": {
+    "assets": {
+      "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2": {
+        "min_lp_stake": "1",
+        "decimals": 18,
+        "name": "VEGA",
+        "symbol": "VEGA",
+        "total_supply": "64999723",
+        "source": {
+          "erc20": {
+            "contract_address": "0x16480156222D4525f02F0F2BdF8A45A23bd26431"
+          }
+        }
+      }
+    },
+    "validators": {
+      "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM=": {
+        "vega_pub_key": "cee79327e70c3e48d9d7d039bce7b4bdb41af18837832773e74e5aa04620e89d",
+        "ethereum_address": "0x986BaF0542dD03842D3ccD537dFf8E2d6a9cE100",
+        "info_url": "https://www.greenfield.one",
+        "country": "Germany"
+      },
+      "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=": {
+        "vega_pub_key": "47738cce6c1c734c816f4a6584289f3866ceadd52e2d853754323af7101c8eb1",
+        "ethereum_address": "0x7983e1b304e696b7F485ccF924a01a374942E3C9",
+        "info_url": "https://ryabina.io",
+        "country": "UK"
+      },
+      "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI=": {
+        "vega_pub_key": "c81a59aeadf8ac2ea1165a7189df6edcf40480ea02448d51aae142a20c0fbd46",
+        "ethereum_address": "0x2f4Fdb2b50542C2cb53cB6c9fac0672644241655",
+        "info_url": "https://stakingfacilities.com",
+        "country": "Germany"
+      },
+      "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=": {
+        "vega_pub_key": "99f391c2299ea293ee0379d79635b143c53a75891784ea304300b9269db29269",
+        "ethereum_address": "0x59eAf83cd47dDeF6F4627383a0EDa9f70D5f6Dcb",
+        "info_url": "https://nodes.guru",
+        "country": "Russia"
+      },
+      "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ=": {
+        "vega_pub_key": "fe71b6085fb445249e2a17bb0febbf5ae27b609a4116f1e7879f0734e7154209",
+        "ethereum_address": "0x5646253e305539D90ff69d069833458316C8140A",
+        "info_url": "https://figment.io",
+        "country": "Canada"
+      },
+      "WmSx45czPR3dYWWnHlY/3sxdp3HqcLHZ2Bo7d7w/Fn4=": {
+        "vega_pub_key": "c913742de859fb71e45629b2c0175e52b2b35024e997ffe9496fce8b893c1e68",
+        "ethereum_address": "0x5e6FEDca8A214A0136f7C03F132E9ACCA828f015",
+        "info_url": "https://xprv.io/",
+        "country": "UK"
+      },
+      "5Ob3d3k37IkGigTkU5I7gYQE6r6C2bJ5+3LlcarLF50=": {
+        "vega_pub_key": "3d56a05886a6117d9939907f3154a397e1f9549b6160478c370360c49b346dd4",
+        "ethereum_address": "0x66cC07FE724052893f1DdA588157170DFE03C2A1",
+        "info_url": "https://commodum.io",
+        "country": "UK"
+      },
+      "2dSNXvbILJALJZt0KN374+uBLrr8D4CT1A5BcIZzCf0=": {
+        "vega_pub_key": "af2915bc64c1f899e7aae0f8d1fef453710a643af2de7db3a6cfc326e321166a",
+        "ethereum_address": "0x465d3BDbb0b8c66a810870C1153DF64726331ebB",
+        "info_url": "https://p2p.org/",
+        "country": "RU"
+      },
+      "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M=": {
+        "vega_pub_key": "71bd5a19cfde208ac6ce1c75cdf460b98d891d046fdbb8835ebc5c3c279e81ed",
+        "ethereum_address": "0xeE22c67576C89A1Ec738C50b20C4892cEB9DFdd8",
+        "info_url": "https://www.naladao.com",
+        "country": "AU"
+      },
+      "A9dCI5URaK3MZnGg7OXq1ddjdqS241/9rLuHuPKWvN8=": {
+        "vega_pub_key": "498fedb8e1637bde2493abff4f58d543a85e7c29e7e27ebce00ace8708894a5d",
+        "ethereum_address": "0xa8CE9eF6ac6C4a1cE18aEd13bA1EFfa718c0e481",
+        "info_url": "https://lovali.xyz",
+        "country": "FI"
+      }
+    },
+    "network": {
+      "replay_attack_threshold": 150
+    },
+    "network_parameters": {
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x47613C3F18BD1172efF3bC2AdC2210C2c2624883\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0x08C06ECDCf9b8f45e3cF1ec29B82eFd0171341D9\", \"0x6d3c5aaB0DF966BC0f88f2961FD599347e9B52c5\"]}",
+      "governance.vote.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
+      "governance.proposal.market.maxClose": "720h0m0s",
+      "governance.proposal.market.maxEnact": "720h0m0s",
+      "governance.proposal.market.minClose": "168h0m0s",
+      "governance.proposal.market.minEnact": "168h0m0s",
+      "governance.proposal.market.minProposerBalance": "1",
+      "governance.proposal.market.minVoterBalance": "1",
+      "governance.proposal.market.requiredMajority": "0.66",
+      "governance.proposal.market.requiredParticipation": "0.33",
+      "governance.proposal.asset.maxClose": "720h0m0s",
+      "governance.proposal.asset.maxEnact": "720h0m0s",
+      "governance.proposal.asset.minClose": "168h0m0s",
+      "governance.proposal.asset.minEnact": "168h0m0s",
+      "governance.proposal.asset.minProposerBalance": "1",
+      "governance.proposal.asset.minVoterBalance": "1",
+      "governance.proposal.asset.requiredMajority": "0.66",
+      "governance.proposal.asset.requiredParticipation": "0.33",
+      "governance.proposal.updateMarket.maxClose": "720h0m0s",
+      "governance.proposal.updateMarket.maxEnact": "720h0m0s",
+      "governance.proposal.updateMarket.minClose": "72h0m0s",
+      "governance.proposal.updateMarket.minEnact": "72h0m0s",
+      "governance.proposal.updateMarket.minProposerBalance": "1",
+      "governance.proposal.updateMarket.minVoterBalance": "1",
+      "governance.proposal.updateMarket.requiredMajority": "0.66",
+      "governance.proposal.updateMarket.requiredParticipation": "0.33",
+      "governance.proposal.updateNetParam.maxClose": "720h0m0s",
+      "governance.proposal.updateNetParam.maxEnact": "720h0m0s",
+      "governance.proposal.updateNetParam.minClose": "72h0m0s",
+      "governance.proposal.updateNetParam.minEnact": "72h0m0s",
+      "governance.proposal.updateNetParam.minProposerBalance": "1",
+      "governance.proposal.updateNetParam.minVoterBalance": "1",
+      "governance.proposal.updateNetParam.requiredMajority": "0.66",
+      "governance.proposal.updateNetParam.requiredParticipation": "0.33",
+      "market.margin.scalingFactors": "{\"search_level\": 1.1, \"initial_margin\": 1.5, \"collateral_release\": 1.7}",
+      "market.fee.factors.makerFee": "0.0002",
+      "market.fee.factors.infrastructureFee": "0.0005",
+      "market.auction.minimumDuration": "5s",
+      "market.auction.maximumDuration": "168h0m0s",
+      "market.liquidity.bondPenaltyParameter": "0.00001",
+      "market.liquidity.maximumLiquidityFeeFactorLevel": "0.1",
+      "market.liquidity.stakeToCcySiskas": "1.0",
+      "market.liquidity.providers.fee.distributionTimeStep": "60m",
+      "market.liquidity.targetstake.triggering.ratio": "0.7",
+      "market.liquidity.probabilityOfTrading.tau.scaling": "10.0",
+      "market.liquidity.minimum.probabilityOfTrading.lpOrders": "1e-8",
+      "market.stake.target.timeWindow": "1h0m0s",
+      "market.stake.target.scalingFactor": "0.1",
+      "market.value.windowLength": "168h0m0s",
+      "market.monitor.price.defaultParameters": "{\"triggers\": [{\"auction_extension\": 300, \"horizon\": 43200, \"probability\": 0.9999999}] }",
+      "market.monitor.price.updateFrequency": "1s",
+      "market.liquidityProvision.shapes.maxSize": "100",
+      "reward.staking.delegation.payoutFraction": "0.1",
+      "reward.staking.delegation.maxPayoutPerParticipant": "50000",
+      "reward.staking.delegation.payoutDelay": "1h",
+      "reward.staking.delegation.delegatorShare": "0.883",
+      "reward.staking.delegation.minimumValidatorStake": "3000",
+      "reward.staking.delegation.competitionLevel": "3.1",
+      "validators.epoch.length": "24h",
+      "validators.delegation.minAmount": "100",
+      "validators.vote.required": "0.67",
+      "network.checkpoint.marketFreezeDate": "2021-12-01T00:00:00Z",
+      "network.checkpoint.networkEndOfLifeDate": "2021-12-31T23:59:00Z",
+      "network.checkpoint.timeElapsedBetweenCheckpoints": "1m0s"
+    }
+  }
+}

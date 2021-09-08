@@ -60,7 +60,7 @@
     },
     "network_parameters": {
       "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x47613C3F18BD1172efF3bC2AdC2210C2c2624883\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0x08C06ECDCf9b8f45e3cF1ec29B82eFd0171341D9\", \"0x6d3c5aaB0DF966BC0f88f2961FD599347e9B52c5\"]}",
-      "governance.vote.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
+      "reward.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
       "governance.proposal.market.maxClose": "720h",
       "governance.proposal.market.maxEnact": "720h",
       "governance.proposal.market.minClose": "168h",
@@ -123,6 +123,12 @@
       "network.checkpoint.marketFreezeDate": "2021-12-30T00:00:00Z",
       "network.checkpoint.networkEndOfLifeDate": "2021-12-31T23:59:00Z",
       "network.checkpoint.timeElapsedBetweenCheckpoints": "1m"
-    }
+    },
+    "network_limits": {
+      "propose_market_enabled": false,
+      "propose_asset_enabled": false,
+      "propose_market_enabled_from": "2021-12-31T23:59:59Z",
+      "propose_asset_enabled_from": "2021-12-31T23:59:59Z"
+	  }
   }
 }

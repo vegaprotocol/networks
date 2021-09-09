@@ -211,7 +211,7 @@ Next, edit the `/etc/vega/config.toml` file and set `Enabled=true` under the `Br
 Now you can run the data node binary alongside Tendermint and Vega with the following command:
 
 ```
-data-node node
+root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# data-node node
 2021-09-09T15:27:25.986Z	INFO	cfgwatcher	config/watcher.go:74	config watcher started successfully{"config": "/etc/vega_data_node/config.toml"}
 2021-09-09T15:27:25.986Z	INFO	node/node_pre.go:68	Starting Vega	{"config-path": "/etc/vega_data_node", "version": "", "version-hash": ""}
 ```

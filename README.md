@@ -181,7 +181,7 @@ You might like to backup the following directories in case anything goes wrong:
 
 ## Data Node
 
-The Data Node exposes APIs that make it easier to interact with the Vega network.The APIs made available by the Data Node application are REST and GraphQL. The following instructions explain how to run a Data Node alongside your validator.
+The Data Node exposes APIs that make it easier to interact with the Vega network.The APIs made available by the Data Node application are REST, gRPC and GraphQL. The following instructions explain how to run a Data Node alongside your validator.
 
 Firstly, you need to initialize your environment with the command below:
 

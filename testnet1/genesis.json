@@ -103,10 +103,10 @@
       "name": "Nala DAO"
     },
     {
-      "address": "735CD1023AB8660CF08CDD51B5F07ECE7B2D16D9",
+      "address": "EE88F29E8AA1863ADEC3C0537F4164C8F2F47586",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "A9dCI5URaK3MZnGg7OXq1ddjdqS241/9rLuHuPKWvN8="
+        "value": "ZiJCgU9Y/Htr375U/BcmM1GNDxL+tWTysoDLkGt8Lh0="
       },
       "power": "10",
       "name": "Lovali"
@@ -119,7 +119,16 @@
       },
       "power": "10",
       "name": "B-Harvest"
-    }  
+    },  
+    {
+      "address": "E71A8125505F3D2ACB8CC302EBE0B41F2E87A21D",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg="
+      },
+      "power": "10",
+      "name": "Rockaway Blockchain Fund"
+    }    
   ],
   "app_hash": "",
   "app_state": {
@@ -192,10 +201,10 @@
         "info_url": "https://www.naladao.com",
         "country": "AU"
       },
-      "A9dCI5URaK3MZnGg7OXq1ddjdqS241/9rLuHuPKWvN8=": {
-        "vega_pub_key": "498fedb8e1637bde2493abff4f58d543a85e7c29e7e27ebce00ace8708894a5d",
-        "ethereum_address": "0xa8CE9eF6ac6C4a1cE18aEd13bA1EFfa718c0e481",
-        "info_url": "https://lovali.xyz",
+      "ZiJCgU9Y/Htr375U/BcmM1GNDxL+tWTysoDLkGt8Lh0=": {
+        "vega_pub_key": "4c129867cbedfbd6bf17603e9708fb72c5c5f9524607deb6bd846379be015c37",
+        "ethereum_address": "0x730C5E8c5d6CD4AC6E1bEfDbD5732e713C524d33",
+        "info_url": "https://www.lovali.xyz",
         "country": "FI"
       },
       "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4=": {
@@ -203,7 +212,13 @@
         "ethereum_address": "0xFEc5a2e0624052B151d713BcbDe9c2FfE5Eb1F56",
         "info_url": "https://bharvest.io/",
         "country": "KR"
-      }   
+      },   
+      "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=": {
+        "vega_pub_key": "df94148a3c7b8b6d07e4e69ff95ca011405cf0078659decd0d5aab0232b2e4ef",
+        "ethereum_address": "0x4E34DdF693EcCcc184cbc62A825C96942a7F2676",
+        "info_url": "https://rbf.capital/staking",
+        "country": "CZ"
+     }
     },
     "network": {
       "replay_attack_threshold": 150

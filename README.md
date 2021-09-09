@@ -104,6 +104,18 @@ I[2021-08-20|12:24:58.309] Generated node key                           module=m
 I[2021-08-20|12:24:58.309] Generated genesis file                       module=main path=/root/.tendermint/config/genesis.json
 ```
 
+### Ethereum Configuration
+
+The Vega network requires a synchronized Ethereum node to list to events on the ERC20 collateral bridge and staking smart contract. You can configure the URL for your Ethereum node inside `/etc/vega/config.toml` by editing the section below:
+
+```
+[NodeWallet]
+  Level = "Info"
+  [NodeWallet.ETH]
+    Level = "Info"
+    Address = "https://ropsten.infura.io/v3/YOUR-API-KEY"
+```
+
 ## Joining a Network
 
 In order to join a network the public keys of your validator need to be included in a Genesis file. The Gensis files for public Veg networks are maintained in this repository. You will be required to generate the appropraite configuration for your validator, and submit a pull request on this repository for the Gensis file of the network you wish to join.
@@ -166,18 +178,6 @@ You might like to backup the following directories in case anything goes wrong:
 
 * `~/.tendermint` - the Tendermint home directory containing the Vega blockchain
 * `/etc/vega` - the Vega home directory containing your encrypted wallets (both Vega and Ethereum keys)
-
-## Running a Production Network
-
-The instructions above describe how to run a single-node Vega network, where Tendermint and the Vega application are running on a single host. They also make use of the default Infura configuration that comes with the Vega binary. When running a production network it will be distributed across many hosts, where each host connects to their own Ethereum node (maybe Infura, maybe internally hosted). The following guide explains how to configure these steps.
-
-### Multi-Node Setup
-
-TBC
-
-### Ethereum Configuration
-
-TBC
 
 ## Data Node
 

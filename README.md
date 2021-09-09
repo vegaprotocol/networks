@@ -216,7 +216,7 @@ data-node node
 2021-09-09T15:27:25.986Z	INFO	node/node_pre.go:68	Starting Vega	{"config-path": "/etc/vega_data_node", "version": "", "version-hash": ""}
 ```
 
-If everything is working correctly you will be able to access the gRPC API on port 3007 and REST API on port 3009. The full set of API docs are available at [https://docs.fairground.vega.xyz/](https://docs.fairground.vega.xyz/).
+If everything is working correctly you will be able to access gRPC on port 3007, GraphQL on 3008 and REST on port 3009. The full set of API docs are available at [https://docs.fairground.vega.xyz/](https://docs.fairground.vega.xyz/).
 
 ## Ethereum Event Queue
 

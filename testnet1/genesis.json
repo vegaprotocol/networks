@@ -110,7 +110,16 @@
       },
       "power": "10",
       "name": "Lovali"
-    }
+    },
+    {
+      "address": "E71A8125505F3D2ACB8CC302EBE0B41F2E87A21D",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg="
+      },
+      "power": "10",
+      "name": "Rockaway Blockchain Fund"
+    }    
   ],
   "app_hash": "",
   "app_state": {
@@ -188,7 +197,14 @@
         "ethereum_address": "0x730C5E8c5d6CD4AC6E1bEfDbD5732e713C524d33",
         "info_url": "https://www.lovali.xyz",
         "country": "FI"
-      }
+      },
+      "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=": {
+        "vega_pub_key": "df94148a3c7b8b6d07e4e69ff95ca011405cf0078659decd0d5aab0232b2e4ef",
+        "ethereum_address": "0x4E34DdF693EcCcc184cbc62A825C96942a7F2676",
+        "tm_pub_key": "",
+        "info_url": "https://rbf.capital/staking",
+        "country": "CZ"
+     }
     },
     "network": {
       "replay_attack_threshold": 150

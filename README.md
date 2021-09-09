@@ -183,7 +183,40 @@ TBC
 
 The Data Node exposes APIs that make it easier to interact with the Vega network.The APIs made available by the Data Node application are REST and GraphQL. The following instructions explain how to run a Data Node alongside your validator.
 
-TBC
+Firstly, you need to initialize your environment with the command below:
+
+```
+root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# data-node init
+2021-09-09T15:23:14.057Z	INFO	data-node/init.go:90	configuration generated successfully	{"path": "/etc/vega_data_node"}
+```
+
+Next, edit the `/etc/vega/config.toml` file and set `Enabled=true` under the `Broker` configuration section:
+
+```
+[Broker]
+  Level = "Info"
+  [Broker.Socket]
+    DialTimeout = "2m0s"
+    DialRetryInterval = "5s"
+    SocketQueueTimeout = "3s"
+    EventChannelBufferSize = 10000000
+    SocketChannelBufferSize = 1000000
+    MaxSendTimeouts = 10
+    IP = "0.0.0.0"
+    Port = 3005
+    Enabled = true
+    Transport = "tcp"
+```
+
+Now you can run the data node binary alongside Tendermint and Vega with the following command:
+
+```
+data-node node
+2021-09-09T15:27:25.986Z	INFO	cfgwatcher	config/watcher.go:74	config watcher started successfully{"config": "/etc/vega_data_node/config.toml"}
+2021-09-09T15:27:25.986Z	INFO	node/node_pre.go:68	Starting Vega	{"config-path": "/etc/vega_data_node", "version": "", "version-hash": ""}
+```
+
+If everything is working correctly you will be able to access the gRPC API on port 3007 and REST API on port 3009. The full set of API docs are available at [https://docs.fairground.vega.xyz/](https://docs.fairground.vega.xyz/).
 
 ## Ethereum Event Queue
 

@@ -110,7 +110,16 @@
       },
       "power": "10",
       "name": "Lovali"
-    }
+    },
+    {
+      "address": "B00C89F84E9AFF07E8CB1FD0C94FD2BE938D219D",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4="
+      },
+      "power": "10",
+      "name": "B-Harvest"
+    }  
   ],
   "app_hash": "",
   "app_state": {
@@ -188,7 +197,13 @@
         "ethereum_address": "0xa8CE9eF6ac6C4a1cE18aEd13bA1EFfa718c0e481",
         "info_url": "https://lovali.xyz",
         "country": "FI"
-      }
+      },
+      "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4=": {
+        "vega_pub_key": "71556781b4f2b98cf1875b8c6936f7fc4b617e14e6434d3d0f9efba19310f8c2",
+        "ethereum_address": "0xFEc5a2e0624052B151d713BcbDe9c2FfE5Eb1F56",
+        "info_url": "https://bharvest.io/",
+        "country": "KR"
+      }   
     },
     "network": {
       "replay_attack_threshold": 150

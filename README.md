@@ -225,3 +225,12 @@ Detailed API docs are available [here](https://docs.fairground.vega.xyz/).
 The Vega blockchain implements a bridge to Ethereum, where collateral assets are stored in a smart contract. In order to keep the Vega network in sync with events on Ethereum it is necessary to run the Event Queue application alongside your validator. The Event Queue is a relatively simple Node.js application, and it is available at the following public repository:
 
 - [vegaprotocol/ethereum-event-forwarder](https://github.com/vegaprotocol/ethereum-event-forwarder)
+
+## Monitoring
+
+The guidance below should be helpful for monitoring a network to ensure the node are online and functioning as expected.
+
+* [Zabbix](https://www.zabbix.com) is useful for monitoring CPU usage, average load, system memory, swap usage, available disk space, disk I/O and network I/O.
+* Zabbix per-app monitoring is also useful for Tendermint, Vega and Data Node usage stats
+* http://localhost:3003/statistics exposes consensus and app specific data from each node; e.g. transactions per block, blocks per second, trades per block, up-time
+* Tendermint and consensus monitoring is available via [RPC over HTTP](https://docs.tendermint.com/master/rpc) using port 26657

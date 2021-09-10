@@ -13,7 +13,8 @@ This repository contains the Genesis configuration files for public Vega network
 * [Backups](#backups)
 * [Running a Production Network](#running-a-production-network)
 * [Data Node](#data-node)
-* [Ethereum Event Queue](#ethereum-event-queue)
+* [Ethereum Event Forwarder](#ethereum-event-forwarder)
+* [Monitoring](#monitoring)
 
 ## The Vega Software
 

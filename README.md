@@ -226,7 +226,7 @@ The Vega blockchain implements a bridge to Ethereum, where collateral assets are
 
 - [vegaprotocol/ethereum-event-forwarder](https://github.com/vegaprotocol/ethereum-event-forwarder)
 
-In order to avoid spam on the validator node, we implemented an allow-listing mecanism. You will need to create a vVga wallet for the `ethereum-event-forwarder`, using the following steps:
+In order to avoid spam on the validator node, we implemented an allow-listing mecanism. You will need to create a Vega wallet for the `ethereum-event-forwarder`, using the following steps:
 
 Create a wallet using the following command:
 

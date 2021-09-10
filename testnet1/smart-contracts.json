@@ -1,0 +1,7 @@
+{
+  "erc20_bridge": "0x30f7607216A83a6ca10b09157C1050922bBE504b",
+  "staking_bridge": "0xfce2CC92203A266a9C8e67461ae5067c78f67235",
+  "erc20_asset_pool": "0xac4c841a166e1a7CbBa91f8D4fb22644Ed9C1082",
+  "vega_token": "0xF0598Cd16FA3bf4c34052923cBE2D34028da0c69",
+  "multisig": "0xc8FE653FCfF31b000ef09ADbB223b4F782df88E0"
+}

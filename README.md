@@ -220,9 +220,9 @@ If everything is working correctly you will be able to access gRPC on port 3007,
 
 Detailed API docs are available [here](https://docs.fairground.vega.xyz/).
 
-## Ethereum Event Queue
+## Ethereum Event Forwarder
 
-The Vega blockchain implements a bridge to Ethereum, where collateral assets are stored in a smart contract. In order to keep the Vega network in sync with events on Ethereum it is necessary to run the Event Queue application alongside your validator. The Event Queue is a relatively simple Node.js application, and it is available at the following public repository:
+The Vega blockchain implements a bridge to Ethereum, where collateral assets are stored in a smart contract. In order to keep the Vega network in sync with events on Ethereum it is necessary to run the `ethereum-event-forwarder` application alongside your validator. The Event Queue is a relatively simple Node.js application, and it is available at the following public repository:
 
 - [vegaprotocol/ethereum-event-forwarder](https://github.com/vegaprotocol/ethereum-event-forwarder)
 

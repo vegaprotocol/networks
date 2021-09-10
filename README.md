@@ -216,7 +216,7 @@ root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# data-node node
 2021-09-09T15:27:25.986Z	INFO	node/node_pre.go:68	Starting Vega	{"config-path": "/etc/vega_data_node", "version": "", "version-hash": ""}
 ```
 
-If everything is working correctly you will be able to access gRPC on port 3007, GraphQL on 3008 and REST on port 3009. 
+If everything is working correctly you will be able to access gRPC on port 3007, GraphQL on 3008 and REST on port 3009.
 
 Detailed API docs are available [here](https://docs.fairground.vega.xyz/).
 
@@ -225,6 +225,28 @@ Detailed API docs are available [here](https://docs.fairground.vega.xyz/).
 The Vega blockchain implements a bridge to Ethereum, where collateral assets are stored in a smart contract. In order to keep the Vega network in sync with events on Ethereum it is necessary to run the Event Queue application alongside your validator. The Event Queue is a relatively simple Node.js application, and it is available at the following public repository:
 
 - [vegaprotocol/ethereum-event-forwarder](https://github.com/vegaprotocol/ethereum-event-forwarder)
+
+In order to avoid spam on the validator node, we implemented a allow-listing mecanism. You will need to create a vega wallet for the ethereum-event-forwarder, using the following steps.
+
+You can create a wallet using the following command:
+```
+vega wallet init # optional if you already done that previously
+vega wallet key generate --name="ethereum-event-queue-testnet"
+```
+
+This command will dump a couple of information, be sure to save the mnemonic, also copy the public key and use it in the following section of the vega config (config.toml) in the vega root directory
+```
+[EvtForward]
+  Level = "Info"
+  RetryRate = "10s"
+  BlockchainQueueAllowlist = ["ADD_THE_WALLET_PUBKEY_HERE"]
+```
+
+Then we'll need to save the private key as well to be used by the ethereum-event-forwarder se the repository readme (secret.key). By running the following command you should be able to see the private key of the wallet you just created:
+
+```
+vega wallet key list --name="ethereum-event-queue-testnet"
+```
 
 ## Monitoring
 

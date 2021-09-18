@@ -147,7 +147,7 @@
         "decimals": 18,
         "name": "VEGA",
         "symbol": "VEGA",
-        "total_supply": "64000000",
+        "total_supply": "64000000000000000000000000",
         "source": {
           "erc20": {
             "contract_address": "0xF0598Cd16FA3bf4c34052923cBE2D34028da0c69"

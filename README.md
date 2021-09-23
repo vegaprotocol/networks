@@ -279,10 +279,10 @@ In order to start a network using a checkpoint file the Genesis file needs to be
 }
 ```
 
-A new chain can now be started (with block height of zero) using the previous state. Once the chain is up and running one of the validators should restore the checkpoint file using the following command:
+A new chain can now be started (with block height of zero) using some of the previous state. Once the chain is up and running one of the validators should restore the checkpoint file using the following command:
 
 ```
 vega restore -f=<checkpoint-file>.cp
 ```
 
-The block height will start to incremement before the restore transaction has been executed, but the Vega application will simply ignore all transactions that get broadcast until the checkpoint has been restored.
+The block height will start to incremement before the restore transaction has been executed, but the Vega application will ignore all transactions until the checkpoint has been restored.

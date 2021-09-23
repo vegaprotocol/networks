@@ -303,4 +303,4 @@ Checkpoints contain the following data:
 
 ## Restore from Snapshot
 
-Coming soon.
+Snapshots allow a node to go "offline" and rejoin the network later without needing to replay the entire chain. Instructions for rejoining an existing network using a snapshot file are coming soon.

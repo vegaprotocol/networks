@@ -15,6 +15,7 @@ This repository contains the Genesis configuration files for public Vega network
 * [Data Node](#data-node)
 * [Ethereum Event Forwarder](#ethereum-event-forwarder)
 * [Monitoring](#monitoring)
+* [Restore from Checkpoint](#restore-from-checkpoint)
 
 ## The Vega Software
 
@@ -261,3 +262,7 @@ The guidance below should be helpful for monitoring a network to ensure the node
 * Zabbix per-app monitoring is also useful for Tendermint, Vega and Data Node usage stats
 * http://localhost:3003/statistics exposes consensus and app specific data from each node; e.g. transactions per block, blocks per second, trades per block, up-time
 * Tendermint and consensus monitoring is available via [RPC over HTTP](https://docs.tendermint.com/master/rpc) using port 26657
+
+## Restore from Checkpoint
+
+TBC

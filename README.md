@@ -265,7 +265,7 @@ The guidance below should be helpful for monitoring a network to ensure the node
 
 ## Restore from Checkpoint
 
-The Vega blockchain periodically stores checkpoints of important state parameters, such as balances and unrealised profit and loss. This allows the chain to be restarted from a previously valid state in the event of a critical issue being discovered, or in the event of consensus failure. 
+The Vega blockchain periodically stores checkpoints of important state parameters, such as balances. This allows the chain to be restarted from a previously valid state in the event of a critical issue being discovered, or in the event of consensus failure. 
 
 The checkpoint files are written to `/etc/vega/checkpoints` and each checkpoint is identified by a hash, which is present in the name of the checkpoint file. The checkpoint file name adheres to the following pattern: `<date>-<block>-<checkpoint-hash>.cp`.
 

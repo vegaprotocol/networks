@@ -286,3 +286,14 @@ vega restore -f=<checkpoint-file>.cp
 ```
 
 The block height will start to incremement before the restore transaction has been executed, but the Vega application will ignore all transactions until the checkpoint has been restored.
+
+### Checkpoint Data
+
+Checkpoints contain the following data:
+
+* Assets (pending and active)
+* Collateral (total balance per party/asset)
+* Network parameters (all of them, key-value)
+* Governance (enacted proposals only, on restore, these proposals will get enacted unless between the checkpoint being created and restored, some proposals have expired)
+* Epoch: The current epoch
+* Delegation (active and pending delegation actions)

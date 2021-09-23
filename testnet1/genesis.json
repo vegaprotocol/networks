@@ -238,7 +238,7 @@
     "network": {
       "replay_attack_threshold": 150
     },
-    "network_limits" {
+    "network_limits": {
       "propose_market_enabled": false,
       "propose_asset_enabled": false,
       "bootstrap_block_count": 300

@@ -16,6 +16,7 @@ This repository contains the Genesis configuration files for public Vega network
 * [Ethereum Event Forwarder](#ethereum-event-forwarder)
 * [Monitoring](#monitoring)
 * [Restore from Checkpoint](#restore-from-checkpoint)
+* [Restore from Snapshot](#restore-from-snapshot)
 
 ## The Vega Software
 
@@ -286,6 +287,8 @@ vega checkpoint restore -f=<checkpoint-file>.cp
 ```
 
 The block height will start to incremement before the restore transaction has been executed, but the Vega application will ignore all transactions until the checkpoint has been restored.
+
+Note: prior to starting a chain from a checkpoint you will want to make sure you execute `vega tm unsafe_reset_all` to nuke the previous chain.
 
 ### Checkpoint Data
 

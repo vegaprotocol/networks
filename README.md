@@ -265,4 +265,24 @@ The guidance below should be helpful for monitoring a network to ensure the node
 
 ## Restore from Checkpoint
 
-TBC
+The Vega blockchain periodically stores checkpoints of important state parameters, such as balances and unrealised profit and loss. This allows the chain to be restarted from a previously valid state in the event of a critical issue being discovered, or in the event of consensus failure. 
+
+The checkpoint files are written to `/etc/vega/checkpoints` and each checkpoint is identified by a hash, which is present in the name of the checkpoint file. The checkpoint file name adheres to the following pattern: `<date>-<block>-<checkpoint-hash>.cp`.
+
+In order to start a network using a checkpoint file the Genesis file needs to be populated with a valid checkpoint hash:
+
+```
+{
+   "checkpoint": {
+       "load_hash": ""
+   }
+}
+```
+
+A new chain can now be started (with block height of zero) using the previous state. Once the chain is up and running one of the validators should restore the checkpoint file using the following command:
+
+```
+vega restore -f=<checkpoint-file>.cp
+```
+
+The block height will start to incremement before the restore transaction has been executed, but the Vega application will simply ignore all transactions that get broadcast until the checkpoint has been restored.

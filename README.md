@@ -300,3 +300,7 @@ Checkpoints contain the following data:
 * Governance (enacted proposals only, on restore, these proposals will get enacted unless between the checkpoint being created and restored, some proposals have expired)
 * Epoch: The current epoch
 * Delegation (active and pending delegation actions)
+
+## Restore from Snapshot
+
+Coming soon.

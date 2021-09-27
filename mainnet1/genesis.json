@@ -122,7 +122,13 @@
       "validators.vote.required": "0.67",
       "network.checkpoint.marketFreezeDate": "2021-12-30T00:00:00Z",
       "network.checkpoint.networkEndOfLifeDate": "2021-12-31T23:59:00Z",
-      "network.checkpoint.timeElapsedBetweenCheckpoints": "1m"
+      "network.checkpoint.timeElapsedBetweenCheckpoints": "1m",
+      "spam.protection.max.votes": "3",
+      "spam.protection.voting.min.tokens": "100000000000000000000",
+      "spam.protection.max.proposals": "3",
+      "spam.protection.proposal.min.tokens": "100000000000000000000000",
+      "spam.protection.max.delegations": "360",
+      "spam.protection.delegation.min.tokens": "1"
     },
     "network_limits": {
       "propose_market_enabled": false,

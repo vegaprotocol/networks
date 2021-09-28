@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-09-03T12:00:00.050701478Z",
-  "chain_id": "vega-testnet-0001-v1",
+  "chain_id": "vega-testnet-0001-v2",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -296,18 +296,24 @@
       "market.monitor.price.defaultParameters": "{\"triggers\": [{\"auction_extension\": 300, \"horizon\": 43200, \"probability\": 0.9999999}] }",
       "market.monitor.price.updateFrequency": "1s",
       "market.liquidityProvision.shapes.maxSize": "100",
-      "reward.staking.delegation.payoutFraction": "0.1",
-      "reward.staking.delegation.maxPayoutPerParticipant": "50000",
+      "reward.staking.delegation.payoutFraction": "1",
+      "reward.staking.delegation.maxPayoutPerParticipant": "700000000000000000000",
       "reward.staking.delegation.payoutDelay": "1h",
       "reward.staking.delegation.delegatorShare": "0.883",
-      "reward.staking.delegation.minimumValidatorStake": "3000",
+      "reward.staking.delegation.minimumValidatorStake": "3000000000000000000000",
       "reward.staking.delegation.competitionLevel": "3.1",
       "validators.epoch.length": "24h",
-      "validators.delegation.minAmount": "100",
+      "validators.delegation.minAmount": "100000000000000000",
       "validators.vote.required": "0.67",
       "network.checkpoint.marketFreezeDate": "2021-12-01T00:00:00Z",
       "network.checkpoint.networkEndOfLifeDate": "2021-12-31T23:59:00Z",
-      "network.checkpoint.timeElapsedBetweenCheckpoints": "1m0s"
+      "network.checkpoint.timeElapsedBetweenCheckpoints": "1m0s",
+      "spam.protection.max.votes": "3",
+      "spam.protection.voting.min.tokens": "100000000000000000000",
+      "spam.protection.max.proposals": "3",
+      "spam.protection.proposal.min.tokens": "100000000000000000000000",
+      "spam.protection.max.delegations": "360",
+      "spam.protection.delegation.min.tokens": "1"
     }
   }
 }

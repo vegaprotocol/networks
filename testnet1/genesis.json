@@ -128,7 +128,7 @@
       },
       "power": "10",
       "name": "B-Harvest"
-    },  
+    },
     {
       "address": "E71A8125505F3D2ACB8CC302EBE0B41F2E87A21D",
       "pub_key": {
@@ -137,7 +137,7 @@
       },
       "power": "10",
       "name": "Rockaway Blockchain Fund"
-    }    
+    }
   ],
   "app_hash": "",
   "app_state": {
@@ -227,7 +227,7 @@
         "ethereum_address": "0xFEc5a2e0624052B151d713BcbDe9c2FfE5Eb1F56",
         "info_url": "https://bharvest.io/",
         "country": "KR"
-      },   
+      },
       "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=": {
         "vega_pub_key": "df94148a3c7b8b6d07e4e69ff95ca011405cf0078659decd0d5aab0232b2e4ef",
         "ethereum_address": "0x4E34DdF693EcCcc184cbc62A825C96942a7F2676",
@@ -237,6 +237,11 @@
     },
     "network": {
       "replay_attack_threshold": 150
+    },
+    "network_limits": {
+      "propose_market_enabled": false,
+      "propose_asset_enabled": false,
+      "bootstrap_block_count": 300
     },
     "network_parameters": {
       "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x30f7607216A83a6ca10b09157C1050922bBE504b\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xfce2CC92203A266a9C8e67461ae5067c78f67235\"]}",

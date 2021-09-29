@@ -1,3 +1,1 @@
-please enter wallet passphrase:
-Here is the signature of the signed parameters:
 8f904f8f1cf14747368ad36b8fc0b1f2fc2b110a4fe6a51da90d03e46ad4dd9c9ed7a874193997fdf20100512169067bc498076729efcc57d65839d6d259af09

@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-09-03T12:00:00.050701478Z",
-  "chain_id": "vega-mainnet-0001",
+  "chain_id": "vega-testnet-0001-v2",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -22,13 +22,22 @@
   },
   "validators": [
     {
+      "address": "AD001F8F83E9512BB1473CE72D82329921B55EB0",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "tVzu4B6kUEWghK9Y3ju157wO44ZL8vh1XT7RIP0euIo="
+      },
+      "power": "10",
+      "name": "Chorus One"
+    },
+    {
       "address": "5D7D10B14F5D1AA2C5C3C851C18B21F96CCBBB8D",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
         "value": "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM="
       },
       "power": "10",
-      "name": ""
+      "name": "Greenfield One"
     },
     {
       "address": "3715DCCC24106B73AC1DA33158DE63DD13A8A09D",
@@ -37,7 +46,7 @@
         "value": "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U="
       },
       "power": "10",
-      "name": ""
+      "name": "Ryabina"
     },
     {
       "address": "8E7F2C81033C9FE67B4497DF2589200DCB25C738",
@@ -46,7 +55,7 @@
         "value": "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI="
       },
       "power": "10",
-      "name": ""
+      "name": "Staking Facilities"
     },
     {
       "address": "4715849927599241BBA91AA3891F985769735470",
@@ -55,7 +64,7 @@
         "value": "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho="
       },
       "power": "10",
-      "name": ""
+      "name": "Nodes Guru"
     },
     {
       "address": "1A673ACEB7D6D883D8F95C100950F7868E893107",
@@ -64,7 +73,7 @@
         "value": "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ="
       },
       "power": "10",
-      "name": ""
+      "name": "Figment"
     },
     {
       "address": "D9AA28222D3448D726A03468D47D72F26FC9CCCE",
@@ -73,7 +82,7 @@
         "value": "WmSx45czPR3dYWWnHlY/3sxdp3HqcLHZ2Bo7d7w/Fn4="
       },
       "power": "10",
-      "name": ""
+      "name": "XPRV"
     },
     {
       "address": "81C27F13E77A99E4436420E400B4E95BCAE2BFE8",
@@ -82,7 +91,7 @@
         "value": "5Ob3d3k37IkGigTkU5I7gYQE6r6C2bJ5+3LlcarLF50="
       },
       "power": "10",
-      "name": ""
+      "name": "Commodum DAO"
     },
     {
       "address": "741382DC9360BF60E9B29A55B279EC65EE8DB195",
@@ -91,7 +100,7 @@
         "value": "2dSNXvbILJALJZt0KN374+uBLrr8D4CT1A5BcIZzCf0="
       },
       "power": "10",
-      "name": ""
+      "name": "P2P"
     },
     {
       "address": "2C05AF474C4C2CD421DF2F1CB4E5F1B5EB29FD75",
@@ -100,16 +109,34 @@
         "value": "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M="
       },
       "power": "10",
-      "name": ""
+      "name": "Nala DAO"
     },
     {
-      "address": "735CD1023AB8660CF08CDD51B5F07ECE7B2D16D9",
+      "address": "EE88F29E8AA1863ADEC3C0537F4164C8F2F47586",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "A9dCI5URaK3MZnGg7OXq1ddjdqS241/9rLuHuPKWvN8="
+        "value": "ZiJCgU9Y/Htr375U/BcmM1GNDxL+tWTysoDLkGt8Lh0="
       },
       "power": "10",
-      "name": ""
+      "name": "Lovali"
+    },
+    {
+      "address": "B00C89F84E9AFF07E8CB1FD0C94FD2BE938D219D",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4="
+      },
+      "power": "10",
+      "name": "B-Harvest"
+    },
+    {
+      "address": "E71A8125505F3D2ACB8CC302EBE0B41F2E87A21D",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg="
+      },
+      "power": "10",
+      "name": "Rockaway Blockchain Fund"
     }
   ],
   "app_hash": "",
@@ -120,15 +147,21 @@
         "decimals": 18,
         "name": "VEGA",
         "symbol": "VEGA",
-        "total_supply": "64999723",
+        "total_supply": "64000000000000000000000000",
         "source": {
           "erc20": {
-            "contract_address": "0x16480156222D4525f02F0F2BdF8A45A23bd26431"
+            "contract_address": "0xF0598Cd16FA3bf4c34052923cBE2D34028da0c69"
           }
         }
       }
     },
     "validators": {
+      "tVzu4B6kUEWghK9Y3ju157wO44ZL8vh1XT7RIP0euIo=": {
+        "vega_pub_key": "e40926436e77469ebf5cafbcc6c81ac76165d62b0e5eb2114f0de768f74f4c8c",
+        "ethereum_address": "0xE6334dFd6c3bAdFcbC4cfB05Cba64F3C425b3347",
+        "info_url": "https://chorus.one",
+        "country": "Germany"
+      },
       "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM=": {
         "vega_pub_key": "cee79327e70c3e48d9d7d039bce7b4bdb41af18837832773e74e5aa04620e89d",
         "ethereum_address": "0x986BaF0542dD03842D3ccD537dFf8E2d6a9cE100",
@@ -183,19 +216,36 @@
         "info_url": "https://www.naladao.com",
         "country": "AU"
       },
-      "A9dCI5URaK3MZnGg7OXq1ddjdqS241/9rLuHuPKWvN8=": {
-        "vega_pub_key": "498fedb8e1637bde2493abff4f58d543a85e7c29e7e27ebce00ace8708894a5d",
-        "ethereum_address": "0xa8CE9eF6ac6C4a1cE18aEd13bA1EFfa718c0e481",
-        "info_url": "https://lovali.xyz",
+      "ZiJCgU9Y/Htr375U/BcmM1GNDxL+tWTysoDLkGt8Lh0=": {
+        "vega_pub_key": "4c129867cbedfbd6bf17603e9708fb72c5c5f9524607deb6bd846379be015c37",
+        "ethereum_address": "0x730C5E8c5d6CD4AC6E1bEfDbD5732e713C524d33",
+        "info_url": "https://www.lovali.xyz",
         "country": "FI"
-      }
+      },
+      "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4=": {
+        "vega_pub_key": "71556781b4f2b98cf1875b8c6936f7fc4b617e14e6434d3d0f9efba19310f8c2",
+        "ethereum_address": "0xFEc5a2e0624052B151d713BcbDe9c2FfE5Eb1F56",
+        "info_url": "https://bharvest.io/",
+        "country": "KR"
+      },
+      "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=": {
+        "vega_pub_key": "df94148a3c7b8b6d07e4e69ff95ca011405cf0078659decd0d5aab0232b2e4ef",
+        "ethereum_address": "0x4E34DdF693EcCcc184cbc62A825C96942a7F2676",
+        "info_url": "https://rbf.capital/staking",
+        "country": "CZ"
+     }
     },
     "network": {
       "replay_attack_threshold": 150
     },
+    "network_limits": {
+      "propose_market_enabled": false,
+      "propose_asset_enabled": false,
+      "bootstrap_block_count": 300
+    },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x47613C3F18BD1172efF3bC2AdC2210C2c2624883\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0x08C06ECDCf9b8f45e3cF1ec29B82eFd0171341D9\", \"0x6d3c5aaB0DF966BC0f88f2961FD599347e9B52c5\"]}",
-      "governance.vote.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x30f7607216A83a6ca10b09157C1050922bBE504b\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xfce2CC92203A266a9C8e67461ae5067c78f67235\"]}",
+      "reward.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
       "governance.proposal.market.maxClose": "720h0m0s",
       "governance.proposal.market.maxEnact": "720h0m0s",
       "governance.proposal.market.minClose": "168h0m0s",
@@ -246,18 +296,24 @@
       "market.monitor.price.defaultParameters": "{\"triggers\": [{\"auction_extension\": 300, \"horizon\": 43200, \"probability\": 0.9999999}] }",
       "market.monitor.price.updateFrequency": "1s",
       "market.liquidityProvision.shapes.maxSize": "100",
-      "reward.staking.delegation.payoutFraction": "0.1",
-      "reward.staking.delegation.maxPayoutPerParticipant": "50000",
+      "reward.staking.delegation.payoutFraction": "1",
+      "reward.staking.delegation.maxPayoutPerParticipant": "700000000000000000000",
       "reward.staking.delegation.payoutDelay": "1h",
       "reward.staking.delegation.delegatorShare": "0.883",
-      "reward.staking.delegation.minimumValidatorStake": "3000",
+      "reward.staking.delegation.minimumValidatorStake": "3000000000000000000000",
       "reward.staking.delegation.competitionLevel": "3.1",
       "validators.epoch.length": "24h",
-      "validators.delegation.minAmount": "100",
+      "validators.delegation.minAmount": "100000000000000000",
       "validators.vote.required": "0.67",
       "network.checkpoint.marketFreezeDate": "2021-12-01T00:00:00Z",
       "network.checkpoint.networkEndOfLifeDate": "2021-12-31T23:59:00Z",
-      "network.checkpoint.timeElapsedBetweenCheckpoints": "1m0s"
+      "network.checkpoint.timeElapsedBetweenCheckpoints": "1m0s",
+      "spam.protection.max.votes": "3",
+      "spam.protection.voting.min.tokens": "100000000000000000000",
+      "spam.protection.max.proposals": "3",
+      "spam.protection.proposal.min.tokens": "100000000000000000000000",
+      "spam.protection.max.delegations": "360",
+      "spam.protection.delegation.min.tokens": "1"
     }
   }
 }

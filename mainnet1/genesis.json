@@ -42,7 +42,7 @@
         "total_supply": "64999723000000000000000000",
         "source": {
           "erc20": {
-            "contract_address": "0x16480156222D4525f02F0F2BdF8A45A23bd26431"
+            "contract_address": "0xcB84d72e61e383767C4DFEb2d8ff7f4FB89abc6e"
           }
         }
       }
@@ -59,14 +59,14 @@
       "replay_attack_threshold": 150
     },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x47613C3F18BD1172efF3bC2AdC2210C2c2624883\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0x08C06ECDCf9b8f45e3cF1ec29B82eFd0171341D9\", \"0x6d3c5aaB0DF966BC0f88f2961FD599347e9B52c5\"]}",
-      "reward.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x4149257d844Ef09f11b02f2e73CbDfaB4c911a73\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0x23d1bFE8fA50a167816fBD79D7932577c06011f4\", \"0x195064D33f09e0c42cF98E665D9506e0dC17de68\"]}",
+      "governance.vote.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
       "governance.proposal.market.maxClose": "720h",
       "governance.proposal.market.maxEnact": "720h",
       "governance.proposal.market.minClose": "168h",
       "governance.proposal.market.minEnact": "168h",
-      "governance.proposal.market.minProposerBalance": "200000000000000000000000",
-      "governance.proposal.market.minVoterBalance": "1000000000000000000",
+      "governance.proposal.market.minProposerBalance": "1",
+      "governance.proposal.market.minVoterBalance": "1",
       "governance.proposal.market.requiredMajority": "0.66",
       "governance.proposal.market.requiredParticipation": "0.20",
       "governance.proposal.asset.maxClose": "720h",

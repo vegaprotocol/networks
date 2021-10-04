@@ -17,6 +17,7 @@ This repository contains the Genesis configuration files for public Vega network
 * [Monitoring](#monitoring)
 * [Restore from Checkpoint](#restore-from-checkpoint)
 * [Restore from Snapshot](#restore-from-snapshot)
+* [Tendermint Configuration](#tendermint-configuration)
 
 ## The Vega Software
 
@@ -304,3 +305,38 @@ Checkpoints contain the following data:
 ## Restore from Snapshot
 
 Snapshots allow a node to go "offline" and rejoin the network later without needing to replay the entire chain. Instructions for rejoining an existing network using a snapshot file are coming soon.
+
+## Tendermint Configuration
+
+The following Tendermint configuration (`/root/.tendermint/config/config.toml`) is recommended:
+
+```
+[consensus]
+
+# Make progress as soon as we have all the precommits (as if TimeoutCommit = 0)
+skip_timeout_commit = true
+
+# EmptyBlocks mode and possible interval between empty blocks
+create_empty_blocks = true
+create_empty_blocks_interval = "0s"
+# How long we wait for a proposal block before prevoting nil
+timeout_propose = "3s"
+# How much timeout_propose increases with each round
+timeout_propose_delta = "500ms"
+# How long we wait after receiving +2/3 prevotes for "anything" (ie. not a single block or nil)
+timeout_prevote = "1s"
+# How much the timeout_prevote increases with each round
+timeout_prevote_delta = "500ms"
+# How long we wait after receiving +2/3 precommits for "anything" (ie. not a single block or nil)
+timeout_precommit = "1s"
+# How much the timeout_precommit increases with each round
+timeout_precommit_delta = "500ms"
+# How long we wait after committing a block, before starting on the new
+# height (this gives us a chance to receive some more precommits, even
+# though we already have +2/3).
+timeout_commit = "1s"
+
+[mempool]
+
+recheck = true
+```

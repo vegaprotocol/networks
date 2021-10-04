@@ -22,118 +22,118 @@
   },
   "validators": [
     {
-      "address": "AD001F8F83E9512BB1473CE72D82329921B55EB0",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "tVzu4B6kUEWghK9Y3ju157wO44ZL8vh1XT7RIP0euIo="
+        "value": "TBC"
       },
       "power": "10",
       "name": "Chorus One"
     },
     {
-      "address": "5D7D10B14F5D1AA2C5C3C851C18B21F96CCBBB8D",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM="
+        "value": "TBC"
       },
       "power": "10",
       "name": "Greenfield One"
     },
     {
-      "address": "3715DCCC24106B73AC1DA33158DE63DD13A8A09D",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U="
+        "value": "TBC"
       },
       "power": "10",
       "name": "Ryabina"
     },
     {
-      "address": "8E7F2C81033C9FE67B4497DF2589200DCB25C738",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI="
+        "value": "TBC"
       },
       "power": "10",
       "name": "Staking Facilities"
     },
     {
-      "address": "4715849927599241BBA91AA3891F985769735470",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho="
+        "value": "TBC"
       },
       "power": "10",
       "name": "Nodes Guru"
     },
     {
-      "address": "1A673ACEB7D6D883D8F95C100950F7868E893107",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ="
+        "value": "TBC"
       },
       "power": "10",
       "name": "Figment"
     },
     {
-      "address": "D9AA28222D3448D726A03468D47D72F26FC9CCCE",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "WmSx45czPR3dYWWnHlY/3sxdp3HqcLHZ2Bo7d7w/Fn4="
+        "value": "TBC"
       },
       "power": "10",
       "name": "XPRV"
     },
     {
-      "address": "81C27F13E77A99E4436420E400B4E95BCAE2BFE8",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "5Ob3d3k37IkGigTkU5I7gYQE6r6C2bJ5+3LlcarLF50="
+        "value": "TBC"
       },
       "power": "10",
       "name": "Commodum DAO"
     },
     {
-      "address": "741382DC9360BF60E9B29A55B279EC65EE8DB195",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "2dSNXvbILJALJZt0KN374+uBLrr8D4CT1A5BcIZzCf0="
+        "value": "TBC"
       },
       "power": "10",
       "name": "P2P"
     },
     {
-      "address": "2C05AF474C4C2CD421DF2F1CB4E5F1B5EB29FD75",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M="
+        "value": "TBC"
       },
       "power": "10",
       "name": "Nala DAO"
     },
     {
-      "address": "EE88F29E8AA1863ADEC3C0537F4164C8F2F47586",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "ZiJCgU9Y/Htr375U/BcmM1GNDxL+tWTysoDLkGt8Lh0="
+        "value": "TBC"
       },
       "power": "10",
       "name": "Lovali"
     },
     {
-      "address": "B00C89F84E9AFF07E8CB1FD0C94FD2BE938D219D",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4="
+        "value": "TBC"
       },
       "power": "10",
       "name": "B-Harvest"
     },
     {
-      "address": "E71A8125505F3D2ACB8CC302EBE0B41F2E87A21D",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg="
+        "value": "TBC"
       },
       "power": "10",
       "name": "Rockaway Blockchain Fund"
@@ -156,81 +156,81 @@
       }
     },
     "validators": {
-      "tVzu4B6kUEWghK9Y3ju157wO44ZL8vh1XT7RIP0euIo=": {
-        "vega_pub_key": "e40926436e77469ebf5cafbcc6c81ac76165d62b0e5eb2114f0de768f74f4c8c",
-        "ethereum_address": "0xE6334dFd6c3bAdFcbC4cfB05Cba64F3C425b3347",
+      "TBC1": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://chorus.one",
         "country": "Germany"
       },
-      "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM=": {
-        "vega_pub_key": "cee79327e70c3e48d9d7d039bce7b4bdb41af18837832773e74e5aa04620e89d",
-        "ethereum_address": "0x986BaF0542dD03842D3ccD537dFf8E2d6a9cE100",
+      "TBC2": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://www.greenfield.one",
         "country": "Germany"
       },
-      "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=": {
-        "vega_pub_key": "47738cce6c1c734c816f4a6584289f3866ceadd52e2d853754323af7101c8eb1",
-        "ethereum_address": "0x7983e1b304e696b7F485ccF924a01a374942E3C9",
+      "TBC3": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://ryabina.io",
         "country": "UK"
       },
-      "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI=": {
-        "vega_pub_key": "c81a59aeadf8ac2ea1165a7189df6edcf40480ea02448d51aae142a20c0fbd46",
-        "ethereum_address": "0x2f4Fdb2b50542C2cb53cB6c9fac0672644241655",
+      "TBC4": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://stakingfacilities.com",
         "country": "Germany"
       },
-      "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=": {
-        "vega_pub_key": "99f391c2299ea293ee0379d79635b143c53a75891784ea304300b9269db29269",
-        "ethereum_address": "0x59eAf83cd47dDeF6F4627383a0EDa9f70D5f6Dcb",
+      "TBC5": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://nodes.guru",
         "country": "Russia"
       },
-      "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ=": {
-        "vega_pub_key": "fe71b6085fb445249e2a17bb0febbf5ae27b609a4116f1e7879f0734e7154209",
-        "ethereum_address": "0x5646253e305539D90ff69d069833458316C8140A",
+      "TBC6": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://figment.io",
         "country": "Canada"
       },
-      "WmSx45czPR3dYWWnHlY/3sxdp3HqcLHZ2Bo7d7w/Fn4=": {
-        "vega_pub_key": "c913742de859fb71e45629b2c0175e52b2b35024e997ffe9496fce8b893c1e68",
-        "ethereum_address": "0x5e6FEDca8A214A0136f7C03F132E9ACCA828f015",
+      "TBC7": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://xprv.io/",
         "country": "UK"
       },
-      "5Ob3d3k37IkGigTkU5I7gYQE6r6C2bJ5+3LlcarLF50=": {
-        "vega_pub_key": "3d56a05886a6117d9939907f3154a397e1f9549b6160478c370360c49b346dd4",
-        "ethereum_address": "0x66cC07FE724052893f1DdA588157170DFE03C2A1",
+      "TBC8": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://commodum.io",
         "country": "UK"
       },
-      "2dSNXvbILJALJZt0KN374+uBLrr8D4CT1A5BcIZzCf0=": {
-        "vega_pub_key": "af2915bc64c1f899e7aae0f8d1fef453710a643af2de7db3a6cfc326e321166a",
-        "ethereum_address": "0x465d3BDbb0b8c66a810870C1153DF64726331ebB",
+      "TBC9": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://p2p.org/",
         "country": "RU"
       },
-      "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M=": {
-        "vega_pub_key": "71bd5a19cfde208ac6ce1c75cdf460b98d891d046fdbb8835ebc5c3c279e81ed",
-        "ethereum_address": "0xeE22c67576C89A1Ec738C50b20C4892cEB9DFdd8",
+      "TBC10": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://www.naladao.com",
         "country": "AU"
       },
-      "ZiJCgU9Y/Htr375U/BcmM1GNDxL+tWTysoDLkGt8Lh0=": {
-        "vega_pub_key": "4c129867cbedfbd6bf17603e9708fb72c5c5f9524607deb6bd846379be015c37",
-        "ethereum_address": "0x730C5E8c5d6CD4AC6E1bEfDbD5732e713C524d33",
+      "TBC11": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://www.lovali.xyz",
         "country": "FI"
       },
-      "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4=": {
-        "vega_pub_key": "71556781b4f2b98cf1875b8c6936f7fc4b617e14e6434d3d0f9efba19310f8c2",
-        "ethereum_address": "0xFEc5a2e0624052B151d713BcbDe9c2FfE5Eb1F56",
+      "TBC12": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://bharvest.io/",
         "country": "KR"
       },
-      "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=": {
-        "vega_pub_key": "df94148a3c7b8b6d07e4e69ff95ca011405cf0078659decd0d5aab0232b2e4ef",
-        "ethereum_address": "0x4E34DdF693EcCcc184cbc62A825C96942a7F2676",
+      "TBC13": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
         "info_url": "https://rbf.capital/staking",
         "country": "CZ"
      }

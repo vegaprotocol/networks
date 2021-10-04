@@ -22,107 +22,299 @@
   },
   "validators": [
     {
-      "address": "413AB69A18692CCF05C0531DF5D8B8A33CEF90EF",
+      "address": "TBC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "0k5Nbe6N6Z3UmXO2DXWvSY+zkACb5jk8DmfN2F7SHBQ="
+        "value": "TBC"
       },
       "power": "10",
-      "name": ""
+      "name": "Chorus One"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "Greenfield One"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "Ryabina"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "Staking Facilities"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "Nodes Guru"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "Figment"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "XPRV"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "Commodum DAO"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "P2P"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "Nala DAO"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "Lovali"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "B-Harvest"
+    },
+    {
+      "address": "TBC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TBC"
+      },
+      "power": "10",
+      "name": "Rockaway Blockchain Fund"
     }
   ],
   "app_hash": "",
   "app_state": {
     "assets": {
       "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2": {
-        "min_lp_stake": "1",
+        "min_lp_stake": "1000000000000000000",
         "decimals": 18,
         "name": "VEGA",
         "symbol": "VEGA",
-        "total_supply": "64999723",
+        "total_supply": "64999723000000000000000000",
         "source": {
           "erc20": {
-            "contract_address": "0x16480156222D4525f02F0F2BdF8A45A23bd26431"
+            "contract_address": "0xcB84d72e61e383767C4DFEb2d8ff7f4FB89abc6e"
           }
         }
       }
     },
     "validators": {
-      "0k5Nbe6N6Z3UmXO2DXWvSY+zkACb5jk8DmfN2F7SHBQ=": {
-        "vega_pub_key": "f327ab203faec3dc65e65e026424c040c39fcde0f9b6e04cd354246417d77939",
-        "ethereum_address": "0x5Ff90a193Cf89655B7796925bf40b971B26dD058",
-        "info_url": "https://vega.xyz",
+      "TBC1": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://chorus.one",
+        "country": "Germany"
+      },
+      "TBC2": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://www.greenfield.one",
+        "country": "Germany"
+      },
+      "TBC3": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://ryabina.io",
         "country": "UK"
-      }
+      },
+      "TBC4": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://stakingfacilities.com",
+        "country": "Germany"
+      },
+      "TBC5": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://nodes.guru",
+        "country": "Russia"
+      },
+      "TBC6": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://figment.io",
+        "country": "Canada"
+      },
+      "TBC7": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://xprv.io/",
+        "country": "UK"
+      },
+      "TBC8": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://commodum.io",
+        "country": "UK"
+      },
+      "TBC9": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://p2p.org/",
+        "country": "RU"
+      },
+      "TBC10": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://www.naladao.com",
+        "country": "AU"
+      },
+      "TBC11": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://www.lovali.xyz",
+        "country": "FI"
+      },
+      "TBC12": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://bharvest.io/",
+        "country": "KR"
+      },
+      "TBC13": {
+        "vega_pub_key": "TBC",
+        "ethereum_address": "TBC",
+        "info_url": "https://rbf.capital/staking",
+        "country": "CZ"
+     }
     },
     "network": {
       "replay_attack_threshold": 150
     },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x47613C3F18BD1172efF3bC2AdC2210C2c2624883\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0x08C06ECDCf9b8f45e3cF1ec29B82eFd0171341D9\", \"0x6d3c5aaB0DF966BC0f88f2961FD599347e9B52c5\"]}",
+      "blockchains.ethereumConfig": "{\"network_id\": \"1\", \"chain_id\": \"1\", \"bridge_address\": \"0x4149257d844Ef09f11b02f2e73CbDfaB4c911a73\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0x23d1bFE8fA50a167816fBD79D7932577c06011f4\", \"0x195064D33f09e0c42cF98E665D9506e0dC17de68\"]}",
       "governance.vote.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
-      "governance.proposal.market.maxClose": "720h0m0s",
-      "governance.proposal.market.maxEnact": "720h0m0s",
-      "governance.proposal.market.minClose": "168h0m0s",
-      "governance.proposal.market.minEnact": "168h0m0s",
+      "governance.proposal.market.maxClose": "720h",
+      "governance.proposal.market.maxEnact": "720h",
+      "governance.proposal.market.minClose": "168h",
+      "governance.proposal.market.minEnact": "168h",
       "governance.proposal.market.minProposerBalance": "1",
       "governance.proposal.market.minVoterBalance": "1",
       "governance.proposal.market.requiredMajority": "0.66",
-      "governance.proposal.market.requiredParticipation": "0.33",
-      "governance.proposal.asset.maxClose": "720h0m0s",
-      "governance.proposal.asset.maxEnact": "720h0m0s",
-      "governance.proposal.asset.minClose": "168h0m0s",
-      "governance.proposal.asset.minEnact": "168h0m0s",
-      "governance.proposal.asset.minProposerBalance": "1",
-      "governance.proposal.asset.minVoterBalance": "1",
+      "governance.proposal.market.requiredParticipation": "0.20",
+      "governance.proposal.asset.maxClose": "720h",
+      "governance.proposal.asset.maxEnact": "720h",
+      "governance.proposal.asset.minClose": "168h",
+      "governance.proposal.asset.minEnact": "168h",
+      "governance.proposal.asset.minProposerBalance": "200000000000000000000000",
+      "governance.proposal.asset.minVoterBalance": "1000000000000000000",
       "governance.proposal.asset.requiredMajority": "0.66",
-      "governance.proposal.asset.requiredParticipation": "0.33",
-      "governance.proposal.updateMarket.maxClose": "720h0m0s",
-      "governance.proposal.updateMarket.maxEnact": "720h0m0s",
-      "governance.proposal.updateMarket.minClose": "72h0m0s",
-      "governance.proposal.updateMarket.minEnact": "72h0m0s",
-      "governance.proposal.updateMarket.minProposerBalance": "1",
-      "governance.proposal.updateMarket.minVoterBalance": "1",
+      "governance.proposal.asset.requiredParticipation": "0.20",
+      "governance.proposal.updateMarket.maxClose": "720h",
+      "governance.proposal.updateMarket.maxEnact": "720h",
+      "governance.proposal.updateMarket.minClose": "72h",
+      "governance.proposal.updateMarket.minEnact": "72h",
+      "governance.proposal.updateMarket.minProposerBalance": "200000000000000000000000",
+      "governance.proposal.updateMarket.minVoterBalance": "1000000000000000000",
       "governance.proposal.updateMarket.requiredMajority": "0.66",
-      "governance.proposal.updateMarket.requiredParticipation": "0.33",
-      "governance.proposal.updateNetParam.maxClose": "720h0m0s",
-      "governance.proposal.updateNetParam.maxEnact": "720h0m0s",
-      "governance.proposal.updateNetParam.minClose": "72h0m0s",
-      "governance.proposal.updateNetParam.minEnact": "72h0m0s",
-      "governance.proposal.updateNetParam.minProposerBalance": "1",
-      "governance.proposal.updateNetParam.minVoterBalance": "1",
+      "governance.proposal.updateMarket.requiredParticipation": "0.20",
+      "governance.proposal.updateNetParam.maxClose": "1440h",
+      "governance.proposal.updateNetParam.maxEnact": "1440h",
+      "governance.proposal.updateNetParam.minClose": "72h",
+      "governance.proposal.updateNetParam.minEnact": "72h",
+      "governance.proposal.updateNetParam.minProposerBalance": "200000000000000000000000",
+      "governance.proposal.updateNetParam.minVoterBalance": "1000000000000000000",
       "governance.proposal.updateNetParam.requiredMajority": "0.66",
-      "governance.proposal.updateNetParam.requiredParticipation": "0.33",
+      "governance.proposal.updateNetParam.requiredParticipation": "0.25",
       "market.margin.scalingFactors": "{\"search_level\": 1.1, \"initial_margin\": 1.5, \"collateral_release\": 1.7}",
       "market.fee.factors.makerFee": "0.0002",
-      "market.fee.factors.infrastructureFee": "0.0005",
-      "market.auction.minimumDuration": "5s",
-      "market.auction.maximumDuration": "168h0m0s",
-      "market.liquidity.bondPenaltyParameter": "0.00001",
-      "market.liquidity.maximumLiquidityFeeFactorLevel": "0.1",
+      "market.fee.factors.infrastructureFee": "0.001",
+      "market.auction.minimumDuration": "30s",
+      "market.auction.maximumDuration": "168h",
+      "market.liquidity.bondPenaltyParameter": "0.000001",
+      "market.liquidity.maximumLiquidityFeeFactorLevel": "0.03",
       "market.liquidity.stakeToCcySiskas": "1.0",
       "market.liquidity.providers.fee.distributionTimeStep": "60m",
       "market.liquidity.targetstake.triggering.ratio": "0.7",
       "market.liquidity.probabilityOfTrading.tau.scaling": "10.0",
       "market.liquidity.minimum.probabilityOfTrading.lpOrders": "1e-8",
-      "market.stake.target.timeWindow": "1h0m0s",
+      "market.stake.target.timeWindow": "1h0",
       "market.stake.target.scalingFactor": "0.1",
-      "market.value.windowLength": "168h0m0s",
+      "market.value.windowLength": "168h",
       "market.monitor.price.defaultParameters": "{\"triggers\": [{\"auction_extension\": 300, \"horizon\": 43200, \"probability\": 0.9999999}] }",
       "market.monitor.price.updateFrequency": "1s",
       "market.liquidityProvision.shapes.maxSize": "100",
-      "reward.staking.delegation.payoutFraction": "0.1",
-      "reward.staking.delegation.maxPayoutPerParticipant": "50000",
-      "reward.staking.delegation.payoutDelay": "1h",
+      "reward.staking.delegation.payoutFraction": "1.0",
+      "reward.staking.delegation.maxPayoutPerParticipant": "700000000000000000000",
+      "reward.staking.delegation.payoutDelay": "72h",
       "reward.staking.delegation.delegatorShare": "0.883",
-      "reward.staking.delegation.minimumValidatorStake": "3000",
+      "reward.staking.delegation.minimumValidatorStake": "3000000000000000000000",
       "reward.staking.delegation.competitionLevel": "3.1",
       "validators.epoch.length": "24h",
-      "validators.delegation.minAmount": "100",
+      "validators.delegation.minAmount": "100000000000000000",
       "validators.vote.required": "0.67",
-      "network.checkpoint.marketFreezeDate": "2021-12-01T00:00:00Z",
+      "network.checkpoint.marketFreezeDate": "2021-12-30T00:00:00Z",
       "network.checkpoint.networkEndOfLifeDate": "2021-12-31T23:59:00Z",
-      "network.checkpoint.timeElapsedBetweenCheckpoints": "1m0s"
-    }
+      "network.checkpoint.timeElapsedBetweenCheckpoints": "5m",
+      "spam.protection.max.votes": "3",
+      "spam.protection.voting.min.tokens": "1000000000000000000",
+      "spam.protection.max.proposals": "3",
+      "spam.protection.proposal.min.tokens": "200000000000000000000000",
+      "spam.protection.max.delegations": "360",
+      "spam.protection.delegation.min.tokens": "1"
+    },
+    "network_limits": {
+      "propose_market_enabled": false,
+      "propose_asset_enabled": false,
+      "propose_market_enabled_from": "2021-12-31T23:59:59Z",
+      "propose_asset_enabled_from": "2021-12-31T23:59:59Z"
+	  }
   }
 }

@@ -112,11 +112,11 @@
       "name": "Nala DAO"
     },
     {
-      "address": "EE88F29E8AA1863ADEC3C0537F4164C8F2F47586",
+      "address": "67E3E5A41858E086AF53E6DC7C19328C64690798",
       "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "ZiJCgU9Y/Htr375U/BcmM1GNDxL+tWTysoDLkGt8Lh0="
-      },
+      "type": "tendermint/PubKeyEd25519",
+      "value": "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE="
+    },
       "power": "10",
       "name": "Lovali"
     },
@@ -216,11 +216,15 @@
         "info_url": "https://www.naladao.com",
         "country": "AU"
       },
-      "ZiJCgU9Y/Htr375U/BcmM1GNDxL+tWTysoDLkGt8Lh0=": {
+      "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE=": {
+        "id": "0759769e41bf5688b4d8d2bb674742bb1f0352cf84652bb9671936d943a6d83f",
         "vega_pub_key": "4c129867cbedfbd6bf17603e9708fb72c5c5f9524607deb6bd846379be015c37",
         "ethereum_address": "0x730C5E8c5d6CD4AC6E1bEfDbD5732e713C524d33",
+        "tm_pub_key": "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE=",
         "info_url": "https://www.lovali.xyz",
-        "country": "FI"
+        "country": "FI",
+        "name": "lovali-node01",
+        "avatar_url": ""
       },
       "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4=": {
         "vega_pub_key": "71556781b4f2b98cf1875b8c6936f7fc4b617e14e6434d3d0f9efba19310f8c2",

@@ -121,10 +121,10 @@
       "name": "Lovali"
     },
     {
-      "address": "B00C89F84E9AFF07E8CB1FD0C94FD2BE938D219D",
+      "address": "985BB653B3FDF5018527B61F477C23288031CE21",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4="
+        "value": "M55Jpr/Ezq97CHnv6xk+EDd3rrODorvGwXnUGz7YUSw="
       },
       "power": "10",
       "name": "B-Harvest"
@@ -226,11 +226,15 @@
         "name": "lovali-node01",
         "avatar_url": ""
       },
-      "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4=": {
-        "vega_pub_key": "71556781b4f2b98cf1875b8c6936f7fc4b617e14e6434d3d0f9efba19310f8c2",
-        "ethereum_address": "0xFEc5a2e0624052B151d713BcbDe9c2FfE5Eb1F56",
-        "info_url": "https://bharvest.io/",
-        "country": "KR"
+      "M55Jpr/Ezq97CHnv6xk+EDd3rrODorvGwXnUGz7YUSw=": {
+        "id": "11f2d21c2a6c614640870e076a8c0300a32dea3625bfc4a43b3e4ac6267c4c52",
+        "vega_pub_key": "792f083f8e55407a9f9cbbed33cd402e5791daf0986dd786bd5760e604e005b1",
+        "ethereum_address": "0x293e66202436f74B79B21B830D028e4a23140446",
+        "tm_pub_key": "M55Jpr/Ezq97CHnv6xk+EDd3rrODorvGwXnUGz7YUSw=",
+        "info_url": "https://bharvest.io",
+        "country": "KR",
+        "name": "B-Harvest",
+        "avatar_url": ""
       },
       "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=": {
         "vega_pub_key": "df94148a3c7b8b6d07e4e69ff95ca011405cf0078659decd0d5aab0232b2e4ef",

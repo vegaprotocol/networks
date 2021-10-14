@@ -94,13 +94,13 @@
       "name": "Commodum"
     },
     {
-      "address": "741382DC9360BF60E9B29A55B279EC65EE8DB195",
+      "address": "5392F6E0AE0BD93A08EFA2E04AEAD5189C19D262",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "2dSNXvbILJALJZt0KN374+uBLrr8D4CT1A5BcIZzCf0="
+        "value": "bbWrfs2AzI9DCIlVecgvMJOi351z1gYurvMVqmO/cVg="
       },
       "power": "10",
-      "name": "P2P"
+      "name": "P2P.ORG Validator"
     },
     {
       "address": "2C05AF474C4C2CD421DF2F1CB4E5F1B5EB29FD75",
@@ -214,11 +214,15 @@
         "info_url": "https://commodum.io",
         "country": "UK"
       },
-      "2dSNXvbILJALJZt0KN374+uBLrr8D4CT1A5BcIZzCf0=": {
-        "vega_pub_key": "af2915bc64c1f899e7aae0f8d1fef453710a643af2de7db3a6cfc326e321166a",
-        "ethereum_address": "0x465d3BDbb0b8c66a810870C1153DF64726331ebB",
-        "info_url": "https://p2p.org/",
-        "country": "RU"
+      "bbWrfs2AzI9DCIlVecgvMJOi351z1gYurvMVqmO/cVg=": {
+        "id": "15166f7b046c460d1b6a61c9e796ba9081f94ce5ad97362ec61ff51ae4bb4c8d",
+        "vega_pub_key": "95ea1f2024ff0673b3f2dbcd1c5194b2296eee0d6da298a92ac430c94757cb27",
+        "ethereum_address": "0xE44C64a043Ff6f44B86282cfeEBA25cdaF17f2E0",
+        "tm_pub_key": "bbWrfs2AzI9DCIlVecgvMJOi351z1gYurvMVqmO/cVg=",
+        "info_url": "http://p2p.org",
+        "country": "RU",
+        "name": "P2P.ORG Validator",
+        "avatar_url": ""
       },
       "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M=": {
         "vega_pub_key": "71bd5a19cfde208ac6ce1c75cdf460b98d891d046fdbb8835ebc5c3c279e81ed",

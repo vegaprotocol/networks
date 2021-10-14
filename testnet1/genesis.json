@@ -175,10 +175,14 @@
         "country": "UK"
       },
       "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI=": {
-        "vega_pub_key": "c81a59aeadf8ac2ea1165a7189df6edcf40480ea02448d51aae142a20c0fbd46",
-        "ethereum_address": "0x2f4Fdb2b50542C2cb53cB6c9fac0672644241655",
+        "id": "16414e7c3bff98aa07a423831e8ac2d27ce10a3e185723796fbb2e17f1a05dd3",
+        "vega_pub_key": "c28346770740420c80773ccf92e2306936e19638dd3b75d759f7310ea45ba9b3",
+        "ethereum_address": "0xd011871C3531323F5D9e21ed8839916c42E940C0",
+        "tm_pub_key": "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI=",
         "info_url": "https://stakingfacilities.com",
-        "country": "Germany"
+        "country": "DE",
+        "name": "stakingFacilities-1",
+        "avatar_url": ""
       },
       "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=": {
         "vega_pub_key": "99f391c2299ea293ee0379d79635b143c53a75891784ea304300b9269db29269",

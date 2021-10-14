@@ -169,10 +169,14 @@
         "country": "Germany"
       },
       "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=": {
-        "vega_pub_key": "47738cce6c1c734c816f4a6584289f3866ceadd52e2d853754323af7101c8eb1",
+        "id": "8ce58fb732d76520b06d17b894db1464ec96562efe57eb7451122cc41c709f43",
+        "vega_pub_key": "0717908fdf6fe99dd6cc9bb19cec8c894bebc3f9edcfbba92e1d36bb0a060bbe",
         "ethereum_address": "0x7983e1b304e696b7F485ccF924a01a374942E3C9",
-        "info_url": "https://ryabina.io",
-        "country": "UK"
+        "tm_pub_key": "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=",
+        "info_url": "https://ryabina.io/",
+        "country": "FR",
+        "name": "Ryabina",
+        "avatar_url": ""
       },
       "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI=": {
         "id": "16414e7c3bff98aa07a423831e8ac2d27ce10a3e185723796fbb2e17f1a05dd3",

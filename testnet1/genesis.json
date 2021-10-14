@@ -76,10 +76,10 @@
       "name": "Figment"
     },
     {
-      "address": "D9AA28222D3448D726A03468D47D72F26FC9CCCE",
+      "address": "6969CA1FDF6B7EB3EC5CE2EDC9C5D07FCC504611",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "WmSx45czPR3dYWWnHlY/3sxdp3HqcLHZ2Bo7d7w/Fn4="
+        "value": "c5WVFOW1xpUovIEPQ1e/woZI3B8mH+TdYAqMiuZLcKQ="
       },
       "power": "10",
       "name": "XPRV"
@@ -200,11 +200,15 @@
         "info_url": "https://figment.io",
         "country": "Canada"
       },
-      "WmSx45czPR3dYWWnHlY/3sxdp3HqcLHZ2Bo7d7w/Fn4=": {
-        "vega_pub_key": "c913742de859fb71e45629b2c0175e52b2b35024e997ffe9496fce8b893c1e68",
+      "c5WVFOW1xpUovIEPQ1e/woZI3B8mH+TdYAqMiuZLcKQ=": {
+        "id": "67f946266213215faf36d30e721c45a76939c06ba61230f0cdcdf2f63b62ac95",
+        "vega_pub_key": "4ab799208b8fba38c18793acc5f058069db2b35482d29a71b8c844dcd4149a07",
         "ethereum_address": "0x5e6FEDca8A214A0136f7C03F132E9ACCA828f015",
-        "info_url": "https://xprv.io/",
-        "country": "UK"
+        "tm_pub_key": "c5WVFOW1xpUovIEPQ1e/woZI3B8mH+TdYAqMiuZLcKQ=",
+        "info_url": "https://xprv.io",
+        "country": "UK",
+        "name": "xprv-1",
+        "avatar_url": ""
       }, 
       "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM=": {
 	"id": "ea0019f6b89176f709cac4e4aba383cd6f9db6ea4c6ddfa0758fe962442fd8db",

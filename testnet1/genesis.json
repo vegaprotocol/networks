@@ -157,10 +157,14 @@
     },
     "validators": {
       "tVzu4B6kUEWghK9Y3ju157wO44ZL8vh1XT7RIP0euIo=": {
-        "vega_pub_key": "e40926436e77469ebf5cafbcc6c81ac76165d62b0e5eb2114f0de768f74f4c8c",
-        "ethereum_address": "0xE6334dFd6c3bAdFcbC4cfB05Cba64F3C425b3347",
+        "id": "e987fa3c13a4d8541c3b754f258037d9fa5bb79edac1a246d96c28c55c96938d",
+        "vega_pub_key": "41cf9afc5c08b0e23129755be85cb16571e8ced876a0e2ef7da04d5b1e25031e",
+        "ethereum_address": "0xccB6305284beb9bA2325C68c462596ed69d9C1b7",
+        "tm_pub_key": "tVzu4B6kUEWghK9Y3ju157wO44ZL8vh1XT7RIP0euIo=",
         "info_url": "https://chorus.one",
-        "country": "Germany"
+        "country": "CH",
+        "name": "Chorus One",
+        "avatar_url": ""
       },
       "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM=": {
         "vega_pub_key": "cee79327e70c3e48d9d7d039bce7b4bdb41af18837832773e74e5aa04620e89d",

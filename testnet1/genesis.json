@@ -103,10 +103,10 @@
       "name": "P2P.ORG Validator"
     },
     {
-      "address": "2C05AF474C4C2CD421DF2F1CB4E5F1B5EB29FD75",
+      "address": "113FEF052918F07E7CCC61FD477659F4AEBE1546",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M="
+        "value": "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0="
       },
       "power": "10",
       "name": "Nala DAO"
@@ -232,11 +232,13 @@
         "name": "P2P.ORG Validator",
         "avatar_url": ""
       },
-      "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M=": {
-        "vega_pub_key": "71bd5a19cfde208ac6ce1c75cdf460b98d891d046fdbb8835ebc5c3c279e81ed",
-        "ethereum_address": "0xeE22c67576C89A1Ec738C50b20C4892cEB9DFdd8",
+      "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0=": {
+        "id": "82a0c4f727873e769b602cf20e0396ee080d2e079bc9b29bc5573cbc950c71e4",
+        "vega_pub_key": "494c187e4c06453f13b5a7c1c385c76a2c29b0e3147dc491592456199b5f6f7b",
+        "ethereum_address": "0xD2ed89D9080DeFDe5e22Ce0aEA18AD54692B0b58",
+        "tm_pub_key": "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0=",
         "info_url": "https://www.naladao.com",
-        "country": "AU"
+        "country": "Australia"
       },
       "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE=": {
         "id": "0759769e41bf5688b4d8d2bb674742bb1f0352cf84652bb9671936d943a6d83f",

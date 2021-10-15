@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-09-03T12:00:00.050701478Z",
-  "chain_id": "vega-testnet-0001-v2",
+  "chain_id": "vega-testnet-0001-v3",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -29,15 +29,6 @@
       },
       "power": "10",
       "name": "Chorus One"
-    },
-    {
-      "address": "5D7D10B14F5D1AA2C5C3C851C18B21F96CCBBB8D",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM="
-      },
-      "power": "10",
-      "name": "Greenfield One"
     },
     {
       "address": "3715DCCC24106B73AC1DA33158DE63DD13A8A09D",
@@ -165,12 +156,6 @@
         "country": "CH",
         "name": "Chorus One",
         "avatar_url": ""
-      },
-      "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM=": {
-        "vega_pub_key": "cee79327e70c3e48d9d7d039bce7b4bdb41af18837832773e74e5aa04620e89d",
-        "ethereum_address": "0x986BaF0542dD03842D3ccD537dFf8E2d6a9cE100",
-        "info_url": "https://www.greenfield.one",
-        "country": "Germany"
       },
       "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=": {
         "id": "8ce58fb732d76520b06d17b894db1464ec96562efe57eb7451122cc41c709f43",

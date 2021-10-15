@@ -263,11 +263,15 @@
         "avatar_url": ""
       },
       "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=": {
+        "id": "84431e184fe118b5f2e2d66437143fff25b4ab71598995149d66e1a7c86bd014",
         "vega_pub_key": "df94148a3c7b8b6d07e4e69ff95ca011405cf0078659decd0d5aab0232b2e4ef",
         "ethereum_address": "0x4E34DdF693EcCcc184cbc62A825C96942a7F2676",
+        "tm_pub_key": "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=",
         "info_url": "https://rbf.capital/staking",
-        "country": "CZ"
-     }
+        "country": "CZ",
+        "name": "Rockaway Blockchain Fund",
+        "avatar_url": ""
+      }
     },
     "network": {
       "replay_attack_threshold": 150

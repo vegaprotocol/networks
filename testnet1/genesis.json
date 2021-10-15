@@ -189,10 +189,14 @@
         "avatar_url": ""
       },
       "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=": {
-        "vega_pub_key": "99f391c2299ea293ee0379d79635b143c53a75891784ea304300b9269db29269",
-        "ethereum_address": "0x59eAf83cd47dDeF6F4627383a0EDa9f70D5f6Dcb",
-        "info_url": "https://nodes.guru",
-        "country": "Russia"
+      "id": "bbf0705fc8b82a9205f4cce1ce0d35f208cdfd5bc42df3c533fc209d8788c900",
+      "vega_pub_key": "99f391c2299ea293ee0379d79635b143c53a75891784ea304300b9269db29269",
+      "ethereum_address": "0x59eAf83cd47dDeF6F4627383a0EDa9f70D5f6Dcb",
+      "tm_pub_key": "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=",
+      "info_url": "https://nodes.guru/",
+      "country": "RU",
+      "name": "Nodes Guru",
+      "avatar_url": ""
       },
       "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ=": {
         "id": "07aa75e65736b8164c875d6a9a2c3ca07d26e1f0757cbd009cc3d1c4efc6ec78",

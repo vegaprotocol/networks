@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-09-03T12:00:00.050701478Z",
-  "chain_id": "vega-testnet-0001-v2",
+  "chain_id": "vega-testnet-0001-v3",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -29,15 +29,6 @@
       },
       "power": "10",
       "name": "Chorus One"
-    },
-    {
-      "address": "5D7D10B14F5D1AA2C5C3C851C18B21F96CCBBB8D",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM="
-      },
-      "power": "10",
-      "name": "Greenfield One"
     },
     {
       "address": "3715DCCC24106B73AC1DA33158DE63DD13A8A09D",
@@ -166,12 +157,6 @@
         "name": "Chorus One",
         "avatar_url": ""
       },
-      "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM=": {
-        "vega_pub_key": "cee79327e70c3e48d9d7d039bce7b4bdb41af18837832773e74e5aa04620e89d",
-        "ethereum_address": "0x986BaF0542dD03842D3ccD537dFf8E2d6a9cE100",
-        "info_url": "https://www.greenfield.one",
-        "country": "Germany"
-      },
       "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=": {
         "id": "8ce58fb732d76520b06d17b894db1464ec96562efe57eb7451122cc41c709f43",
         "vega_pub_key": "0717908fdf6fe99dd6cc9bb19cec8c894bebc3f9edcfbba92e1d36bb0a060bbe",
@@ -290,7 +275,7 @@
       "bootstrap_block_count": 300
     },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x30f7607216A83a6ca10b09157C1050922bBE504b\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xfce2CC92203A266a9C8e67461ae5067c78f67235\"]}",
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x310F5ED416c36fF82905930cB3dBa560000A9130\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xfce2CC92203A266a9C8e67461ae5067c78f67235\"]}",
       "reward.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
       "governance.proposal.market.maxClose": "720h0m0s",
       "governance.proposal.market.maxEnact": "720h0m0s",

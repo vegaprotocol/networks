@@ -195,10 +195,14 @@
         "country": "Russia"
       },
       "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ=": {
-        "vega_pub_key": "fe71b6085fb445249e2a17bb0febbf5ae27b609a4116f1e7879f0734e7154209",
+        "id": "07aa75e65736b8164c875d6a9a2c3ca07d26e1f0757cbd009cc3d1c4efc6ec78",
+        "vega_pub_key": "37cf36b29a58d17956e19426f6ff341d6368f602c4796f7e71234ecb998f0177",
         "ethereum_address": "0x5646253e305539D90ff69d069833458316C8140A",
+        "tm_pub_key": "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ=",
         "info_url": "https://figment.io",
-        "country": "Canada"
+        "country": "Canada",
+        "name": "Figment",
+        "avatar_url": ""
       },
       "c5WVFOW1xpUovIEPQ1e/woZI3B8mH+TdYAqMiuZLcKQ=": {
         "id": "67f946266213215faf36d30e721c45a76939c06ba61230f0cdcdf2f63b62ac95",

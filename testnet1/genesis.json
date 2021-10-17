@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-09-03T12:00:00.050701478Z",
-  "chain_id": "vega-testnet-0001-v2",
+  "chain_id": "vega-testnet-0001-v3",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -29,15 +29,6 @@
       },
       "power": "10",
       "name": "Chorus One"
-    },
-    {
-      "address": "5D7D10B14F5D1AA2C5C3C851C18B21F96CCBBB8D",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM="
-      },
-      "power": "10",
-      "name": "Greenfield One"
     },
     {
       "address": "3715DCCC24106B73AC1DA33158DE63DD13A8A09D",
@@ -76,55 +67,55 @@
       "name": "Figment"
     },
     {
-      "address": "D9AA28222D3448D726A03468D47D72F26FC9CCCE",
+      "address": "6969CA1FDF6B7EB3EC5CE2EDC9C5D07FCC504611",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "WmSx45czPR3dYWWnHlY/3sxdp3HqcLHZ2Bo7d7w/Fn4="
+        "value": "c5WVFOW1xpUovIEPQ1e/woZI3B8mH+TdYAqMiuZLcKQ="
       },
       "power": "10",
       "name": "XPRV"
     },
     {
-      "address": "81C27F13E77A99E4436420E400B4E95BCAE2BFE8",
+      "address": "C07EE11A22C853B509105906F7CB902F36056B29",
       "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "5Ob3d3k37IkGigTkU5I7gYQE6r6C2bJ5+3LlcarLF50="
+         "type": "tendermint/PubKeyEd25519",
+         "value": "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM="
       },
       "power": "10",
-      "name": "Commodum DAO"
+      "name": "Commodum"
     },
     {
-      "address": "741382DC9360BF60E9B29A55B279EC65EE8DB195",
+      "address": "5392F6E0AE0BD93A08EFA2E04AEAD5189C19D262",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "2dSNXvbILJALJZt0KN374+uBLrr8D4CT1A5BcIZzCf0="
+        "value": "bbWrfs2AzI9DCIlVecgvMJOi351z1gYurvMVqmO/cVg="
       },
       "power": "10",
-      "name": "P2P"
+      "name": "P2P.ORG Validator"
     },
     {
-      "address": "2C05AF474C4C2CD421DF2F1CB4E5F1B5EB29FD75",
+      "address": "113FEF052918F07E7CCC61FD477659F4AEBE1546",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M="
+        "value": "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0="
       },
       "power": "10",
       "name": "Nala DAO"
     },
     {
-      "address": "EE88F29E8AA1863ADEC3C0537F4164C8F2F47586",
+      "address": "67E3E5A41858E086AF53E6DC7C19328C64690798",
       "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "ZiJCgU9Y/Htr375U/BcmM1GNDxL+tWTysoDLkGt8Lh0="
-      },
+      "type": "tendermint/PubKeyEd25519",
+      "value": "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE="
+    },
       "power": "10",
       "name": "Lovali"
     },
     {
-      "address": "B00C89F84E9AFF07E8CB1FD0C94FD2BE938D219D",
+      "address": "985BB653B3FDF5018527B61F477C23288031CE21",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4="
+        "value": "M55Jpr/Ezq97CHnv6xk+EDd3rrODorvGwXnUGz7YUSw="
       },
       "power": "10",
       "name": "B-Harvest"
@@ -157,83 +148,123 @@
     },
     "validators": {
       "tVzu4B6kUEWghK9Y3ju157wO44ZL8vh1XT7RIP0euIo=": {
-        "vega_pub_key": "e40926436e77469ebf5cafbcc6c81ac76165d62b0e5eb2114f0de768f74f4c8c",
-        "ethereum_address": "0xE6334dFd6c3bAdFcbC4cfB05Cba64F3C425b3347",
+        "id": "e987fa3c13a4d8541c3b754f258037d9fa5bb79edac1a246d96c28c55c96938d",
+        "vega_pub_key": "41cf9afc5c08b0e23129755be85cb16571e8ced876a0e2ef7da04d5b1e25031e",
+        "ethereum_address": "0xccB6305284beb9bA2325C68c462596ed69d9C1b7",
+        "tm_pub_key": "tVzu4B6kUEWghK9Y3ju157wO44ZL8vh1XT7RIP0euIo=",
         "info_url": "https://chorus.one",
-        "country": "Germany"
-      },
-      "cWsIsnfD4kkWxCF830X7AbCqWWHybNo0qp4weG9xeZM=": {
-        "vega_pub_key": "cee79327e70c3e48d9d7d039bce7b4bdb41af18837832773e74e5aa04620e89d",
-        "ethereum_address": "0x986BaF0542dD03842D3ccD537dFf8E2d6a9cE100",
-        "info_url": "https://www.greenfield.one",
-        "country": "Germany"
+        "country": "CH",
+        "name": "Chorus One",
+        "avatar_url": ""
       },
       "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=": {
-        "vega_pub_key": "47738cce6c1c734c816f4a6584289f3866ceadd52e2d853754323af7101c8eb1",
+        "id": "8ce58fb732d76520b06d17b894db1464ec96562efe57eb7451122cc41c709f43",
+        "vega_pub_key": "0717908fdf6fe99dd6cc9bb19cec8c894bebc3f9edcfbba92e1d36bb0a060bbe",
         "ethereum_address": "0x7983e1b304e696b7F485ccF924a01a374942E3C9",
-        "info_url": "https://ryabina.io",
-        "country": "UK"
+        "tm_pub_key": "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=",
+        "info_url": "https://ryabina.io/",
+        "country": "FR",
+        "name": "Ryabina",
+        "avatar_url": ""
       },
       "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI=": {
-        "vega_pub_key": "c81a59aeadf8ac2ea1165a7189df6edcf40480ea02448d51aae142a20c0fbd46",
-        "ethereum_address": "0x2f4Fdb2b50542C2cb53cB6c9fac0672644241655",
+        "id": "16414e7c3bff98aa07a423831e8ac2d27ce10a3e185723796fbb2e17f1a05dd3",
+        "vega_pub_key": "c28346770740420c80773ccf92e2306936e19638dd3b75d759f7310ea45ba9b3",
+        "ethereum_address": "0xd011871C3531323F5D9e21ed8839916c42E940C0",
+        "tm_pub_key": "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI=",
         "info_url": "https://stakingfacilities.com",
-        "country": "Germany"
+        "country": "DE",
+        "name": "stakingFacilities-1",
+        "avatar_url": ""
       },
       "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=": {
-        "vega_pub_key": "99f391c2299ea293ee0379d79635b143c53a75891784ea304300b9269db29269",
-        "ethereum_address": "0x59eAf83cd47dDeF6F4627383a0EDa9f70D5f6Dcb",
-        "info_url": "https://nodes.guru",
-        "country": "Russia"
+      "id": "bbf0705fc8b82a9205f4cce1ce0d35f208cdfd5bc42df3c533fc209d8788c900",
+      "vega_pub_key": "99f391c2299ea293ee0379d79635b143c53a75891784ea304300b9269db29269",
+      "ethereum_address": "0x59eAf83cd47dDeF6F4627383a0EDa9f70D5f6Dcb",
+      "tm_pub_key": "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=",
+      "info_url": "https://nodes.guru/",
+      "country": "RU",
+      "name": "Nodes Guru",
+      "avatar_url": ""
       },
       "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ=": {
-        "vega_pub_key": "fe71b6085fb445249e2a17bb0febbf5ae27b609a4116f1e7879f0734e7154209",
+        "id": "07aa75e65736b8164c875d6a9a2c3ca07d26e1f0757cbd009cc3d1c4efc6ec78",
+        "vega_pub_key": "37cf36b29a58d17956e19426f6ff341d6368f602c4796f7e71234ecb998f0177",
         "ethereum_address": "0x5646253e305539D90ff69d069833458316C8140A",
+        "tm_pub_key": "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ=",
         "info_url": "https://figment.io",
-        "country": "Canada"
+        "country": "Canada",
+        "name": "Figment",
+        "avatar_url": ""
       },
-      "WmSx45czPR3dYWWnHlY/3sxdp3HqcLHZ2Bo7d7w/Fn4=": {
-        "vega_pub_key": "c913742de859fb71e45629b2c0175e52b2b35024e997ffe9496fce8b893c1e68",
+      "c5WVFOW1xpUovIEPQ1e/woZI3B8mH+TdYAqMiuZLcKQ=": {
+        "id": "67f946266213215faf36d30e721c45a76939c06ba61230f0cdcdf2f63b62ac95",
+        "vega_pub_key": "4ab799208b8fba38c18793acc5f058069db2b35482d29a71b8c844dcd4149a07",
         "ethereum_address": "0x5e6FEDca8A214A0136f7C03F132E9ACCA828f015",
-        "info_url": "https://xprv.io/",
-        "country": "UK"
-      },
-      "5Ob3d3k37IkGigTkU5I7gYQE6r6C2bJ5+3LlcarLF50=": {
-        "vega_pub_key": "3d56a05886a6117d9939907f3154a397e1f9549b6160478c370360c49b346dd4",
-        "ethereum_address": "0x66cC07FE724052893f1DdA588157170DFE03C2A1",
+        "tm_pub_key": "c5WVFOW1xpUovIEPQ1e/woZI3B8mH+TdYAqMiuZLcKQ=",
+        "info_url": "https://xprv.io",
+        "country": "UK",
+        "name": "xprv-1",
+        "avatar_url": ""
+      }, 
+      "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM=": {
+        "id": "ea0019f6b89176f709cac4e4aba383cd6f9db6ea4c6ddfa0758fe962442fd8db",
+        "vega_pub_key": "d665ae57018b992105885c3d33ddff5b7d2d0baa2c32147117e460215a31764f",
+        "ethereum_address": "0x323214232ce28C420D91445588e84EFB6B1559E9",
+        "tm_pub_key": "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM=",
         "info_url": "https://commodum.io",
-        "country": "UK"
+        "country": "UK",
+        "name": "Commodum",
+        "avatar_url": ""
       },
-      "2dSNXvbILJALJZt0KN374+uBLrr8D4CT1A5BcIZzCf0=": {
-        "vega_pub_key": "af2915bc64c1f899e7aae0f8d1fef453710a643af2de7db3a6cfc326e321166a",
-        "ethereum_address": "0x465d3BDbb0b8c66a810870C1153DF64726331ebB",
-        "info_url": "https://p2p.org/",
-        "country": "RU"
+      "bbWrfs2AzI9DCIlVecgvMJOi351z1gYurvMVqmO/cVg=": {
+        "id": "15166f7b046c460d1b6a61c9e796ba9081f94ce5ad97362ec61ff51ae4bb4c8d",
+        "vega_pub_key": "95ea1f2024ff0673b3f2dbcd1c5194b2296eee0d6da298a92ac430c94757cb27",
+        "ethereum_address": "0xE44C64a043Ff6f44B86282cfeEBA25cdaF17f2E0",
+        "tm_pub_key": "bbWrfs2AzI9DCIlVecgvMJOi351z1gYurvMVqmO/cVg=",
+        "info_url": "http://p2p.org",
+        "country": "RU",
+        "name": "P2P.ORG Validator",
+        "avatar_url": ""
       },
-      "IdVgmw+Ks3Qlx/cP9tQKZqMYfgpc1sKcTDvOh2I1++M=": {
-        "vega_pub_key": "71bd5a19cfde208ac6ce1c75cdf460b98d891d046fdbb8835ebc5c3c279e81ed",
-        "ethereum_address": "0xeE22c67576C89A1Ec738C50b20C4892cEB9DFdd8",
+      "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0=": {
+        "id": "82a0c4f727873e769b602cf20e0396ee080d2e079bc9b29bc5573cbc950c71e4",
+        "vega_pub_key": "494c187e4c06453f13b5a7c1c385c76a2c29b0e3147dc491592456199b5f6f7b",
+        "ethereum_address": "0xD2ed89D9080DeFDe5e22Ce0aEA18AD54692B0b58",
+        "tm_pub_key": "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0=",
         "info_url": "https://www.naladao.com",
-        "country": "AU"
+        "country": "Australia"
       },
-      "ZiJCgU9Y/Htr375U/BcmM1GNDxL+tWTysoDLkGt8Lh0=": {
+      "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE=": {
+        "id": "0759769e41bf5688b4d8d2bb674742bb1f0352cf84652bb9671936d943a6d83f",
         "vega_pub_key": "4c129867cbedfbd6bf17603e9708fb72c5c5f9524607deb6bd846379be015c37",
         "ethereum_address": "0x730C5E8c5d6CD4AC6E1bEfDbD5732e713C524d33",
+        "tm_pub_key": "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE=",
         "info_url": "https://www.lovali.xyz",
-        "country": "FI"
+        "country": "FI",
+        "name": "lovali-node01",
+        "avatar_url": ""
       },
-      "8SH0i2ySzwTF048WtzVCO5Cmo4mK1kaGan5sPxcVEp4=": {
-        "vega_pub_key": "71556781b4f2b98cf1875b8c6936f7fc4b617e14e6434d3d0f9efba19310f8c2",
-        "ethereum_address": "0xFEc5a2e0624052B151d713BcbDe9c2FfE5Eb1F56",
-        "info_url": "https://bharvest.io/",
-        "country": "KR"
+      "M55Jpr/Ezq97CHnv6xk+EDd3rrODorvGwXnUGz7YUSw=": {
+        "id": "11f2d21c2a6c614640870e076a8c0300a32dea3625bfc4a43b3e4ac6267c4c52",
+        "vega_pub_key": "792f083f8e55407a9f9cbbed33cd402e5791daf0986dd786bd5760e604e005b1",
+        "ethereum_address": "0x293e66202436f74B79B21B830D028e4a23140446",
+        "tm_pub_key": "M55Jpr/Ezq97CHnv6xk+EDd3rrODorvGwXnUGz7YUSw=",
+        "info_url": "https://bharvest.io",
+        "country": "KR",
+        "name": "B-Harvest",
+        "avatar_url": ""
       },
       "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=": {
+        "id": "84431e184fe118b5f2e2d66437143fff25b4ab71598995149d66e1a7c86bd014",
         "vega_pub_key": "df94148a3c7b8b6d07e4e69ff95ca011405cf0078659decd0d5aab0232b2e4ef",
         "ethereum_address": "0x4E34DdF693EcCcc184cbc62A825C96942a7F2676",
+        "tm_pub_key": "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=",
         "info_url": "https://rbf.capital/staking",
-        "country": "CZ"
-     }
+        "country": "CZ",
+        "name": "Rockaway Blockchain Fund",
+        "avatar_url": ""
+      }
     },
     "network": {
       "replay_attack_threshold": 150
@@ -244,7 +275,7 @@
       "bootstrap_block_count": 300
     },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x30f7607216A83a6ca10b09157C1050922bBE504b\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xfce2CC92203A266a9C8e67461ae5067c78f67235\"]}",
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x310F5ED416c36fF82905930cB3dBa560000A9130\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xfce2CC92203A266a9C8e67461ae5067c78f67235\"]}",
       "reward.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
       "governance.proposal.market.maxClose": "720h0m0s",
       "governance.proposal.market.maxEnact": "720h0m0s",

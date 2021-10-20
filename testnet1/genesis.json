@@ -128,6 +128,15 @@
       },
       "power": "10",
       "name": "Rockaway Blockchain Fund"
+    },
+    {
+      "address": "B2B86F415187C3327EE04B6D0113BF818E7C00CE",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "IoWQYtZ3m48/EflJxlw3u12zG1qG/BLTVqIn70IKVjs="
+      },
+      "power": "10",
+      "name": ""
     }
   ],
   "app_hash": "",
@@ -263,6 +272,16 @@
         "info_url": "https://rbf.capital/staking",
         "country": "CZ",
         "name": "Rockaway Blockchain Fund",
+        "avatar_url": ""
+      },
+      "IoWQYtZ3m48/EflJxlw3u12zG1qG/BLTVqIn70IKVjs=": {
+        "id": "22d615a912c92051706f59d36045470e0c01693c568897758773b286ffd92b93",
+        "vega_pub_key": "03ddacb14be086a9308afc423d6b78272c7cff690d2e36639d9355479cebaf87",
+        "ethereum_address": "0x319844ee24F31BE5519D26dCe59C038306169755",
+        "tm_pub_key": "IoWQYtZ3m48/EflJxlw3u12zG1qG/BLTVqIn70IKVjs=",
+        "info_url": "https://greenfield.one/",
+        "country": "DE",
+        "name": "greenfield-one",
         "avatar_url": ""
       }
     },

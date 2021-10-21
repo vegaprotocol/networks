@@ -364,9 +364,9 @@
       "spam.protection.proposal.min.tokens": "100000000000000000000000",
       "spam.protection.max.delegations": "360",
       "spam.protection.delegation.min.tokens": "1"
-    }
-      "checkpoint": {
-        "load_hash": "fe4979661000a8ee80b2ff20e58ecb3ba491846874a4e886d153b970939fe080"
+    },
+    "checkpoint": {
+      "load_hash": "fe4979661000a8ee80b2ff20e58ecb3ba491846874a4e886d153b970939fe080"
     }
   }
 }

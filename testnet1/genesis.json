@@ -21,6 +21,7 @@
     "version": {}
   },
   "validators": [
+  {
     {
       "address": "3715DCCC24106B73AC1DA33158DE63DD13A8A09D",
       "pub_key": {

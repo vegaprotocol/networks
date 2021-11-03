@@ -21,7 +21,6 @@
     "version": {}
   },
   "validators": [
-  {
     {
       "address": "3715DCCC24106B73AC1DA33158DE63DD13A8A09D",
       "pub_key": {
@@ -138,7 +137,7 @@
         }
       }
     },
-    "validators": 
+    "validators": {
       "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=": {
         "id": "8ce58fb732d76520b06d17b894db1464ec96562efe57eb7451122cc41c709f43",
         "vega_pub_key": "0717908fdf6fe99dd6cc9bb19cec8c894bebc3f9edcfbba92e1d36bb0a060bbe",

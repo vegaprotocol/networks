@@ -22,15 +22,6 @@
   },
   "validators": [
     {
-      "address": "AD001F8F83E9512BB1473CE72D82329921B55EB0",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "tVzu4B6kUEWghK9Y3ju157wO44ZL8vh1XT7RIP0euIo="
-      },
-      "power": "10",
-      "name": "Chorus One"
-    },
-    {
       "address": "3715DCCC24106B73AC1DA33158DE63DD13A8A09D",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
@@ -112,15 +103,6 @@
       "name": "Lovali"
     },
     {
-      "address": "985BB653B3FDF5018527B61F477C23288031CE21",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "M55Jpr/Ezq97CHnv6xk+EDd3rrODorvGwXnUGz7YUSw="
-      },
-      "power": "10",
-      "name": "B-Harvest"
-    },
-    {
       "address": "E71A8125505F3D2ACB8CC302EBE0B41F2E87A21D",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
@@ -155,17 +137,7 @@
         }
       }
     },
-    "validators": {
-      "tVzu4B6kUEWghK9Y3ju157wO44ZL8vh1XT7RIP0euIo=": {
-        "id": "e987fa3c13a4d8541c3b754f258037d9fa5bb79edac1a246d96c28c55c96938d",
-        "vega_pub_key": "41cf9afc5c08b0e23129755be85cb16571e8ced876a0e2ef7da04d5b1e25031e",
-        "ethereum_address": "0xccB6305284beb9bA2325C68c462596ed69d9C1b7",
-        "tm_pub_key": "tVzu4B6kUEWghK9Y3ju157wO44ZL8vh1XT7RIP0euIo=",
-        "info_url": "https://chorus.one",
-        "country": "CH",
-        "name": "Chorus One",
-        "avatar_url": ""
-      },
+    "validators": 
       "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=": {
         "id": "8ce58fb732d76520b06d17b894db1464ec96562efe57eb7451122cc41c709f43",
         "vega_pub_key": "0717908fdf6fe99dd6cc9bb19cec8c894bebc3f9edcfbba92e1d36bb0a060bbe",
@@ -187,14 +159,14 @@
         "avatar_url": ""
       },
       "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=": {
-      "id": "bbf0705fc8b82a9205f4cce1ce0d35f208cdfd5bc42df3c533fc209d8788c900",
-      "vega_pub_key": "99f391c2299ea293ee0379d79635b143c53a75891784ea304300b9269db29269",
-      "ethereum_address": "0x59eAf83cd47dDeF6F4627383a0EDa9f70D5f6Dcb",
-      "tm_pub_key": "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=",
-      "info_url": "https://nodes.guru/",
-      "country": "RU",
-      "name": "Nodes Guru",
-      "avatar_url": ""
+        "id": "bbf0705fc8b82a9205f4cce1ce0d35f208cdfd5bc42df3c533fc209d8788c900",
+        "vega_pub_key": "99f391c2299ea293ee0379d79635b143c53a75891784ea304300b9269db29269",
+        "ethereum_address": "0x59eAf83cd47dDeF6F4627383a0EDa9f70D5f6Dcb",
+        "tm_pub_key": "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=",
+        "info_url": "https://nodes.guru/",
+        "country": "RU",
+        "name": "Nodes Guru",
+        "avatar_url": ""
       },
       "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ=": {
         "id": "07aa75e65736b8164c875d6a9a2c3ca07d26e1f0757cbd009cc3d1c4efc6ec78",
@@ -254,16 +226,6 @@
         "name": "lovali-node01",
         "avatar_url": ""
       },
-      "M55Jpr/Ezq97CHnv6xk+EDd3rrODorvGwXnUGz7YUSw=": {
-        "id": "11f2d21c2a6c614640870e076a8c0300a32dea3625bfc4a43b3e4ac6267c4c52",
-        "vega_pub_key": "792f083f8e55407a9f9cbbed33cd402e5791daf0986dd786bd5760e604e005b1",
-        "ethereum_address": "0x293e66202436f74B79B21B830D028e4a23140446",
-        "tm_pub_key": "M55Jpr/Ezq97CHnv6xk+EDd3rrODorvGwXnUGz7YUSw=",
-        "info_url": "https://bharvest.io",
-        "country": "KR",
-        "name": "B-Harvest",
-        "avatar_url": ""
-      },
       "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=": {
         "id": "84431e184fe118b5f2e2d66437143fff25b4ab71598995149d66e1a7c86bd014",
         "vega_pub_key": "df94148a3c7b8b6d07e4e69ff95ca011405cf0078659decd0d5aab0232b2e4ef",
@@ -281,7 +243,7 @@
         "tm_pub_key": "IoWQYtZ3m48/EflJxlw3u12zG1qG/BLTVqIn70IKVjs=",
         "info_url": "https://greenfield.one/",
         "country": "DE",
-        "name": "greenfield-one",
+        "name": "Greenfield One",
         "avatar_url": ""
       }
     },

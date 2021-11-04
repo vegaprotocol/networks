@@ -130,13 +130,13 @@
       "name": "B-Harvest"
     },
     {
-      "address": "TBC",
+      "address": "A773EEC659DE98B71E2324E7E1815A2AD470D411",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
+        "value": "GaMcnnlXJGAgf43pQIg3UBwQqlyLRH7ow+CTzzVtBIQ="
       },
       "power": "10",
-      "name": "Rockaway Blockchain Fund"
+      "name": "RBF"
     }
   ],
   "app_hash": "",
@@ -228,12 +228,16 @@
         "info_url": "https://bharvest.io/",
         "country": "KR"
       },
-      "TBC13": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
+      "GaMcnnlXJGAgf43pQIg3UBwQqlyLRH7ow+CTzzVtBIQ=": {
+        "id": "55504e9bfd914a7bbefa342c82f59a2f4dee344e5b6863a14c02a812f4fbde32",
+        "vega_pub_key": "0ac70c4ccc7f961614fe49b93e639ddf916269b7dcf8391db264cefeadf5a6b7",
+        "ethereum_address": "0xaa5184EB96aDf3f14151412fd895a30F5A2E6995",
+        "tm_pub_key": "GaMcnnlXJGAgf43pQIg3UBwQqlyLRH7ow+CTzzVtBIQ=",
         "info_url": "https://rbf.capital/staking",
-        "country": "CZ"
-     }
+        "country": "CZ",
+        "name": "RBF",
+        "avatar_url": ""
+      }
     },
     "network": {
       "replay_attack_threshold": 150
@@ -315,6 +319,6 @@
       "propose_asset_enabled": false,
       "propose_market_enabled_from": "2021-12-31T23:59:59Z",
       "propose_asset_enabled_from": "2021-12-31T23:59:59Z"
-	  }
+    }
   }
 }

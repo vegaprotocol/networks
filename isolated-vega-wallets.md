@@ -6,12 +6,12 @@ Note:
 
 First let's generate a new wallet with the following command:
 ```
-vega wallet key generate --name="testnet-jeremy"
+vega wallet key generate --wallet="testnet-jeremy"
 ```
 
 This should give you a similar ouptut to:
 ```
-➜  code.vegaprotocol.io vega wallet key generate --name="testnet-jeremy"
+➜  code.vegaprotocol.io vega wallet key generate --wallet="testnet-jeremy"
 ✗ You are running an unreleased version of the Vega wallet. Use it at your own risk!
 
 Enter passphrase:
@@ -51,7 +51,7 @@ Here, let's take note of the pubkey, which is the one that we will want to isola
 
 Then we can run the command to isolate the key with the following command:
 ```
-vega wallet key isolate --name="testnet-jeremy" --pubkey="f7ac359bb8ec752ad91dd94fcf6bede86b021d60859576253eca5a7cf63e86dd"
+vega wallet key isolate --wallet="testnet-jeremy" --pubkey="f7ac359bb8ec752ad91dd94fcf6bede86b021d60859576253eca5a7cf63e86dd"
 ```
 
 Which should give you a similar paylod to this:
@@ -69,7 +69,7 @@ Note:
 
 We can use the following commands to check that our new wallet have been created, and the type has changed, but both share the same ID:
 ```
-vega wallet info --name="testnet-jeremy.f7ac359b.isolated"
+vega wallet info --wallet="testnet-jeremy.f7ac359b.isolated"
 ✗ You are running an unreleased version of the Vega wallet. Use it at your own risk!
 
 Enter passphrase:
@@ -82,7 +82,7 @@ ID:
 faa7088f3cbcba57aa78c6ec0635245a863a4ecf6faa04b9d19a1a4e867e56a2
 
 
-vega wallet info --name="testnet-jeremy"
+vega wallet info --wallet="testnet-jeremy"
 ✗ You are running an unreleased version of the Vega wallet. Use it at your own risk!
 
 Enter passphrase:
@@ -109,7 +109,7 @@ registryFilePath:
 
 Then we can also generate our validator payload to be used on the tendermint genesis file as usual:
 ```
-vega genesis new validator --country="FR" --info-url="http://lol.com" --name="node-1"
+vega genesis new validator --country="FR" --info-url="http://lol.com" --wallet="node-1"
 Enter node wallet passphrase:
 Info to add in genesis file under `validators` key
 {

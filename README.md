@@ -40,6 +40,10 @@ root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# vega tm version
 
 It is best to run your Vega node in a clean environment, where Tendermint has not been installed before. The following instructions assume this is the case; if it's not then you might not be able to rely on them.
 
+### Vega Home Path
+
+The Vega home directory varies depending on OS. In these instructions it is assumed to be `/etc/vega`. You can set your own home directory when initialising your environment by executing `vega init --home /my/home/dir`. More information is available [here](https://github.com/vegaprotocol/vega-snapshots#files-location).
+
 ### Initialize Vega
 
 Firstly, we need to create a Vega home directory where the configuration for our node will be stored. You can do this using the command below. You will be asked to enter a passphrase, which is used to encrypt your Vega private keys.

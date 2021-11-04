@@ -8,6 +8,10 @@ The following section deals with the situation where different keys become compr
 
 ### Scenario 1.1: Ethereum key compromised
 
+In the event the Ethereum key is compromised, this key needs to be deactivated as soon as possible. As signatures issued with the Ethereum key are not time bound (i.e., a signed message can be used to authenticate a transaction weeks later), a key also should be considered compromised if the attacker had communication access to the HSM, as it is then unclear which and how many messages the attacker has signed (unless the HSM supports sufficient logging to analyse this case).
+
+The Ethereum key can be replaced by following the steps below.
+
 1. Notify the validators that control the `MultisigControl` contract that your Ethereum key has been compromised and needs to be updated.
 2. The `remove_signer` function must be executed on the `MultisigControl` contract to remove the compromised key. Each signatory on the `MultisigControl` contract needs to generate their own signature, and a single signature bundle will be submitted to the contract when calling `remove_signer`.
 3. After removing the compromised key, the new key for the validator must be added to the `MultisigControl` contract by calling the `add_signer` function. The signature bundle is generated in the same way as for (2).
@@ -15,12 +19,16 @@ The following section deals with the situation where different keys become compr
 
 ### Scenario 1.2: Vega hot key compromised
 
+In the event that the Vega hot key is compromised, it can be replaced using the steps below.
+
 1. Terminate the affected node.
 2. Use the Vega master key to generate a new hot key (refer to [generating keys](https://github.com/vegaprotocol/networks#generating-vega-keys)).
 3. Submit a transaction to the Vega network, signed with your master key, authorising the new hot key. This is done by xxx.
 4. Rejoin the network when the rest of the validators choose to restore the chain from a [checkpoint file](https://github.com/vegaprotocol/networks#restore-from-checkpoint).
 
 ### Scenario 1.3: Vega master key compromised
+
+In the event that the Vega master key is compromised, one can assume that the validator's infrastructure has been rather deeply penetrated. Thus, a compromise of the Vega master key can be seen to imply that all other keys are compromised as well (with the exception of when a HSM has been used; however, as outlined above, even if the key is not known to the attacker it should still be treated as compromised).
 
 TBC
 

@@ -42,7 +42,7 @@ It is best to run your Vega node in a clean environment, where Tendermint has no
 
 ### Vega Home Path
 
-The Vega home directory varies depending on OS. In these instructions it is assumed to be `/etc/vega`. You can set your own home directory when initialising your environment by executing `vega init --home /my/home/dir`. 
+The Vega home directory varies depending on OS. In these instructions it is assumed to be `/etc/vega`. You can set your own home directory when initialising your environment by executing `vega init --home /my/home/dir`.
 
 The following command may also be helpful: `vega paths list`
 
@@ -71,17 +71,22 @@ drwx------  2 root root 4096 Aug 20 12:06 nodewallet/
 
 ### Generating Vega Keys
 
-Next, we need to generate our Vega keypair. This Vega keypair is used to identify our node on the Vega blockchain. You will be asked to enter your passphrase again, and the mnemonic used to create your private keys will be displayed in the console. Make a note of this mnemonic, and store it securely offline.
+Next, we need to generate our Vega keypair, we recommend you generattee your keypairs following the [isolated vega wallet guide](https://github.com/vegaprotocol/networks/blob/master/isolated-vega-wallets.md)
 
+Once your vega wallet have been generated, you will need to import them in your nodewallet. First we need to locate the wallet, this can be done using the following command:
 ```
-root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# vega nodewallet generate --chain vega
-please enter node wallet passphrase:
-please enter blockchain wallet passphrase:
-generation successful
-additional data:
-{
-    "mnemonic": "outside hungry soccer rally more rough tuna lunch wagon hood click labor stem total soon junk siren employ forward spider model mad expand pizza"
-}
+root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# vega paths list | grep -w "WalletsDataHome"
+  WalletsDataHome			/etc/vega/data/wallets
+```
+
+> note: this path may differ depending of your operating system.
+
+Now we can import the wallet previously created:
+```
+vega nodewallet import --force --chain=vega --wallet-path="/etc/vega/data/wallets/testwallet.29973a5c.isolated"
+Enter node wallet passphrase:
+Enter blockchain wallet passphrase:
+import successful
 ```
 
 ### Generating Ethereum Keys
@@ -275,7 +280,7 @@ The guidance below should be helpful for monitoring a network to ensure the node
 
 ## Restore from Checkpoint
 
-The Vega blockchain periodically stores checkpoints of important state parameters, such as balances. This allows the chain to be restarted from a previously valid state in the event of a critical issue being discovered, or in the event of consensus failure. 
+The Vega blockchain periodically stores checkpoints of important state parameters, such as balances. This allows the chain to be restarted from a previously valid state in the event of a critical issue being discovered, or in the event of consensus failure.
 
 The checkpoint files are written to `/etc/vega/checkpoints` and each checkpoint is identified by a hash, which is present in the name of the checkpoint file. The checkpoint file name adheres to the following pattern: `<date>-<block>-<checkpoint-hash>.cp`.
 

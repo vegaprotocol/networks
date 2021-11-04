@@ -15,7 +15,10 @@ The following section deals with the situation where different keys become compr
 
 ### Scenario 1.2: Vega hot key compromised
 
-TBC
+1. Terminate the affected node.
+2. Use the Vega master key to generate a new hot key (refer to [generating keys](https://github.com/vegaprotocol/networks#generating-vega-keys)).
+3. Submit a transaction to the Vega network, signed with your master key, authorising the new hot key. This is done by xxx.
+4. Rejoin the network when the rest of the validators choose to restore the chain from a [checkpoint file](https://github.com/vegaprotocol/networks#restore-from-checkpoint).
 
 ### Scenario 1.3: Vega master key compromised
 

@@ -244,7 +244,7 @@ Create a wallet using the following command:
 
 ```
 vega wallet init # optional if you already done that previously
-vega wallet key generate --name="ethereum-event-queue-testnet"
+vega wallet key generate --wallet="ethereum-event-queue-testnet"
 ```
 
 This command will dump information to the console, be sure to save the mnemonic, also copy the public key and use it in the following section of the Vega config (config.toml) in the Vega root directory:
@@ -259,7 +259,7 @@ This command will dump information to the console, be sure to save the mnemonic,
 Then we need to save the private key as well to be used by the `ethereum-event-forwarder` see the repository README (secret.key). By running the following command you should be able to see the private key of the wallet you just created:
 
 ```
-vega wallet key list --name="ethereum-event-queue-testnet"
+vega wallet key list --wallet="ethereum-event-queue-testnet"
 ```
 
 Lastly, the `config.toml` to be used with the `ethereum-event-forwarder` is availble in this repository at the [following location](https://github.com/vegaprotocol/networks/blob/master/testnet1/ethereum-event-forwarder-config.toml). This config is for `testnet1`, you should use the config file for the network that you are trying to join by navigating to the relevant directory in this repository.

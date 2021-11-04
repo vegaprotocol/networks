@@ -42,7 +42,11 @@ It is best to run your Vega node in a clean environment, where Tendermint has no
 
 ### Vega Home Path
 
-The Vega home directory varies depending on OS. In these instructions it is assumed to be `/etc/vega`. You can set your own home directory when initialising your environment by executing `vega init --home /my/home/dir`. More information is available [here](https://github.com/vegaprotocol/vega-snapshots#files-location).
+The Vega home directory varies depending on OS. In these instructions it is assumed to be `/etc/vega`. You can set your own home directory when initialising your environment by executing `vega init --home /my/home/dir`. 
+
+The following command may also be helpful: `vega paths list`
+
+More information is available [here](https://github.com/vegaprotocol/vega-snapshots#files-location).
 
 ### Initialize Vega
 

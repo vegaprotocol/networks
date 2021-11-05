@@ -31,10 +31,10 @@
       "name": "Chorus One"
     },
     {
-      "address": "TBC",
+      "address": "37E84F66FD7D8DC6BC65F29CB29E3C7092D53523",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
+        "value": "0ShTSZ9Ss8AFHuDz1nIGMrGucjXhFdJyUTT7Eqibjq8="
       },
       "power": "10",
       "name": "Greenfield One"
@@ -167,6 +167,16 @@
         "ethereum_address": "TBC",
         "info_url": "https://www.greenfield.one",
         "country": "Germany"
+      },
+      "0ShTSZ9Ss8AFHuDz1nIGMrGucjXhFdJyUTT7Eqibjq8=": {
+        "id": "126751c5830b50d39eb85412fb2964f46338cce6946ff455b73f1b1be3f5e8cc",
+        "vega_pub_key": "a6e6f7daf8610f9242ab6ab46b394f6fb79cf9533d48051ca7a2f142b8b700a8",
+        "ethereum_address": "0x14174f3c9443EdC12685578FE4d165be5f57fBd3",
+        "tm_pub_key": "0ShTSZ9Ss8AFHuDz1nIGMrGucjXhFdJyUTT7Eqibjq8=",
+        "info_url": "https://www.greenfield.one",
+        "country": "Germany",
+        "name": "Greenfield One",
+        "avatar_url": "https://www.greenfield.one/avatar.png"
       },
       "TBC3": {
         "vega_pub_key": "TBC",

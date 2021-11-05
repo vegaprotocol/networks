@@ -49,10 +49,10 @@
       "name": "Ryabina"
     },
     {
-      "address": "TBC",
+      "address": "53D53755DA3B815AB029C0062DD6A2B392E640DC",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
+        "value": "Chx00Gr/+/tzwoZVUdMzcIl6O79muzwUIveCfGXaemc="
       },
       "power": "10",
       "name": "Staking Facilities"
@@ -184,11 +184,15 @@
         "info_url": "https://ryabina.io",
         "country": "UK"
       },
-      "TBC4": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
+      "Chx00Gr/+/tzwoZVUdMzcIl6O79muzwUIveCfGXaemc=": {
+        "id": "f3022974212780ea1196af08fd2e8a9c0d784d0be8e97637bd5e763ac4c219bd",
+        "vega_pub_key": "672552932d651349641fa3181578a2fe98bb5deedfcda0b480d05442a41b76af",
+        "ethereum_address": "0x9211696Be4bE710C83DA8a36e68C25Cc4020E979",
+        "tm_pub_key": "Chx00Gr/+/tzwoZVUdMzcIl6O79muzwUIveCfGXaemc=",
         "info_url": "https://stakingfacilities.com",
-        "country": "Germany"
+        "country": "DE",
+        "name": "Staking Facilities",
+        "avatar_url": "https://s3.amazonaws.com/keybase_processed_uploads/bfe5fc72eaafa5a4444eb048fd88a705_360_360.jpg"
       },
       "TBC5": {
         "vega_pub_key": "TBC",

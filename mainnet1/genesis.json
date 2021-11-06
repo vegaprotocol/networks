@@ -112,10 +112,10 @@
       "name": "Nala DAO"
     },
     {
-      "address": "TBC",
+      "address": "B8095C5B57FDC602137B96E0426A3770DCF10323",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
+        "value": "2ze1jT6SxaWUI9yECwYJaPIf1lBSU7myu6wfe4wqnMs="
       },
       "power": "10",
       "name": "Lovali"
@@ -226,11 +226,15 @@
         "info_url": "https://www.naladao.com",
         "country": "AU"
       },
-      "TBC11": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
-        "info_url": "https://www.lovali.xyz",
-        "country": "FI"
+      "2ze1jT6SxaWUI9yECwYJaPIf1lBSU7myu6wfe4wqnMs=": {
+        "id": "25794776055552a92e7b27dd8f15563ffb78defe7694d6c4da8bb258daca897c",
+        "vega_pub_key": "b7e500deb24cc19bd6ebb2311997f0904ca0d9e51541249e9650ab41fd8ac376",
+        "ethereum_address": "0x94124b36696a1aa9DD65e70659Da161A925E3FB5",
+        "tm_pub_key": "2ze1jT6SxaWUI9yECwYJaPIf1lBSU7myu6wfe4wqnMs=",
+        "info_url": "https://lovali.xyz",
+        "country": "FI",
+        "name": "Lovali",
+        "avatar_url": ""
       },
       "TBC12": {
         "vega_pub_key": "TBC",

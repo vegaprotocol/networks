@@ -94,10 +94,10 @@
       "name": "Commodum DAO"
     },
     {
-      "address": "TBC",
+      "address": "3619F6EC431527F02457875B7355041ADBB54772",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
+        "value": "7xmxwJpTnPHt6u+18ggFIJzlTWtfKSLKBFkGD6AC99o="
       },
       "power": "10",
       "name": "P2P"
@@ -214,11 +214,17 @@
         "info_url": "https://commodum.io",
         "country": "UK"
       },
-      "TBC9": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
-        "info_url": "https://p2p.org/",
-        "country": "RU"
+      {
+        "7xmxwJpTnPHt6u+18ggFIJzlTWtfKSLKBFkGD6AC99o=": {
+          "id": "5ca98e0dd81143fafea3a3abcefafee73f3886ac97053db8b446593e75c10e9d",
+          "vega_pub_key": "aad2be546ba83cbcab4c1d57ebe22b4a942f294f54333f1a7c2c9ef0e9fe19bb",
+          "ethereum_address": "0x7E8e08F2991dfD6e8E142F5d5219EcA44900ec9b",
+          "tm_pub_key": "7xmxwJpTnPHt6u+18ggFIJzlTWtfKSLKBFkGD6AC99o=",
+          "info_url": "https://p2p.org",
+          "country": "RU",
+          "name": "P2P.ORG Validator",
+          "avatar_url": ""
+        }
       },
       "TBC10": {
         "vega_pub_key": "TBC",

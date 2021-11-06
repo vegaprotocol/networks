@@ -190,11 +190,16 @@
         "info_url": "https://stakingfacilities.com",
         "country": "Germany"
       },
-      "TBC5": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
+      "uBr9FP/M/QyVtOa3j18+hjksXra7qxCa7e25/FVW5c0=": {
+        "id": "4f69b1784656174e89eb094513b7136e88670b42517ed0e48cb6fd3062eb8478",
+        "vega_pub_key": "f4686749895bf51c6df4092ef6be4279c384a3c380c24ea7a2fd20afc602a35d",
+        "ethereum_address": "0xF3920d9Ab483177C99846503A118fa84A557bB27",
+        "tm_pub_key": "uBr9FP/M/QyVtOa3j18+hjksXra7qxCa7e25/FVW5c0=",
         "info_url": "https://nodes.guru",
-        "country": "Russia"
+        "country": "RU",
+        "name": "Nodes Guru",
+        "avatar_url": ""
+      }
       },
       "TBC6": {
         "vega_pub_key": "TBC",

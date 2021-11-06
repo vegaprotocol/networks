@@ -58,10 +58,10 @@
       "name": "Staking Facilities"
     },
     {
-      "address": "TBC",
+      "address": "91484AD0B6343D73690F1D36A80EF92B67622C47",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
+        "value": "uBr9FP/M/QyVtOa3j18+hjksXra7qxCa7e25/FVW5c0="
       },
       "power": "10",
       "name": "Nodes Guru"

@@ -85,10 +85,10 @@
       "name": "XPRV"
     },
     {
-      "address": "TBC",
+      "address": "EB6378B3DA7659C369C5590DA1FFB7211FC4FC2F",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
+        "value": "+eIIplOcSftzYKXdSIvSmG0LgK6avHDYK3LpECe1JNs="
       },
       "power": "10",
       "name": "Commodum DAO"
@@ -208,11 +208,15 @@
         "info_url": "https://xprv.io/",
         "country": "UK"
       },
-      "TBC8": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
+      "+eIIplOcSftzYKXdSIvSmG0LgK6avHDYK3LpECe1JNs=": {
+        "id": "b861c11eb825d55f835aec898b3caae66a681a354bcb59651d5b3faf02b34844",
+        "vega_pub_key": "cf295dff6d9506e8a905d168a44dfcff2f64bd0a6671783a469f8322959c62e2",
+        "ethereum_address": "0xa88E4b7a9DA62fd82e9f65a60450Fc8237468b0B",
+        "tm_pub_key": "+eIIplOcSftzYKXdSIvSmG0LgK6avHDYK3LpECe1JNs=",
         "info_url": "https://commodum.io",
-        "country": "UK"
+        "country": "UK",
+        "name": "Commodum DAO",
+        "avatar_url": ""        
       },
       "TBC9": {
         "vega_pub_key": "TBC",

@@ -18,7 +18,8 @@
         "ed25519"
       ]
     },
-    "version": {}
+    "version": {
+    }
   },
   "validators": [
     {
@@ -232,19 +233,17 @@
         "info_url": "https://commodum.io",
         "country": "UK",
         "name": "Commodum DAO",
-        "avatar_url": ""        
+        "avatar_url": ""
       },
-      {
-        "7xmxwJpTnPHt6u+18ggFIJzlTWtfKSLKBFkGD6AC99o=": {
-          "id": "5ca98e0dd81143fafea3a3abcefafee73f3886ac97053db8b446593e75c10e9d",
-          "vega_pub_key": "aad2be546ba83cbcab4c1d57ebe22b4a942f294f54333f1a7c2c9ef0e9fe19bb",
-          "ethereum_address": "0x7E8e08F2991dfD6e8E142F5d5219EcA44900ec9b",
-          "tm_pub_key": "7xmxwJpTnPHt6u+18ggFIJzlTWtfKSLKBFkGD6AC99o=",
-          "info_url": "https://p2p.org",
-          "country": "RU",
-          "name": "P2P.ORG Validator",
-          "avatar_url": ""
-        }
+      "7xmxwJpTnPHt6u+18ggFIJzlTWtfKSLKBFkGD6AC99o=": {
+        "id": "5ca98e0dd81143fafea3a3abcefafee73f3886ac97053db8b446593e75c10e9d",
+        "vega_pub_key": "aad2be546ba83cbcab4c1d57ebe22b4a942f294f54333f1a7c2c9ef0e9fe19bb",
+        "ethereum_address": "0x7E8e08F2991dfD6e8E142F5d5219EcA44900ec9b",
+        "tm_pub_key": "7xmxwJpTnPHt6u+18ggFIJzlTWtfKSLKBFkGD6AC99o=",
+        "info_url": "https://p2p.org",
+        "country": "RU",
+        "name": "P2P.ORG Validator",
+        "avatar_url": ""
       },
       "TBC10": {
         "vega_pub_key": "TBC",
@@ -361,8 +360,7 @@
     "network_limits": {
       "propose_market_enabled": false,
       "propose_asset_enabled": false,
-      "propose_market_enabled_from": "2021-12-31T23:59:59Z",
-      "propose_asset_enabled_from": "2021-12-31T23:59:59Z"
+      "bootstrap_block_count": 900
     }
   }
 }

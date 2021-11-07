@@ -119,6 +119,15 @@
       },
       "power": "10",
       "name": "Greenfield One"
+    },
+    {
+      "address": "4CCD0C4B9C47ABBF16C96C073912794AAED13879",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "QVbYlwRu/ofHRefAC4VOEaGEXnOLWPG/BVGm9QuVoYE="
+      },
+      "power": "10",
+      "name": "B-Harvest"
     }
   ],
   "app_hash": "",
@@ -244,6 +253,16 @@
         "info_url": "https://greenfield.one/",
         "country": "DE",
         "name": "Greenfield One",
+        "avatar_url": ""
+      },
+      "QVbYlwRu/ofHRefAC4VOEaGEXnOLWPG/BVGm9QuVoYE=": {
+        "id": "41ec482fabd230bfb301c10000311307799990e79b6b7faadba45668f8c0b608",
+        "vega_pub_key": "aef273dea7af46975c2088353d7baffd43b38d3c178f8915d4a97ff6e0be7b29",
+        "ethereum_address": "0x9692C6d0A9C91201Cfb0Bd8F1771893F60ff0753",
+        "tm_pub_key": "QVbYlwRu/ofHRefAC4VOEaGEXnOLWPG/BVGm9QuVoYE=",
+        "info_url": "https://bharvest.io",
+        "country": "KR",
+        "name": "B-Harvest",
         "avatar_url": ""
       }
     },

@@ -121,10 +121,10 @@
       "name": "Lovali"
     },
     {
-      "address": "TBC",
+      "address": "34DA2E4636D96ABE36AE63D3A01A9AC86802A1CF",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
+        "value": "vQVqN1N0+k1GtGZmB8gb1b9BR/cdcYFZtxgiywaTVYM="
       },
       "power": "10",
       "name": "B-Harvest"
@@ -254,11 +254,15 @@
         "info_url": "https://www.lovali.xyz",
         "country": "FI"
       },
-      "TBC12": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
-        "info_url": "https://bharvest.io/",
-        "country": "KR"
+      "vQVqN1N0+k1GtGZmB8gb1b9BR/cdcYFZtxgiywaTVYM=": {
+        "id": "43697a3e911d8b70c0ce672adde17a5c38ca8f6a0486bf85ed0546e1b9a82887",
+        "vega_pub_key": "68ed0770fc3e67b74d09c05443243d27e29a8513dc0e8628beb98338cd509159",
+        "ethereum_address": "0xAd3EB716a9C4B7eA98b175f4ca73ad01289104B0",
+        "tm_pub_key": "vQVqN1N0+k1GtGZmB8gb1b9BR/cdcYFZtxgiywaTVYM=",
+        "info_url": "https://bharvest.io",
+        "country": "KR",
+        "name": "B-Harvest",
+        "avatar_url": ""
       },
       "GaMcnnlXJGAgf43pQIg3UBwQqlyLRH7ow+CTzzVtBIQ=": {
         "id": "55504e9bfd914a7bbefa342c82f59a2f4dee344e5b6863a14c02a812f4fbde32",

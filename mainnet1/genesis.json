@@ -67,10 +67,10 @@
       "name": "Nodes Guru"
     },
     {
-      "address": "TBC",
+      "address": "D13E2E3867E1B13DEBA8C9E225B4296477098DEA",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
+        "value": "YnG3Ll/e/k1kVEvms90GAuwdf3N20CESh4wAritLgyU="
       },
       "power": "10",
       "name": "Figment"
@@ -200,11 +200,15 @@
         "info_url": "https://nodes.guru",
         "country": "Russia"
       },
-      "TBC6": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
+      "YnG3Ll/e/k1kVEvms90GAuwdf3N20CESh4wAritLgyU=": {
+        "id": "ac735acc9ab11cf1d8c59c2df2107e00092b4ac96451cb137a1629af5b66242a",
+        "vega_pub_key": "07c616caa7d2f12ece01466463ead4ebc921bc9ac79a05e28c5208beffa49f40",
+        "ethereum_address": "0x6532A4E841136d5eDC346A1bE2a6D518E0395520",
+        "tm_pub_key": "YnG3Ll/e/k1kVEvms90GAuwdf3N20CESh4wAritLgyU=",
         "info_url": "https://figment.io",
-        "country": "Canada"
+        "country": "Canada",
+        "name": "Figment",
+        "avatar_url": "https://figment.io/apple-touch-icon.png"
       },
       "TBC7": {
         "vega_pub_key": "TBC",

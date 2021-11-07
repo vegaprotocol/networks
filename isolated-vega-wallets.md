@@ -109,7 +109,7 @@ registryFilePath:
 
 Then we can also generate our validator payload to be used on the tendermint genesis file as usual:
 ```
-vega genesis new validator --country="FR" --info-url="http://lol.com" --wallet="node-1"
+vega genesis new validator --country="FR" --info-url="http://lol.com" --name="node-1"
 Enter node wallet passphrase:
 Info to add in genesis file under `validators` key
 {

@@ -22,6 +22,15 @@
   },
   "validators": [
     {
+      "address": "974C0B750A6B411E4787231BF049067B5B97903D",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "BeNr+VTSHWFXgDgpAURJ/wU+u6OfKx3F7zolLLb7ZTE="
+      },
+      "power": "10",
+      "name": "Chorus One"
+    },
+    {
       "address": "3715DCCC24106B73AC1DA33158DE63DD13A8A09D",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
@@ -147,6 +156,16 @@
       }
     },
     "validators": {
+      "BeNr+VTSHWFXgDgpAURJ/wU+u6OfKx3F7zolLLb7ZTE=": {
+        "id": "e008a3da9396635ce1a456958f2a76eae6603cc618d68d3473d176d59daf4dc5",
+        "vega_pub_key": "1bf851dddeefb2c77ea7ae664d2386387527a30809e5fa99c8b8468a387abe5e",
+        "ethereum_address": "0x23154bDB275Fa8fb3bE007C90B60659aD8217Bb3",
+        "tm_pub_key": "BeNr+VTSHWFXgDgpAURJ/wU+u6OfKx3F7zolLLb7ZTE=",
+        "info_url": "http://chorus.one",
+        "country": "CH",
+        "name": "Chorus One",
+        "avatar_url": ""
+      },
       "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=": {
         "id": "8ce58fb732d76520b06d17b894db1464ec96562efe57eb7451122cc41c709f43",
         "vega_pub_key": "0717908fdf6fe99dd6cc9bb19cec8c894bebc3f9edcfbba92e1d36bb0a060bbe",

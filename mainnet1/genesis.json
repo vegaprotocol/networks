@@ -340,6 +340,7 @@
       "market.liquidityProvision.shapes.maxSize": "100",
       "reward.staking.delegation.payoutFraction": "1.0",
       "reward.staking.delegation.maxPayoutPerParticipant": "700000000000000000000",
+      "reward.staking.delegation.maxPayoutPerEpoch": "9890000000000000000000",
       "reward.staking.delegation.payoutDelay": "72h",
       "reward.staking.delegation.delegatorShare": "0.883",
       "reward.staking.delegation.minimumValidatorStake": "3000000000000000000000",

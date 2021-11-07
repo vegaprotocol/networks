@@ -58,10 +58,10 @@
       "name": "Staking Facilities"
     },
     {
-      "address": "TBC",
+      "address": "91484AD0B6343D73690F1D36A80EF92B67622C47",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
+        "value": "uBr9FP/M/QyVtOa3j18+hjksXra7qxCa7e25/FVW5c0="
       },
       "power": "10",
       "name": "Nodes Guru"
@@ -194,11 +194,15 @@
         "name": "Staking Facilities",
         "avatar_url": "https://s3.amazonaws.com/keybase_processed_uploads/bfe5fc72eaafa5a4444eb048fd88a705_360_360.jpg"
       },
-      "TBC5": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
+      "uBr9FP/M/QyVtOa3j18+hjksXra7qxCa7e25/FVW5c0=": {
+        "id": "4f69b1784656174e89eb094513b7136e88670b42517ed0e48cb6fd3062eb8478",
+        "vega_pub_key": "f4686749895bf51c6df4092ef6be4279c384a3c380c24ea7a2fd20afc602a35d",
+        "ethereum_address": "0xF3920d9Ab483177C99846503A118fa84A557bB27",
+        "tm_pub_key": "uBr9FP/M/QyVtOa3j18+hjksXra7qxCa7e25/FVW5c0=",
         "info_url": "https://nodes.guru",
-        "country": "Russia"
+        "country": "RU",
+        "name": "Nodes Guru",
+        "avatar_url": ""
       },
       "YnG3Ll/e/k1kVEvms90GAuwdf3N20CESh4wAritLgyU=": {
         "id": "ac735acc9ab11cf1d8c59c2df2107e00092b4ac96451cb137a1629af5b66242a",

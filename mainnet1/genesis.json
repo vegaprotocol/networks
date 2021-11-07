@@ -41,10 +41,10 @@
       "name": "Greenfield One"
     },
     {
-      "address": "TBC",
+      "address": "15B7DA235BEED81158737FBFE79C6264D5E2E5FF",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
+        "value": "g2QGqXnfkNmmVO4QSw/wu5kpk8rbaY+I4qYNzk7QJTc="
       },
       "power": "10",
       "name": "Ryabina"
@@ -183,11 +183,15 @@
         "name": "Greenfield One",
         "avatar_url": "https://www.greenfield.one/avatar.png"
       },
-      "TBC3": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
+      "g2QGqXnfkNmmVO4QSw/wu5kpk8rbaY+I4qYNzk7QJTc=": {
+        "id": "5db9794f44c85b4b259907a00c8ea2383ad688dfef6ffb72c8743b6ae3eaefd4",
+        "vega_pub_key": "437a951ef5f30cccf8840fec47798d456512269fee7bae82b43630861d04cbca",
+        "ethereum_address": "0xe64f539dc59DA01ec95d10a665581fDbA0194215",
+        "tm_pub_key": "g2QGqXnfkNmmVO4QSw/wu5kpk8rbaY+I4qYNzk7QJTc=",
         "info_url": "https://ryabina.io",
-        "country": "UK"
+        "country": "FR",
+        "name": "Ryabina",
+        "avatar_url": "https://ryabina.io/apple-touch-icon.png"
       },
       "Chx00Gr/+/tzwoZVUdMzcIl6O79muzwUIveCfGXaemc=": {
         "id": "f3022974212780ea1196af08fd2e8a9c0d784d0be8e97637bd5e763ac4c219bd",

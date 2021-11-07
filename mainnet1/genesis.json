@@ -291,7 +291,7 @@
     },
     "network_parameters": {
       "blockchains.ethereumConfig": "{\"network_id\": \"1\", \"chain_id\": \"1\", \"bridge_address\": \"0x4149257d844Ef09f11b02f2e73CbDfaB4c911a73\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0x23d1bFE8fA50a167816fBD79D7932577c06011f4\", \"0x195064D33f09e0c42cF98E665D9506e0dC17de68\"]}",
-      "governance.vote.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
+      "reward.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
       "governance.proposal.market.maxClose": "720h",
       "governance.proposal.market.maxEnact": "720h",
       "governance.proposal.market.minClose": "168h",
@@ -336,7 +336,7 @@
       "market.liquidity.targetstake.triggering.ratio": "0.7",
       "market.liquidity.probabilityOfTrading.tau.scaling": "10.0",
       "market.liquidity.minimum.probabilityOfTrading.lpOrders": "1e-8",
-      "market.stake.target.timeWindow": "1h0",
+      "market.stake.target.timeWindow": "1h",
       "market.stake.target.scalingFactor": "0.1",
       "market.value.windowLength": "168h",
       "market.monitor.price.defaultParameters": "{\"triggers\": [{\"auction_extension\": 300, \"horizon\": 43200, \"probability\": 0.9999999}] }",

@@ -104,15 +104,6 @@
       "name": "P2P"
     },
     {
-      "address": "TBC",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "TBC"
-      },
-      "power": "10",
-      "name": "Nala DAO"
-    },
-    {
       "address": "B8095C5B57FDC602137B96E0426A3770DCF10323",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
@@ -166,12 +157,6 @@
         "country": "CH",
         "name": "Chorus One",
         "avatar_url": ""
-      },
-      "TBC2": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
-        "info_url": "https://www.greenfield.one",
-        "country": "Germany"
       },
       "0ShTSZ9Ss8AFHuDz1nIGMrGucjXhFdJyUTT7Eqibjq8=": {
         "id": "126751c5830b50d39eb85412fb2964f46338cce6946ff455b73f1b1be3f5e8cc",
@@ -252,12 +237,6 @@
         "country": "RU",
         "name": "P2P.ORG Validator",
         "avatar_url": ""
-      },
-      "TBC10": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
-        "info_url": "https://www.naladao.com",
-        "country": "AU"
       },
       "2ze1jT6SxaWUI9yECwYJaPIf1lBSU7myu6wfe4wqnMs=": {
         "id": "25794776055552a92e7b27dd8f15563ffb78defe7694d6c4da8bb258daca897c",

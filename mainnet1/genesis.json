@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-11-08T12:00:00.000000000Z",
+  "genesis_time": "2021-11-12T12:00:00.000000000Z",
   "chain_id": "vega-mainnet-0001",
   "initial_height": "0",
   "consensus_params": {

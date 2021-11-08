@@ -104,6 +104,15 @@
       "name": "P2P"
     },
     {
+      "address": "13FA0B679D6064772567C7A6050B42CCA1C7C8CD",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "7kRL1jCJH8QUDTHK90/Nz9lIAvl8/s1Z70XL1EXFkaM="
+      },
+      "power": "10",
+      "name": "Nala DAO"
+    },
+    {
       "address": "B8095C5B57FDC602137B96E0426A3770DCF10323",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
@@ -237,6 +246,16 @@
         "country": "RU",
         "name": "P2P.ORG Validator",
         "avatar_url": ""
+      },
+      "7kRL1jCJH8QUDTHK90/Nz9lIAvl8/s1Z70XL1EXFkaM=": {
+        "id": "8d33c6e06207ed5735c8b5b6c0c6234f44eb381b242a25a538ed3315369d2203",
+        "vega_pub_key": "7d69327393cdfaaae50e5e215feca65273eafabfb38f32b8124e66298af346d5",
+        "ethereum_address": "0x4e5fe67964254EA035F7F927803102712557edEa",
+        "tm_pub_key": "7kRL1jCJH8QUDTHK90/Nz9lIAvl8/s1Z70XL1EXFkaM=",
+        "info_url": "https://www.naladao.com",
+        "name": "Nala DAO",
+        "country": "AU",
+        "avatar_url": "https://nala-images.s3.ap-southeast-2.amazonaws.com/icons/nalasmall.jpg"
       },
       "2ze1jT6SxaWUI9yECwYJaPIf1lBSU7myu6wfe4wqnMs=": {
         "id": "25794776055552a92e7b27dd8f15563ffb78defe7694d6c4da8bb258daca897c",

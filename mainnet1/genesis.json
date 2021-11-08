@@ -167,12 +167,6 @@
         "name": "Chorus One",
         "avatar_url": ""
       },
-      "TBC2": {
-        "vega_pub_key": "TBC",
-        "ethereum_address": "TBC",
-        "info_url": "https://www.greenfield.one",
-        "country": "Germany"
-      },
       "0ShTSZ9Ss8AFHuDz1nIGMrGucjXhFdJyUTT7Eqibjq8=": {
         "id": "126751c5830b50d39eb85412fb2964f46338cce6946ff455b73f1b1be3f5e8cc",
         "vega_pub_key": "a6e6f7daf8610f9242ab6ab46b394f6fb79cf9533d48051ca7a2f142b8b700a8",

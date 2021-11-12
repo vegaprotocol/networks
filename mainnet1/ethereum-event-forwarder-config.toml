@@ -15,7 +15,7 @@ log_level = 'info' # error, info, debug, trace, silent
 
 [ethereum]
   # Example, replace before running
-  http_endpoint = "https://ropsten.infura.io/v3/API_TOKEN"
+  http_endpoint = "https://mainnet.infura.io/v3/API_TOKEN"
   # Number of confirmations before forwarding an event
   confirmations = 50
 

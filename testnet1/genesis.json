@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-09-03T12:00:00.050701478Z",
-  "chain_id": "vega-testnet-0001-v6",
+  "chain_id": "vega-testnet-0001-v7",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -215,7 +215,7 @@
         "country": "UK",
         "name": "xprv-1",
         "avatar_url": ""
-      }, 
+      },
       "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM=": {
         "id": "ea0019f6b89176f709cac4e4aba383cd6f9db6ea4c6ddfa0758fe962442fd8db",
         "vega_pub_key": "d665ae57018b992105885c3d33ddff5b7d2d0baa2c32147117e460215a31764f",
@@ -294,7 +294,7 @@
       "bootstrap_block_count": 300
     },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x310F5ED416c36fF82905930cB3dBa560000A9130\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xfce2CC92203A266a9C8e67461ae5067c78f67235\"]}",
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x0614188938f5C3bD8461D4B413A39eeC2C5f42D9\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xfce2CC92203A266a9C8e67461ae5067c78f67235\"]}",
       "reward.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
       "governance.proposal.market.maxClose": "720h0m0s",
       "governance.proposal.market.maxEnact": "720h0m0s",

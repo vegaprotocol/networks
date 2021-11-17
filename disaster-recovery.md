@@ -75,11 +75,19 @@ In the event a validator disappears, their multisig key is lost (or, worse, sold
 
 ### Scenario 1.7: Loss of control of MultiSig contract on Ethereum
 
-TBC
+In the event that t+1 validators lose their ETH key/go bankrupt/disappear without trace, and the multisig contract is not adapted fast enough, we lost control of the contract. As there’s limited assets on three for the time being, Vega can be reborn with a new instance.
+
+1. Stop the chain immediately
+2. Conduct root cause to determine how this happened
+3. Restart with a new instance of the contract
+
 
 ## Scenario 2: Incorrect Genesis file configuration
 
-TBC
+In the event that the genesis configuration is incorrect and this causes a major incident when the network has been started:
+
+### Scenario 2: Incorrect Genesis file configuration
+
 
 ## Scenario 3: Less than 2/3+1 of the validators are active
 

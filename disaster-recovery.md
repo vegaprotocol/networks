@@ -68,9 +68,9 @@ In the event several keys are compromised/found to be compromised in a short tim
 
 In the event a validator disappears, their multisig key is lost (or, worse, sold during the  bankruptcy proceedings when someone else buys the HSM. Yes, this has happened in the past). To make sure this does not escalate into the next scenario, the other validators need to remove that signer reasonably quickly (a matter of one or two days) to reset the thresholds.
 
-1. Call 'remove_signer' on the [MultisigControl Contract](https://etherscan.io/address/0x9d0707C91C67d598808834b4881348684e92E11e#writeContract) with the affected key
+1. Call `remove_signer` on the [MultisigControl Contract](https://etherscan.io/address/0x9d0707C91C67d598808834b4881348684e92E11e#writeContract) with the affected key
 2. Find a reliable validator to replace this party and agree this validator using appropriate validator governance processes
-3. Call 'add_signer' to add a new validator on the [MultisigControl Contract](https://etherscan.io/address/0x9d0707C91C67d598808834b4881348684e92E11e#writeContract) 
+3. Call `add_signer` to add a new validator on the [MultisigControl Contract](https://etherscan.io/address/0x9d0707C91C67d598808834b4881348684e92E11e#writeContract) 
 
 
 ### Scenario 1.7: Loss of control of MultiSig contract on Ethereum
@@ -97,8 +97,8 @@ In the event that the genesis configuration is incorrect and this causes a major
 ### Scenario 2.2: If the impact of the incorrect configuration CAN be managed/mitigated with the network running and the parameter CAN be changed via governance
 **NOTE:** This action will only work if the parameter/config is able to be changed via a governance proposal AND time is not critical in the parameter being updated. If this is time critical it's recommended to jump to go to Scenario 2.4. 
 
-1. Create a network parameter governance proposal 'vega wallet command --name="testing-mainnet" --pubkey="<my-public-key>" '{<insert json payload of proposal>}''
-2. Coordinate between validators to vote and enact this change. 'vega wallet command --name="testing-mainnet" --pubkey="<my-public-key>" '{"proposalSubmission": {"reference": "some-ref", "terms": {"closingTimestamp": "1234567890", "enactmentTimestamp": "1234567891", "validationTimestamp": "1234567892", "updateNetworkParameter": { "changes": { "key": "<network-parameter>", "value": "<new-value>" } } } } }''
+1. Create a network parameter governance proposal `vega wallet command --name="testing-mainnet" --pubkey="<my-public-key>" '{<insert json payload of proposal>}'`
+2. Coordinate between validators to vote and enact this change. `vega wallet command --name="testing-mainnet" --pubkey="<my-public-key>" '{"proposalSubmission": {"reference": "some-ref", "terms": {"closingTimestamp": "1234567890", "enactmentTimestamp": "1234567891", "validationTimestamp": "1234567892", "updateNetworkParameter": { "changes": { "key": "<network-parameter>", "value": "<new-value>" } } } } }'`
 
 
 ### Scenario 2.3: If the incorrect configuration CANNOT be changed via a governance proposal and the parameter is NOT part of the checkpoint data
@@ -117,6 +117,7 @@ In the event that the genesis configuration is incorrect and this causes a major
 4. Restart the network using the last [checkpoint](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
 
 (Hardcoding values would be implemented at a block height so that it’s only hard coded for the time it’s needed, not in the software until the next deployment.)
+
 
 ## Scenario 3: Less than 2/3+1 of the validators are active
 

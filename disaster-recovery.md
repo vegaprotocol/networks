@@ -42,7 +42,14 @@ In the event that the Vega master key is compromised, one can assume that the va
 
 ### Scenario 1.4: Tendermint key compromised
 
-TBC
+In the event a tendermint key gets compromised, a third party cannot double sign messages in that validator's name. This is not highly critical if it happens to only one validator, but that validator should replace its key as soon as reasonable to not allow this situation to get worse through multiple compromises.
+
+**Note**: It is generally hard to detect a key compromise; this is normally discovered only through a general compromise (in which case all keys in working memory should be considered compromised), or by someone else using the key. In the specific case of the Tendermint key, a double signing could also stem from a misconfiguration or an error in switching between validator replicas; thus, a single double signing by a validator should be investigated, but does not require disaster recovery right away.
+
+1. Inform other validators that your tendermint key has been compromised and switch off your node.
+2. At network restart, add the new tendermint pubkey in the [genesis.json](https://github.com/vegaprotocol/networks#genesis-config-for-validator) and join others on a LNL [checkpoint restart](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
+
+
 
 ### Scenario 1.5: Several keys compromised in a short period of time
 

@@ -2,9 +2,11 @@
 
 This documentation describes how to recover from critical network failure scenarios.
 
+
 ## Scenario 1: Dealing with compromised keys, or loss of network control
 
 The following section deals with the situation where different keys become compromised, or where the validators collectively lose control of the network, or critical components comprising the application stack.
+
 
 ### Scenario 1.1: Ethereum key compromised
 
@@ -17,6 +19,7 @@ The Ethereum key can be replaced by following the steps below.
 3. After removing the compromised key, the new key for the validator must be added to the `MultisigControl` contract by calling the `add_signer` function. The signature bundle is generated in the same way as for (2).
 4. The Vega CLI can be used to generate signatures, please execute `vega bridge erc20 -h` for further instructions.
 
+
 ### Scenario 1.2: Vega hot key compromised
 
 In the event that the Vega hot key is compromised, it can be replaced using the steps below.
@@ -25,6 +28,7 @@ In the event that the Vega hot key is compromised, it can be replaced using the 
 2. Use the Vega master key to generate a new hot key (refer to [generating keys](https://github.com/vegaprotocol/networks#generating-vega-keys)).
 3. Submit a transaction to the Vega network, signed with your master key, authorising the new hot key. This is done by xxx.
 4. Rejoin the network when the rest of the validators choose to restore the chain from a [checkpoint file](https://github.com/vegaprotocol/networks#restore-from-checkpoint).
+
 
 ### Scenario 1.3: Vega master key compromised
 
@@ -50,14 +54,24 @@ In the event a tendermint key gets compromised, a third party cannot double sign
 2. At network restart, add the new tendermint pubkey in the [genesis.json](https://github.com/vegaprotocol/networks#genesis-config-for-validator) and join others on a LNL [checkpoint restart](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
 
 
-
 ### Scenario 1.5: Several keys compromised in a short period of time
 
-TBC
+In the event several keys are compromised/found to be compromised in a short time, the network is under a (successful) attack from a competent and dedicated attacker (APT: Advanced persistent attacker). This means we should assume the worst case scenario, that the network is under attack and the attacker is after all keys.
+
+1. Disconnect all servers you can that had any access to any of the three keys. 
+2. Start a very thorough forensic audit of *everything* to ensure you’re still safe.
+
+**Do we not need more actual instruction here?  What is "everything"?  Are these actions in addition to the steps outlined in the scenarios above or instead?**
+
 
 ### Scenario 1.6: Validator (and their keys) permanently gone, i.e. bankrupt
 
-TBC
+In the event a validator disappears, their multisig key is lost (or, worse, sold during the  bankruptcy proceedings when someone else buys the HSM. Yes, this has happened in the past). To make sure this does not escalate into the next scenario, the other validators need to remove that signer reasonably quickly (a matter of one or two days) to reset the thresholds.
+
+1. Call 'remove_signer' on the [MultisigControl Contract](https://etherscan.io/address/0x9d0707C91C67d598808834b4881348684e92E11e#writeContract) with the affected key
+2. Find a reliable validator to replace this party and agree this validator using appropriate validator governance processes
+3. Call 'add_signer' to add a new validator on the [MultisigControl Contract](https://etherscan.io/address/0x9d0707C91C67d598808834b4881348684e92E11e#writeContract) 
+
 
 ### Scenario 1.7: Loss of control of MultiSig contract on Ethereum
 

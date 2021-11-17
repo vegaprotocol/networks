@@ -33,9 +33,9 @@ In the event that the Vega master key is compromised, one can assume that the va
 1. Since we assume in this case that the validator's ethereum key is also compromised - follow steps from [Scenario 1.1: Ethereum key compromised](https://github.com/vegaprotocol/networks/blob/disaster-recovery-docs/disaster-recovery.md#scenario-11-ethereum-key-compromised)
 2. Since we assume in this case the validator's your hot key is also compromised - follow steps 1 - 3 from [Scenario 1.2: Vega hot key compromised](https://github.com/vegaprotocol/networks/blob/disaster-recovery-docs/disaster-recovery.md#scenario-12-vega-hot-key-compromised)
 3. Inform the other validators via the appropriate channels to immediately remove the compromised node from the network:
-   a. Stop the network
-   b. Update the genesis config file to remove the compromised node
-   c. Restore from checkpoint using the instructions [here](https://github.com/vegaprotocol/networks#restore-from-checkpoint)
+   1. Stop the network
+   2. Update the genesis config file to remove the compromised node
+   3. Restore from checkpoint using the instructions [here](https://github.com/vegaprotocol/networks#restore-from-checkpoint)
 4. Use newly generated ethereum key to associate ERC20 Vega tokens from the compromised node to the new master key. 
 5. Inform all token holders that delegated to the compromised node to move their delegation. 
 

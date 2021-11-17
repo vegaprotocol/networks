@@ -122,7 +122,19 @@ In the event that the genesis configuration is incorrect and this causes a major
 
 ## Scenario 3: Less than 2/3+1 of the validators are active
 
-TBC
+### Scenario 3.1: If the network has not been running long
+**NOTE:** As chain events grow, the data required to catch up will become too large for this to be a viable action.
+
+1. Restart the node(s) and see the chain data. 
+2. Each node will try to replay the chain to the latest block. 
+
+
+### Scenario 3.2: If 3.1 is not viable due to age of the network
+**NOTE:** If there is a planned outage happening soon the node(s) could be brought back at that time to avoid unplanned outages.
+
+1. Shut down the full network with coordination between validators.
+2. Restart the network from the last [checkpoint](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
+
 
 ## Scenario 4: Critical bugs
 

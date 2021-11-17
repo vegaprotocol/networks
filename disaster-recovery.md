@@ -30,7 +30,8 @@ In the event that the Vega hot key is compromised, it can be replaced using the 
 
 In the event that the Vega master key is compromised, one can assume that the validator's infrastructure has been rather deeply penetrated. Thus, a compromise of the Vega master key can be seen to imply that all other keys are compromised as well (with the exception of when a HSM has been used; however, as outlined above, even if the key is not known to the attacker it should still be treated as compromised).
 
-TBC
+1. Since we assume in this case that your hot key is also compromised - follow steps 1 - 3 from [generating keys](https://github.com/vegaprotocol/networks#generating-vega-keys)
+2. Since we assume in this case that your ethereum ket is also compromised - follow steps from [generate eth keys](https://github.com/vegaprotocol/networks### Scenario 1.2: Vega hot key compromised)
 
 ### Scenario 1.4: Tendermint key compromised
 

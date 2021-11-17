@@ -61,8 +61,6 @@ In the event several keys are compromised/found to be compromised in a short tim
 1. Disconnect all servers you can that had any access to any of the three keys. 
 2. Start a very thorough forensic audit of *everything* to ensure you’re still safe.
 
-**Do we not need more actual instruction here?  What is "everything"?  Are these actions in addition to the steps outlined in the scenarios above or instead?**
-
 
 ### Scenario 1.6: Validator (and their keys) permanently gone, i.e. bankrupt
 

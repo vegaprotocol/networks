@@ -95,20 +95,20 @@ In the event that the genesis configuration is incorrect and this causes a major
 
 
 ### Scenario 2.2: If the impact of the incorrect configuration CAN be managed/mitigated with the network running and the parameter CAN be changed via governance
-**NOTE:** This action will only work if the parameter/config is able to be changed via a governance proposal AND time is not critical in the parameter being updated. If this is time critical it's recommended to jump to go to Scenario 2.4. 
 
 1. Create a network parameter governance proposal:  **One** validator to run the command to create proposal >> `vega wallet command --name="testing-mainnet" --pubkey="<my-public-key>" '{<insert json payload of proposal>}'`
 
 2. Coordinate between validators to vote and enact this change:  **All** validators run command to vote on proposal >> `vega wallet command --name="testing-mainnet" --pubkey="<my-public-key>" '{"proposalSubmission": {"reference": "some-ref", "terms": {"closingTimestamp": "1234567890", "enactmentTimestamp": "1234567891", "validationTimestamp": "1234567892", "updateNetworkParameter": { "changes": { "key": "<network-parameter>", "value": "<new-value>" } } } } }'`
 
+**NOTE:** This action will only work if the parameter/config is able to be changed via a governance proposal AND time is not critical in the parameter being updated. If this is time critical it's recommended to jump to go to Scenario 2.4. 
 
 ### Scenario 2.3: If the incorrect configuration CANNOT be changed via a governance proposal and the parameter is NOT part of the checkpoint data
-**NOTE:** This action will only work if the parameter/config is NOT part of the checkpoint data
 
 1. Stop the network in coordination with all validators.
 2. Update the [genesis configuration](https://github.com/vegaprotocol/networks#genesis-config-for-validator)
 3. Restart the network from [checkpoint](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
 
+**NOTE:** This action will only work if the parameter/config is NOT part of the checkpoint data
    
 ### Scenario 2.4: If the incorrect configuration CANNOT be changed via governance and the parameter IS part of the checkpoint data 
 
@@ -117,24 +117,24 @@ In the event that the genesis configuration is incorrect and this causes a major
 3. Validators would need to ALL deploy the latest code
 4. Restart the network using the last [checkpoint](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
 
-(Hardcoding values would be implemented at a block height so that it’s only hard coded for the time it’s needed, not in the software until the next deployment.)
+**NOTE:** Hardcoding values would be implemented at a block height so that it’s only hard coded for the time it’s needed, not in the software until the next deployment.
 
 
 ## Scenario 3: Less than 2/3+1 of the validators are active
 
 ### Scenario 3.1: If the network has not been running long
-**NOTE:** As chain events grow, the data required to catch up will become too large for this to be a viable action.
 
 1. Restart the node(s) and see the chain data. 
 2. Each node will try to replay the chain to the latest block. 
 
+**NOTE:** As chain events grow, the data required to catch up will become too large for this to be a viable action.
 
 ### Scenario 3.2: If 3.1 is not viable due to age of the network
-**NOTE:** If there is a planned outage happening soon the node(s) could be brought back at that time to avoid unplanned outages.
 
 1. Shut down the full network with coordination between validators.
 2. Restart the network from the last [checkpoint](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
 
+**NOTE:** If there is a planned outage happening soon the node(s) could be brought back at that time to avoid unplanned outages.
 
 ## Scenario 4: Critical bugs
 
@@ -142,8 +142,25 @@ The following section describes how to resolve critical bugs that manifest in va
 
 ### Scenario 4.1: Critical bug in Vega core ABCI application
 
-TBC
+In the event that a critical bug is found in the protocol software that falls under one of the following conditions that means the network MUST be stopped:
+* Severe financial loss
+* The network is not operational
+* Someone can change balances
+
+1. Shut down the full network with coordination between validators.
+2. The Vega team will replay the chain to investigate the issue
+3. The Vega team will create a new software release that fixes the bug
+4. Validators would ALL need to deploy the latest software release (assuming sucessful governance vote to deploy)
+5. Restart network using the latest [checkpoint](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
+
 
 ### Scenario 4.2: Critical big in a smart contract used by the network
 
-TBC
+In the event that a critical bug is found in tone or more of the Smart Contracts that falls under one of the following conditions::
+* Severe financial loss
+
+1. Shut down the full network with coordination between validators.
+2. The Vega team will investigate the issue
+3. The Vega team will create a new smart contract release that fixes the bug
+4. Restart the network using the latest checkpoint file
+

@@ -146,7 +146,9 @@ In the event that a critical bug is found in the protocol software that falls un
 * Severe financial loss
 * The network is not operational
 * Someone can change balances
+
 If this should occur the following actions should be taken
+
 1. Shut down the full network with coordination between validators.
 2. The Vega team will replay the chain to investigate the issue
 3. The Vega team will create a new software release that fixes the bug
@@ -158,6 +160,8 @@ If this should occur the following actions should be taken
 
 In the event that a critical bug is found in tone or more of the Smart Contracts that falls under one of the following conditions::
 * Severe financial loss
+
+If this should occur the following actions should be taken:
 
 1. Shut down the full network with coordination between validators.
 2. The Vega team will investigate the issue

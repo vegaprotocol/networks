@@ -86,8 +86,37 @@ In the event that t+1 validators lose their ETH key/go bankrupt/disappear withou
 
 In the event that the genesis configuration is incorrect and this causes a major incident when the network has been started:
 
-### Scenario 2: Incorrect Genesis file configuration
 
+### Scenario 2.1: If no network events have taken place before the incorrect config is noticed
+
+1. Stop the network in coordination with all validators.
+2. Update the [genesis configuration](https://github.com/vegaprotocol/networks#genesis-config-for-validator)
+3. Restart the network from [checkpoint](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
+
+
+### Scenario 2.2: If the impact of the incorrect configuration CAN be managed/mitigated with the network running and the parameter CAN be changed via governance
+**NOTE:** This action will only work if the parameter/config is able to be changed via a governance proposal AND time is not critical in the parameter being updated. If this is time critical it's recommended to jump to go to Scenario 2.4. 
+
+1. Create a network parameter governance proposal 'vega wallet command --name="testing-mainnet" --pubkey="<my-public-key>" '{<insert json payload of proposal>}''
+2. Coordinate between validators to vote and enact this change. 'vega wallet command --name="testing-mainnet" --pubkey="<my-public-key>" '{"proposalSubmission": {"reference": "some-ref", "terms": {"closingTimestamp": "1234567890", "enactmentTimestamp": "1234567891", "validationTimestamp": "1234567892", "updateNetworkParameter": { "changes": { "key": "<network-parameter>", "value": "<new-value>" } } } } }''
+
+
+### Scenario 2.3: If the incorrect configuration CANNOT be changed via a governance proposal and the parameter is NOT part of the checkpoint data
+**NOTE:** This action will only work if the parameter/config is NOT part of the checkpoint data
+
+1. Stop the network in coordination with all validators.
+2. Update the [genesis configuration](https://github.com/vegaprotocol/networks#genesis-config-for-validator)
+3. Restart the network from [checkpoint](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
+
+   
+### Scenario 2.4: If the incorrect configuration CANNOT be changed via governance and the parameter IS part of the checkpoint data 
+
+1. Stop the network in coordination with all validators and inform Vega team immediately
+2. Vega team to create a software release that would hardcode the value in question into the binary to resolve the issue.
+3. Validators would need to ALL deploy the latest code
+4. Restart the network using the last [checkpoint](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
+
+(Hardcoding values would be implemented at a block height so that it’s only hard coded for the time it’s needed, not in the software until the next deployment.)
 
 ## Scenario 3: Less than 2/3+1 of the validators are active
 

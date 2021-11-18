@@ -24,7 +24,7 @@ log_level = 'info' # error, info, debug, trace, silent
     # Use either the contract deployment height or `-1` for the current block
     # height at initial start
     start_height = -1
-    address = "0x310F5ED416c36fF82905930cB3dBa560000A9130"
+    address = "0x0614188938f5C3bD8461D4B413A39eeC2C5f42D9"
 
   # Addresses and height at which to accept events from the Staking contract
   [ethereum.staking]

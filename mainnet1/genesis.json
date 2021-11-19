@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-11-12T12:00:00.000000000Z",
-  "chain_id": "vega-mainnet-0001",
+  "chain_id": "vega-mainnet-0002",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -202,10 +202,10 @@
         "vega_pub_key": "f4686749895bf51c6df4092ef6be4279c384a3c380c24ea7a2fd20afc602a35d",
         "ethereum_address": "0xF3920d9Ab483177C99846503A118fa84A557bB27",
         "tm_pub_key": "uBr9FP/M/QyVtOa3j18+hjksXra7qxCa7e25/FVW5c0=",
-        "info_url": "https://nodes.guru",
+        "info_url": "https://stake.nodes.guru/",
         "country": "RU",
         "name": "Nodes Guru",
-        "avatar_url": ""
+        "avatar_url": "https://nodes.guru/new_logo.svg"
       },
       "YnG3Ll/e/k1kVEvms90GAuwdf3N20CESh4wAritLgyU=": {
         "id": "ac735acc9ab11cf1d8c59c2df2107e00092b4ac96451cb137a1629af5b66242a",
@@ -369,6 +369,8 @@
       "propose_market_enabled": false,
       "propose_asset_enabled": false,
       "bootstrap_block_count": 900
-    }
+    },
+    "checkpoint": {
+      "load_hash": "1d034c6fed10c0902acc87f7319e832f736f451f1e8547fd28d200b26b392b78"
   }
 }

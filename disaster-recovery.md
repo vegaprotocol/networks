@@ -98,7 +98,7 @@ In the event that the genesis configuration is incorrect and this causes a major
 
 2. Coordinate between validators to vote and enact this change:  **All** validators run command to vote on proposal >> `vega wallet command --name="testing-mainnet" --pubkey="<my-public-key>" '{"proposalSubmission": {"reference": "some-ref", "terms": {"closingTimestamp": "1234567890", "enactmentTimestamp": "1234567891", "validationTimestamp": "1234567892", "updateNetworkParameter": { "changes": { "key": "<network-parameter>", "value": "<new-value>" } } } } }'`
 
-**NOTE:** This action will only work if the parameter/config is able to be changed via a governance proposal AND time is not critical in the parameter being updated. If this is time critical it's recommended to jump to go to Scenario 2.4. 
+**NOTE:** This action will only work if the parameter/config is able to be changed via a governance proposal AND time is not critical in the parameter being updated. If this is time critical it's recommended to jump to go to [Scenario 2.4.](https://github.com/vegaprotocol/networks/blob/disaster-recovery-docs/disaster-recovery.md#scenario-24-if-the-incorrec[…]-part-of-the-checkpoint-data). 
 
 ### Scenario 2.3: If the incorrect configuration CANNOT be changed via a governance proposal and the parameter is NOT part of the checkpoint data
 

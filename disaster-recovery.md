@@ -46,7 +46,7 @@ In the event that the Vega master key is compromised, one can assume that the va
 
 ### Scenario 1.4: Tendermint key compromised
 
-In the event a tendermint key gets compromised, a third party cannot double sign messages in that validator's name. This is not highly critical if it happens to only one validator, but that validator should replace its key as soon as reasonable to not allow this situation to get worse through multiple compromises.
+In the event a tendermint key gets compromised, a third party can double sign messages in that validator's name. This is not highly critical if it happens to only one validator, but that validator should replace its key as soon as reasonable to not allow this situation to get worse through multiple compromises.
 
 **Note**: It is generally hard to detect a key compromise; this is normally discovered only through a general compromise (in which case all keys in working memory should be considered compromised), or by someone else using the key. In the specific case of the Tendermint key, a double signing could also stem from a misconfiguration or an error in switching between validator replicas; thus, a single double signing by a validator should be investigated, but does not require disaster recovery right away.
 
@@ -73,7 +73,8 @@ In the event a validator disappears, their multisig key is lost (or, worse, sold
 
 ### Scenario 1.7: Loss of control of MultiSig contract on Ethereum
 
-In the event that t+1 validators lose their ETH key/go bankrupt/disappear without trace, and the multisig contract is not adapted fast enough, we lost control of the contract. As there’s limited assets on three for the time being, Vega can be reborn with a new instance.
+Let `t` be the maximum number of validators we can tolerate to be corrupted (i.e., the largest integer less than a third of the total number of validators).
+In the event that `t+1` validators lose their ETH key/go bankrupt/disappear without trace, and the multisig contract is not adapted fast enough, we lost control of the contract. As there’s limited assets on three for the time being, Vega can be reborn with a new instance.
 
 1. Stop the chain immediately
 2. Conduct root cause to determine how this happened

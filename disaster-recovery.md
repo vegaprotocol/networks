@@ -163,6 +163,7 @@ If this should occur the following actions should be taken:
 
 1. Shut down the full network with coordination between validators.
 2. The Vega team will investigate the issue
-3. The Vega team will create a new smart contract release that fixes the bug
-4. Restart the network using the latest checkpoint file
+3. The Vega team will create and deploy a new smart contract release that fixes the bug
+4. Validators would ALL need to deploy the new smart contract address (assuming sucessful governance vote to deploy)
+5. Restart network using the latest [checkpoint](https://github.com/vegaprotocol/networks#restore-from-checkpoint). 
 

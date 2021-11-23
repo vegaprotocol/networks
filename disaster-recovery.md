@@ -26,7 +26,7 @@ In the event that the Vega hot key is compromised, it can be replaced using the 
 
 1. Terminate the affected node.
 2. Use the Vega master key to generate a new hot key (refer to [generating keys](https://github.com/vegaprotocol/networks#generating-vega-keys)).
-3. Submit a transaction to the Vega network, signed with your master key, authorising the new hot key. This is done by xxx.
+3. Submit a transaction to the Vega network, signed with your master key, authorising the new hot key.
 4. Rejoin the network when the rest of the validators choose to restore the chain from a [checkpoint file](https://github.com/vegaprotocol/networks#restore-from-checkpoint).
 
 

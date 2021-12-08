@@ -58,3 +58,7 @@ Host = "127.0.0.1"
 [Console]
   URL = ""
   LocalPort = 1847
+
+[TokenDApp]
+  URL = "token.vega.xyz"
+  LocalPort = 1848

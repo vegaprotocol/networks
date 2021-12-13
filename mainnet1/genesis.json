@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-11-12T12:00:00.000000000Z",
-  "chain_id": "vega-mainnet-0002",
+  "chain_id": "vega-mainnet-0003",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -371,7 +371,7 @@
       "bootstrap_block_count": 900
     },
     "checkpoint": {
-      "load_hash": "1d034c6fed10c0902acc87f7319e832f736f451f1e8547fd28d200b26b392b78"
+      "load_hash": "6be2ad37b3adc87aefcf929faa77e317820ad705a38648d882c46c8b289e8123"
     }
   }
 }

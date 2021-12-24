@@ -71,7 +71,7 @@ drwx------  2 root root 4096 Aug 20 12:06 nodewallet/
 
 ### Generating Vega Keys
 
-Next, we need to generate our Vega keypair, we recommend you generattee your keypairs following the [isolated vega wallet guide](https://github.com/vegaprotocol/networks/blob/master/isolated-vega-wallets.md)
+Next, we need to generate our Vega keypair, we recommend you generate your keypairs following the [isolated vega wallet guide](https://github.com/vegaprotocol/networks/blob/master/isolated-vega-wallets.md)
 
 Once your vega wallet have been generated, you will need to import them in your nodewallet. First we need to locate the wallet, this can be done using the following command:
 ```

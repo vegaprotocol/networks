@@ -365,7 +365,7 @@
       "spam.protection.max.delegations": "360",
       "spam.protection.delegation.min.tokens": "1"
       },
-     "checkpoint": {
+    "checkpoint": {
       "load_hash": "733cfdb9e0ea2f769aab45ba0b8a71dfd376375ad681ee6c5b4b55e779cf3fbe"
     }
   }

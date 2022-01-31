@@ -363,7 +363,15 @@
       "spam.protection.max.proposals": "3",
       "spam.protection.proposal.min.tokens": "200000000000000000000000",
       "spam.protection.max.delegations": "360",
-      "spam.protection.delegation.min.tokens": "1"
+      "spam.protection.delegation.min.tokens": "100000000000000000",
+      "governance.proposal.freeform.minProposerBalance": "1000000000000000000",
+      "governance.proposal.freeform.minVoterBalance": "1000000000000000000",
+      "governance.proposal.freeform.minClose": "72h0m0s",
+      "governance.proposal.freeform.requiredParticipation": "0.1",
+      "governance.proposal.freeform.maxClose": "8760h0m0s",
+      "governance.proposal.freeform.requiredMajority": "0.66",
+      "reward.staking.delegation.optimalStakeMultiplier": "3.0",
+      "snapshot.interval.length": "10000"
     },
     "network_limits": {
       "propose_market_enabled": false,

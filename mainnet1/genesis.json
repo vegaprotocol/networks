@@ -144,7 +144,7 @@
   "app_state": {
     "assets": {
       "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2": {
-        "min_lp_stake": "1000000000000000000",
+        "quantum": "1000000000000000000",
         "decimals": 18,
         "name": "VEGA",
         "symbol": "VEGA",
@@ -165,7 +165,8 @@
         "info_url": "https://chorus.one",
         "country": "CH",
         "name": "Chorus One",
-        "avatar_url": "https://chorus.one/logo-360x360.jpg"
+        "avatar_url": "https://chorus.one/logo-360x360.jpg",
+        "vega_pub_key_index": 1
       },
       "0ShTSZ9Ss8AFHuDz1nIGMrGucjXhFdJyUTT7Eqibjq8=": {
         "id": "126751c5830b50d39eb85412fb2964f46338cce6946ff455b73f1b1be3f5e8cc",
@@ -175,7 +176,8 @@
         "info_url": "https://www.greenfield.one",
         "country": "Germany",
         "name": "Greenfield One",
-        "avatar_url": "https://www.greenfield.one/avatar.png"
+        "avatar_url": "https://www.greenfield.one/avatar.png",
+        "vega_pub_key_index": 1
       },
       "g2QGqXnfkNmmVO4QSw/wu5kpk8rbaY+I4qYNzk7QJTc=": {
         "id": "5db9794f44c85b4b259907a00c8ea2383ad688dfef6ffb72c8743b6ae3eaefd4",
@@ -185,7 +187,8 @@
         "info_url": "https://ryabina.io",
         "country": "FR",
         "name": "Ryabina",
-        "avatar_url": "https://ryabina.io/apple-touch-icon.png"
+        "avatar_url": "https://ryabina.io/apple-touch-icon.png",
+        "vega_pub_key_index": 1
       },
       "Chx00Gr/+/tzwoZVUdMzcIl6O79muzwUIveCfGXaemc=": {
         "id": "f3022974212780ea1196af08fd2e8a9c0d784d0be8e97637bd5e763ac4c219bd",
@@ -195,7 +198,8 @@
         "info_url": "https://stakingfacilities.com",
         "country": "DE",
         "name": "Staking Facilities",
-        "avatar_url": "https://s3.amazonaws.com/keybase_processed_uploads/bfe5fc72eaafa5a4444eb048fd88a705_360_360.jpg"
+        "avatar_url": "https://s3.amazonaws.com/keybase_processed_uploads/bfe5fc72eaafa5a4444eb048fd88a705_360_360.jpg",
+        "vega_pub_key_index": 1
       },
       "uBr9FP/M/QyVtOa3j18+hjksXra7qxCa7e25/FVW5c0=": {
         "id": "4f69b1784656174e89eb094513b7136e88670b42517ed0e48cb6fd3062eb8478",
@@ -205,7 +209,8 @@
         "info_url": "https://stake.nodes.guru/",
         "country": "RU",
         "name": "NodesGuru",
-        "avatar_url": "https://nodes.guru/new_logo.svg"
+        "avatar_url": "https://nodes.guru/new_logo.svg",
+        "vega_pub_key_index": 1
       },
       "YnG3Ll/e/k1kVEvms90GAuwdf3N20CESh4wAritLgyU=": {
         "id": "ac735acc9ab11cf1d8c59c2df2107e00092b4ac96451cb137a1629af5b66242a",
@@ -215,7 +220,8 @@
         "info_url": "https://figment.io",
         "country": "Canada",
         "name": "Figment",
-        "avatar_url": "https://figment.io/apple-touch-icon.png"
+        "avatar_url": "https://figment.io/apple-touch-icon.png",
+        "vega_pub_key_index": 1
       },
       "hz528OlxLZoV+476oJP2lzrhAZwZNjjLAfvpd2wLvcg=": {
         "id": "74023df02b8afc9eaf3e3e2e8b07eab1d2122ac3e74b1b0222daf4af565ad3dd",
@@ -225,7 +231,8 @@
         "info_url": "https://xprv.io",
         "country": "UK",
         "name": "XPRV",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "+eIIplOcSftzYKXdSIvSmG0LgK6avHDYK3LpECe1JNs=": {
         "id": "b861c11eb825d55f835aec898b3caae66a681a354bcb59651d5b3faf02b34844",
@@ -235,7 +242,8 @@
         "info_url": "https://commodum.io",
         "country": "UK",
         "name": "Commodum DAO",
-        "avatar_url": "https://www.commodum.io/images/logo.png"
+        "avatar_url": "https://www.commodum.io/images/logo.png",
+        "vega_pub_key_index": 1
       },
       "7xmxwJpTnPHt6u+18ggFIJzlTWtfKSLKBFkGD6AC99o=": {
         "id": "5ca98e0dd81143fafea3a3abcefafee73f3886ac97053db8b446593e75c10e9d",
@@ -245,7 +253,8 @@
         "info_url": "https://p2p.org",
         "country": "RU",
         "name": "P2P.ORG Validator",
-        "avatar_url": "https://storage.googleapis.com/p2p-logo/prod/p2p-black.svg"
+        "avatar_url": "https://storage.googleapis.com/p2p-logo/prod/p2p-black.svg",
+        "vega_pub_key_index": 1
       },
       "7kRL1jCJH8QUDTHK90/Nz9lIAvl8/s1Z70XL1EXFkaM=": {
         "id": "8d33c6e06207ed5735c8b5b6c0c6234f44eb381b242a25a538ed3315369d2203",
@@ -255,7 +264,8 @@
         "info_url": "https://www.naladao.com",
         "name": "Nala DAO",
         "country": "AU",
-        "avatar_url": "https://nala-images.s3.ap-southeast-2.amazonaws.com/icons/nalasmall.jpg"
+        "avatar_url": "https://nala-images.s3.ap-southeast-2.amazonaws.com/icons/nalasmall.jpg",
+        "vega_pub_key_index": 1
       },
       "2ze1jT6SxaWUI9yECwYJaPIf1lBSU7myu6wfe4wqnMs=": {
         "id": "25794776055552a92e7b27dd8f15563ffb78defe7694d6c4da8bb258daca897c",
@@ -265,7 +275,8 @@
         "info_url": "https://lovali.xyz",
         "country": "FI",
         "name": "Lovali",
-        "avatar_url": "https://lovali.xyz/images/logo.png"
+        "avatar_url": "https://lovali.xyz/images/logo.png",
+        "vega_pub_key_index": 1
       },
       "vQVqN1N0+k1GtGZmB8gb1b9BR/cdcYFZtxgiywaTVYM=": {
         "id": "43697a3e911d8b70c0ce672adde17a5c38ca8f6a0486bf85ed0546e1b9a82887",
@@ -275,7 +286,8 @@
         "info_url": "https://bharvest.io",
         "country": "KR",
         "name": "B-Harvest",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "GaMcnnlXJGAgf43pQIg3UBwQqlyLRH7ow+CTzzVtBIQ=": {
         "id": "55504e9bfd914a7bbefa342c82f59a2f4dee344e5b6863a14c02a812f4fbde32",
@@ -285,14 +297,15 @@
         "info_url": "https://rbf.capital/staking",
         "country": "CZ",
         "name": "RBF",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       }
     },
     "network": {
       "replay_attack_threshold": 150
     },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"1\", \"chain_id\": \"1\", \"bridge_address\": \"0xCd403f722b76366f7d609842C589906ca051310f\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0x23d1bFE8fA50a167816fBD79D7932577c06011f4\", \"0x195064D33f09e0c42cF98E665D9506e0dC17de68\"]}",
+      "blockchains.ethereumConfig": "{\"network_id\": \"1\", \"chain_id\": \"1\", \"collateral_bridge_contract\": { \"address\": \"0xCd403f722b76366f7d609842C589906ca051310f\" }, \"confirmations\": 50, \"staking_bridge_contract\": { \"address\": \"0x195064D33f09e0c42cF98E665D9506e0dC17de68\", \"deployment_block_height\": 13146644}, \"token_vesting_contract\": { \"address\": \"0x23d1bFE8fA50a167816fBD79D7932577c06011f4\", \"deployment_block_height\": 12834524 }, \"multisig_control_contract\": {\"address\": \"0x164D322B2377C0fdDB73Cd32f24e972A7d9C72F9\", \"deployment_block_height\": 13572032 }}",
       "reward.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
       "governance.proposal.market.maxClose": "720h",
       "governance.proposal.market.maxEnact": "720h",
@@ -301,7 +314,7 @@
       "governance.proposal.market.minProposerBalance": "1",
       "governance.proposal.market.minVoterBalance": "1",
       "governance.proposal.market.requiredMajority": "0.66",
-      "governance.proposal.market.requiredParticipation": "0.20",
+      "governance.proposal.market.requiredParticipation": "0.10",
       "governance.proposal.asset.maxClose": "720h",
       "governance.proposal.asset.maxEnact": "720h",
       "governance.proposal.asset.minClose": "168h",
@@ -314,7 +327,7 @@
       "governance.proposal.updateMarket.maxEnact": "720h",
       "governance.proposal.updateMarket.minClose": "72h",
       "governance.proposal.updateMarket.minEnact": "72h",
-      "governance.proposal.updateMarket.minProposerBalance": "2000000000000000000",
+      "governance.proposal.updateMarket.minProposerBalance": "20000000000000000000000",
       "governance.proposal.updateMarket.minVoterBalance": "1000000000000000000",
       "governance.proposal.updateMarket.requiredMajority": "0.66",
       "governance.proposal.updateMarket.requiredParticipation": "0.20",
@@ -322,7 +335,7 @@
       "governance.proposal.updateNetParam.maxEnact": "1440h",
       "governance.proposal.updateNetParam.minClose": "72h",
       "governance.proposal.updateNetParam.minEnact": "72h",
-      "governance.proposal.updateNetParam.minProposerBalance": "2000000000000000000",
+      "governance.proposal.updateNetParam.minProposerBalance": "2000000000000000000000",
       "governance.proposal.updateNetParam.minVoterBalance": "1000000000000000000",
       "governance.proposal.updateNetParam.requiredMajority": "0.66",
       "governance.proposal.updateNetParam.requiredParticipation": "0.25",
@@ -341,17 +354,15 @@
       "market.stake.target.timeWindow": "1h",
       "market.stake.target.scalingFactor": "0.1",
       "market.value.windowLength": "168h",
-      "market.monitor.price.defaultParameters": "{\"triggers\": [{\"auction_extension\": 300, \"horizon\": 43200, \"probability\": 0.9999999}] }",
+      "market.monitor.price.defaultParameters": "{\"triggers\": [{\"auction_extension\": 300, \"horizon\": 43200, \"probability\": \"0.9999999\"}] }",
       "market.monitor.price.updateFrequency": "1s",
       "market.liquidityProvision.shapes.maxSize": "100",
       "reward.staking.delegation.payoutFraction": "1.0",
-      "reward.staking.delegation.maxPayoutPerParticipant": "700000000000000000000",
-      "reward.staking.delegation.maxPayoutPerEpoch": "9890000000000000000000",
       "reward.staking.delegation.payoutDelay": "72h",
       "reward.staking.delegation.delegatorShare": "0.883",
       "reward.staking.delegation.minimumValidatorStake": "3000000000000000000000",
       "reward.staking.delegation.minValidators": "5",
-      "reward.staking.delegation.competitionLevel": "3.1",
+      "reward.staking.delegation.competitionLevel": "1.3",
       "validators.epoch.length": "24h",
       "validators.delegation.minAmount": "100000000000000000",
       "validators.vote.required": "0.67",
@@ -361,7 +372,7 @@
       "spam.protection.max.votes": "3",
       "spam.protection.voting.min.tokens": "1000000000000000000",
       "spam.protection.max.proposals": "3",
-      "spam.protection.proposal.min.tokens": "200000000000000000000000",
+      "spam.protection.proposal.min.tokens": "2000000000000000000000",
       "spam.protection.max.delegations": "360",
       "spam.protection.delegation.min.tokens": "100000000000000000",
       "governance.proposal.freeform.minProposerBalance": "1000000000000000000",
@@ -371,8 +382,37 @@
       "governance.proposal.freeform.maxClose": "8760h0m0s",
       "governance.proposal.freeform.requiredMajority": "0.66",
       "reward.staking.delegation.optimalStakeMultiplier": "3.0",
-      "snapshot.interval.length": "10000"
+      "snapshot.interval.length": "10000",
+
+      "governance.proposal.updateMarket.requiredMajorityLP": "0.66",
+      "governance.proposal.updateMarket.requiredParticipationLP": "0.00001",
+      "governance.proposal.updateMarket.minProposerEquityLikeShare": "0.66",
+      "market.liquidityProvision.minLpStakeQuantumMultiple": "1",
+      "network.validators.ersatz.rewardFactor": "0.5",
+      "network.validators.multisig.numberOfSigners": "13",
+      "network.validators.tendermint.number": "13",
+      "network.validators.incumbentBonus": "1",
+      "network.validators.ersatz.multipleOfTendermintValidators": "0",
+      "network.validators.minimumEthereumEventsForNewValidator": "3",
+      "network.floatingPointUpdates.delay": "5m",
+      "spam.protection.maxUserTransfersPerEpoch": "20",
+      "spam.pow.hashFunction": "sha3_24_rounds",
+      "spam.pow.numberOfPastBlocks": "100",
+      "spam.pow.increaseDifficulty": "0",
+      "spam.pow.numberOfTxPerBlock": "2",
+      "spam.pow.difficulty": "15",
+      "transfer.minTransferQuantumMultiple": "0.1",
+      "transfer.fee.factor": "0.001"
     },
+    "network_parameters_checkpoint_overwrite": [
+      "market.monitor.price.defaultParameters",
+      "blockchains.ethereumConfig",
+      "governance.proposal.market.requiredParticipation",
+      "governance.proposal.updateMarket.minProposerBalance",
+      "governance.proposal.updateNetParam.minProposerBalance",
+      "reward.staking.delegation.competitionLevel",
+      "spam.protection.proposal.min.tokens"
+    ],
     "network_limits": {
       "propose_market_enabled": false,
       "propose_asset_enabled": false,

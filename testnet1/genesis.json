@@ -18,7 +18,8 @@
         "ed25519"
       ]
     },
-    "version": {}
+    "version": {
+    }
   },
   "validators": [
     {
@@ -78,8 +79,8 @@
     {
       "address": "C07EE11A22C853B509105906F7CB902F36056B29",
       "pub_key": {
-         "type": "tendermint/PubKeyEd25519",
-         "value": "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM="
+        "type": "tendermint/PubKeyEd25519",
+        "value": "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM="
       },
       "power": "10",
       "name": "Commodum"
@@ -105,9 +106,9 @@
     {
       "address": "67E3E5A41858E086AF53E6DC7C19328C64690798",
       "pub_key": {
-      "type": "tendermint/PubKeyEd25519",
-      "value": "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE="
-    },
+        "type": "tendermint/PubKeyEd25519",
+        "value": "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE="
+      },
       "power": "10",
       "name": "Lovali"
     },
@@ -143,7 +144,7 @@
   "app_state": {
     "assets": {
       "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2": {
-        "min_lp_stake": "1",
+        "quantum": "1",
         "decimals": 18,
         "name": "VEGA",
         "symbol": "VEGA",
@@ -164,7 +165,8 @@
         "info_url": "http://chorus.one",
         "country": "CH",
         "name": "Chorus One",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "l4p1heMEEwivqJuydl599v5oq7OG4hqhh0ytLuEtD5U=": {
         "id": "8ce58fb732d76520b06d17b894db1464ec96562efe57eb7451122cc41c709f43",
@@ -174,7 +176,8 @@
         "info_url": "https://ryabina.io/",
         "country": "FR",
         "name": "Ryabina",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "EEYvC9/jdNkkAxiQyGjXHcRBJUkV3U7bSymFRmYz1uI=": {
         "id": "16414e7c3bff98aa07a423831e8ac2d27ce10a3e185723796fbb2e17f1a05dd3",
@@ -184,7 +187,8 @@
         "info_url": "https://stakingfacilities.com",
         "country": "DE",
         "name": "stakingFacilities-1",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=": {
         "id": "bbf0705fc8b82a9205f4cce1ce0d35f208cdfd5bc42df3c533fc209d8788c900",
@@ -194,7 +198,8 @@
         "info_url": "https://nodes.guru/",
         "country": "RU",
         "name": "Nodes Guru",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "cfYZrt8CQQQFQHk1+YZVhfNfqCP40YTEseB+KC9mBEQ=": {
         "id": "07aa75e65736b8164c875d6a9a2c3ca07d26e1f0757cbd009cc3d1c4efc6ec78",
@@ -204,7 +209,8 @@
         "info_url": "https://figment.io",
         "country": "Canada",
         "name": "Figment",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "c5WVFOW1xpUovIEPQ1e/woZI3B8mH+TdYAqMiuZLcKQ=": {
         "id": "67f946266213215faf36d30e721c45a76939c06ba61230f0cdcdf2f63b62ac95",
@@ -214,7 +220,8 @@
         "info_url": "https://xprv.io",
         "country": "UK",
         "name": "xprv-1",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM=": {
         "id": "ea0019f6b89176f709cac4e4aba383cd6f9db6ea4c6ddfa0758fe962442fd8db",
@@ -224,7 +231,8 @@
         "info_url": "https://commodum.io",
         "country": "UK",
         "name": "Commodum",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "bbWrfs2AzI9DCIlVecgvMJOi351z1gYurvMVqmO/cVg=": {
         "id": "15166f7b046c460d1b6a61c9e796ba9081f94ce5ad97362ec61ff51ae4bb4c8d",
@@ -234,7 +242,8 @@
         "info_url": "http://p2p.org",
         "country": "RU",
         "name": "P2P.ORG Validator",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0=": {
         "id": "82a0c4f727873e769b602cf20e0396ee080d2e079bc9b29bc5573cbc950c71e4",
@@ -242,7 +251,8 @@
         "ethereum_address": "0xD2ed89D9080DeFDe5e22Ce0aEA18AD54692B0b58",
         "tm_pub_key": "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0=",
         "info_url": "https://www.naladao.com",
-        "country": "Australia"
+        "country": "Australia",
+        "vega_pub_key_index": 1
       },
       "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE=": {
         "id": "0759769e41bf5688b4d8d2bb674742bb1f0352cf84652bb9671936d943a6d83f",
@@ -252,7 +262,8 @@
         "info_url": "https://www.lovali.xyz",
         "country": "FI",
         "name": "lovali-node01",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "Pk0RvTDEjG8h4vH0s2Zk5+TZLAgdJ8HETaovD++76hg=": {
         "id": "84431e184fe118b5f2e2d66437143fff25b4ab71598995149d66e1a7c86bd014",
@@ -262,7 +273,8 @@
         "info_url": "https://rbf.capital/staking",
         "country": "CZ",
         "name": "Rockaway Blockchain Fund",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "IoWQYtZ3m48/EflJxlw3u12zG1qG/BLTVqIn70IKVjs=": {
         "id": "22d615a912c92051706f59d36045470e0c01693c568897758773b286ffd92b93",
@@ -272,7 +284,8 @@
         "info_url": "https://greenfield.one/",
         "country": "DE",
         "name": "Greenfield One",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "QVbYlwRu/ofHRefAC4VOEaGEXnOLWPG/BVGm9QuVoYE=": {
         "id": "41ec482fabd230bfb301c10000311307799990e79b6b7faadba45668f8c0b608",
@@ -282,7 +295,8 @@
         "info_url": "https://bharvest.io",
         "country": "KR",
         "name": "B-Harvest",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       }
     },
     "network": {
@@ -294,7 +308,7 @@
       "bootstrap_block_count": 300
     },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"bridge_address\": \"0x0614188938f5C3bD8461D4B413A39eeC2C5f42D9\", \"confirmations\": 50, \"staking_bridge_addresses\": [\"0xfce2CC92203A266a9C8e67461ae5067c78f67235\"]}",
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"collateral_bridge_contract\": { \"address\": \"0x0614188938f5C3bD8461D4B413A39eeC2C5f42D9\" }, \"confirmations\": 50, \"staking_bridge_contract\": { \"address\": \"0xfce2CC92203A266a9C8e67461ae5067c78f67235\", \"deployment_block_height\": 11001702}, \"multisig_control_contract\": {\"address\": \"0xB3D6202C894dED7C9eCbFc761c4AfCd47606a253\", \"deployment_block_height\": 11444364 } }",
       "reward.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
       "governance.proposal.market.maxClose": "720h0m0s",
       "governance.proposal.market.maxEnact": "720h0m0s",
@@ -343,7 +357,7 @@
       "market.stake.target.timeWindow": "1h0m0s",
       "market.stake.target.scalingFactor": "0.1",
       "market.value.windowLength": "168h0m0s",
-      "market.monitor.price.defaultParameters": "{\"triggers\": [{\"auction_extension\": 300, \"horizon\": 43200, \"probability\": 0.9999999}] }",
+      "market.monitor.price.defaultParameters": "{\"triggers\": [{\"auction_extension\": 300, \"horizon\": 43200, \"probability\": \"0.9999999\"}] }",
       "market.monitor.price.updateFrequency": "1s",
       "market.liquidityProvision.shapes.maxSize": "100",
       "reward.staking.delegation.payoutFraction": "1",
@@ -351,7 +365,7 @@
       "reward.staking.delegation.payoutDelay": "1h",
       "reward.staking.delegation.delegatorShare": "0.883",
       "reward.staking.delegation.minimumValidatorStake": "3000000000000000000000",
-      "reward.staking.delegation.competitionLevel": "3.1",
+      "reward.staking.delegation.competitionLevel": "1.3",
       "validators.epoch.length": "24h",
       "validators.delegation.minAmount": "100000000000000000",
       "validators.vote.required": "0.67",
@@ -363,10 +377,44 @@
       "spam.protection.max.proposals": "3",
       "spam.protection.proposal.min.tokens": "100000000000000000000000",
       "spam.protection.max.delegations": "360",
-      "spam.protection.delegation.min.tokens": "1"
-      },
+      "spam.protection.delegation.min.tokens": "1",
+
+      "governance.proposal.updateMarket.minProposerEquityLikeShare": "0.66",
+      "governance.proposal.updateMarket.requiredMajorityLP": "0.66",
+      "governance.proposal.updateMarket.requiredParticipationLP": "0.00001",
+      "governance.proposal.freeform.minClose": "48h",
+      "governance.proposal.freeform.requiredParticipation": "0.00001",
+      "governance.proposal.freeform.requiredMajority": "0.66",
+      "governance.proposal.freeform.minVoterBalance": "0",
+      "governance.proposal.freeform.maxClose": "8760h",
+      "governance.proposal.freeform.minProposerBalance": "0",
+      "market.liquidityProvision.minLpStakeQuantumMultiple": "1",
+      "network.validators.tendermint.number": "13",
+      "network.validators.incumbentBonus": "1",
+      "network.validators.multisig.numberOfSigners": "13",
+      "network.validators.minimumEthereumEventsForNewValidator": "3",
+      "network.validators.ersatz.multipleOfTendermintValidators": "0",
+      "network.floatingPointUpdates.delay": "5m",
+      "network.validators.ersatz.rewardFactor": "0.5",
+      "reward.staking.delegation.minValidators": "5",
+      "reward.staking.delegation.optimalStakeMultiplier": "3.0",
+      "snapshot.interval.length": "1000",
+      "spam.pow.increaseDifficulty": "0",
+      "spam.pow.numberOfTxPerBlock": "2",
+      "spam.pow.hashFunction": "sha3_24_rounds",
+      "spam.pow.difficulty": "15",
+      "spam.pow.numberOfPastBlocks": "100",
+      "spam.protection.maxUserTransfersPerEpoch": "20",
+      "transfer.fee.factor": "0.001",
+      "transfer.minTransferQuantumMultiple": "0.1"
+    },
+    "network_parameters_checkpoint_overwrite": [
+      "market.monitor.price.defaultParameters",
+      "blockchains.ethereumConfig"
+    ],
     "checkpoint": {
       "load_hash": "733cfdb9e0ea2f769aab45ba0b8a71dfd376375ad681ee6c5b4b55e779cf3fbe"
     }
   }
 }
+

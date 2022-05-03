@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-09-03T12:00:00.050701478Z",
-  "chain_id": "vega-testnet-0001-v8",
+  "chain_id": "vega-testnet-0001-v9",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -413,7 +413,7 @@
       "blockchains.ethereumConfig"
     ],
     "checkpoint": {
-      "load_hash": "733cfdb9e0ea2f769aab45ba0b8a71dfd376375ad681ee6c5b4b55e779cf3fbe"
+      "load_hash": "35105f6d185dc15e3bc7ca5ec18569691a92089e516a7e8ddd86ae9473e0d1db"
     }
   }
 }

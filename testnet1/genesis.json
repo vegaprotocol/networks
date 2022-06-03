@@ -68,10 +68,10 @@
       "name": "Figment"
     },
     {
-      "address": "6969CA1FDF6B7EB3EC5CE2EDC9C5D07FCC504611",
+      "address": "32937C48EA84EA7B6605F06A1105F8AF1D0E717A",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "c5WVFOW1xpUovIEPQ1e/woZI3B8mH+TdYAqMiuZLcKQ="
+        "value": "ACbjTS0Z3B3OTvR57jGbqbwIFk0ccVk1C6CLxo9eU6c="
       },
       "power": "10",
       "name": "XPRV"
@@ -212,16 +212,16 @@
         "avatar_url": "",
         "vega_pub_key_index": 1
       },
-      "c5WVFOW1xpUovIEPQ1e/woZI3B8mH+TdYAqMiuZLcKQ=": {
-        "id": "67f946266213215faf36d30e721c45a76939c06ba61230f0cdcdf2f63b62ac95",
-        "vega_pub_key": "4ab799208b8fba38c18793acc5f058069db2b35482d29a71b8c844dcd4149a07",
-        "ethereum_address": "0x5e6FEDca8A214A0136f7C03F132E9ACCA828f015",
-        "tm_pub_key": "c5WVFOW1xpUovIEPQ1e/woZI3B8mH+TdYAqMiuZLcKQ=",
+      "ACbjTS0Z3B3OTvR57jGbqbwIFk0ccVk1C6CLxo9eU6c=": {
+        "id": "6e9f5ea3cb97bbabf5f0599d4bfc6f6dad90f50f70a086fbb55e87f695f1d906",
+        "vega_pub_key": "8b9fb2150223720d172520a26d48fe48e71bb5a169603f0b7dc7975655b0bcf7",
+        "vega_pub_key_index": 1,
+        "ethereum_address": "0x8c2a56a21B736A2428f1c4C9515B63b2bD09DF10",
+        "tm_pub_key": "ACbjTS0Z3B3OTvR57jGbqbwIFk0ccVk1C6CLxo9eU6c=",
         "info_url": "https://xprv.io",
         "country": "UK",
-        "name": "xprv-1",
-        "avatar_url": "",
-        "vega_pub_key_index": 1
+        "name": "XPRV",
+        "avatar_url": ""
       },
       "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM=": {
         "id": "ea0019f6b89176f709cac4e4aba383cd6f9db6ea4c6ddfa0758fe962442fd8db",

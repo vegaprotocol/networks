@@ -175,7 +175,7 @@
       "market.liquidity.maximumLiquidityFeeFactorLevel": "1",
       "market.liquidity.minimum.probabilityOfTrading.lpOrders": "1e-8",
       "market.liquidity.probabilityOfTrading.tau.scaling": "10.0",
-      "market.liquidity.providers.fee.distributionTimeStep": "60m",
+      "market.liquidity.providers.fee.distributionTimeStep": "0m",
       "market.liquidity.stakeToCcySiskas": "1.0",
       "market.liquidity.targetstake.triggering.ratio": "0.7",
       "market.liquidityProvision.shapes.maxSize": "100",

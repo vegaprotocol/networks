@@ -411,10 +411,7 @@
     "network_parameters_checkpoint_overwrite": [
       "market.monitor.price.defaultParameters",
       "blockchains.ethereumConfig"
-    ],
-    "checkpoint": {
-      "load_hash": "35105f6d185dc15e3bc7ca5ec18569691a92089e516a7e8ddd86ae9473e0d1db"
-    }
+    ]
   }
 }
 

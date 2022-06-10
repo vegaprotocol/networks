@@ -26,33 +26,39 @@ jobs:
           git clone git@github.com:vegaprotocol/k8s.git
 
           if [ -f fairground/fairground.toml ]; then
+            echo "Updating fairground"
             sed -i 's|Host=.*|Host="0.0.0.0"|g' fairground/fairground.toml
             sed -i 's|Port=.*|Port=80|g' fairground/fairground.toml
             cp fairground/fairground.toml k8s/charts/apps/vegawallet/testnet/testnet.toml
+            cat k8s/charts/apps/vegawallet/testnet/testnet.toml
           fi
 
           if [ -f stagnet1/stagnet1.toml ]; then
+            echo "Updating stagnet1"
             sed -i 's|Host=.*|Host="0.0.0.0"|g' stagnet1/stagnet1.toml
             sed -i 's|Port=.*|Port=80|g' stagnet1/stagnet1.toml
             cp stagnet1/stagnet1.toml k8s/charts/apps/vegawallet/stagnet/stagnet.toml
+            cat k8s/charts/apps/vegawallet/stagnet/stagnet.toml
           fi
 
           if [ -f stagnet2/stagnet2.toml ]; then
+            echo "Updating stagnet2"
             sed -i 's|Host=.*|Host="0.0.0.0"|g' stagnet2/stagnet2.toml
             sed -i 's|Port=.*|Port=80|g' stagnet2/stagnet2.toml
             cp stagnet2/stagnet2.toml k8s/charts/apps/vegawallet/stagnet2/stagnet2.toml
+            cat k8s/charts/apps/vegawallet/stagnet2/stagnet2.toml
           fi
 
           if [ -f devnet/devnet.toml ]; then
+            echo "Updating devnet"
             sed -i 's|Host=.*|Host="0.0.0.0"|g' devnet/devnet.toml
             sed -i 's|Port=.*|Port=80|g' devnet/devnet.toml
             cp devnet/devnet.toml k8s/charts/apps/vegawallet/devnet/devnet.toml
+            cat k8s/charts/apps/vegawallet/devnet/devnet.toml
           fi
 
           cd k8s
-          if ! git diff --exit-code; then
-            git add -A
-            git commit -m "Automated network configuration update from repository: $GITHUB_REPOSITORY"
-            git pull --rebase
-            git push
-          fi
+          git add -A
+          git commit -m "Automated network configuration update from repository: $GITHUB_REPOSITORY"
+          git pull --rebase
+          git push

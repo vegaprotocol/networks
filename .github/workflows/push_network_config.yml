@@ -11,6 +11,7 @@ name: "Automated network configuration update for k8s"
       - stagnet1/stagnet1.toml # networks-internal
       - stagnet2/stagnet2.toml # networks-internal
       - devnet/devnet.toml # networks-internal
+      - .github/workflows/push_network_config.yml
 jobs:
   update-manifest-repo:
     runs-on: ubuntu-latest
@@ -51,5 +52,7 @@ jobs:
           fi
 
           cd k8s
-          git commit -am "Automated network configuration update from repository: $GITHUB_REPOSITORY"
-          git push
+          if ! git diff-index --quiet HEAD; then
+            git commit -am "Automated network configuration update from repository: $GITHUB_REPOSITORY"
+            git push
+          fi

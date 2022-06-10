@@ -52,7 +52,9 @@ jobs:
           fi
 
           cd k8s
-          if ! git diff-index --quiet HEAD; then
-            git commit -am "Automated network configuration update from repository: $GITHUB_REPOSITORY"
+          if ! git diff --exit-code; then
+            git add -A
+            git commit -m "Automated network configuration update from repository: $GITHUB_REPOSITORY"
+            git pull --rebase
             git push
           fi

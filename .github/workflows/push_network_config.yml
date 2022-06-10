@@ -27,33 +27,38 @@ jobs:
 
           if [ -f fairground/fairground.toml ]; then
             echo "Updating fairground"
+            sed -i  "1s|^|#this file is added automatically from github.com/vegaprotcol/networks\n|" fairground/fairground.toml
             sed -i 's|^Host.*|Host = "0.0.0.0"|' fairground/fairground.toml
             sed -i 's|^Port.*|Port = 80|' fairground/fairground.toml
-            cp fairground/fairground.toml k8s/charts/apps/vegawallet/testnet/testnet.toml
+            cp fairground/fairground.toml k8s/charts/apps/vegawallet/testnet/files/testnet.toml
             cat k8s/charts/apps/vegawallet/testnet/testnet.toml
           fi
 
           if [ -f stagnet1/stagnet1.toml ]; then
             echo "Updating stagnet1"
+            sed -i  "1s|^|#this file is added automatically from github.com/vegaprotcol/networks-internal\n|" stagnet1/stagnet1.toml
             sed -i 's|^Host.*|Host = "0.0.0.0"|' stagnet1/stagnet1.toml
             sed -i 's|^Port.*|Port = 80|' stagnet1/stagnet1.toml
-            cp stagnet1/stagnet1.toml k8s/charts/apps/vegawallet/stagnet/stagnet.toml
+            sed -i 's|^Name.*|Name = "stagnet"|' stagnet1/stagnet1.toml
+            cp stagnet1/stagnet1.toml k8s/charts/apps/vegawallet/stagnet/files/stagnet.toml
             cat k8s/charts/apps/vegawallet/stagnet/stagnet.toml
           fi
 
           if [ -f stagnet2/stagnet2.toml ]; then
             echo "Updating stagnet2"
+            sed -i  "1s|^|#this file is added automatically from github.com/vegaprotcol/networks-internal\n|" stagnet2/stagnet2.toml
             sed -i 's|^Host.*|Host = "0.0.0.0"|' stagnet2/stagnet2.toml
             sed -i 's|^Port.*|Port = 80|' stagnet2/stagnet2.toml
-            cp stagnet2/stagnet2.toml k8s/charts/apps/vegawallet/stagnet2/stagnet2.toml
+            cp stagnet2/stagnet2.toml k8s/charts/apps/vegawallet/stagnet2/files/stagnet2.toml
             cat k8s/charts/apps/vegawallet/stagnet2/stagnet2.toml
           fi
 
           if [ -f devnet/devnet.toml ]; then
             echo "Updating devnet"
+            sed -i  "1s|^|#this file is added automatically from github.com/vegaprotcol/networks-internal\n|" devnet/devnet.toml
             sed -i 's|^Host.*|Host = "0.0.0.0"|' devnet/devnet.toml
             sed -i 's|^Port.*|Port = 80|' devnet/devnet.toml
-            cp devnet/devnet.toml k8s/charts/apps/vegawallet/devnet/devnet.toml
+            cp devnet/devnet.toml k8s/charts/apps/vegawallet/devnet/files/devnet.toml
             cat k8s/charts/apps/vegawallet/devnet/devnet.toml
           fi
 

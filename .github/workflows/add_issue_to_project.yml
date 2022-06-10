@@ -1,0 +1,55 @@
+# FILE IS AUTOMATICALLY MANAGED BY github.com/vegaprotocol/terraform//github
+name: "Automated network configuration update for k8s"
+"on":
+  # support both vega/networks & vega/networks-internal
+  push:
+    branches:
+      - main # networks-internal
+      - master # networks
+    paths:
+      - fairground/fairground.toml # networks
+      - stagnet1/stagnet1.toml # networks-internal
+      - stagnet2/stagnet2.toml # networks-internal
+      - devnet/devnet.toml # networks-internal
+jobs:
+  update-manifest-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: webfactory/ssh-agent@v0.5.4
+        with:
+          ssh-private-key: $${{ secrets.VEGA_CI_SSH_KEY }}
+      - run: |
+          git config --global user.name 'vega-ci-bot'
+          git config --global user.email 'dev@vega.xyz'
+          git clone git@github.com:vegaprotocol/k8s.git
+
+          if [ -f fairground/fairground.toml ]; then
+            sed -i 's|Host=.*|Host="0.0.0.0"|g' fairground/fairground.toml
+            sed -i 's|Port=.*|Port=80|g' fairground/fairground.toml
+            cp fairground/fairground.toml k8s/charts/apps/vegawallet/testnet/testnet.toml
+          fi
+
+          if [ -f stagnet1/stagnet1.toml ]; then
+            sed -i 's|Host=.*|Host="0.0.0.0"|g' stagnet1/stagnet1.toml
+            sed -i 's|Port=.*|Port=80|g' stagnet1/stagnet1.toml
+            cp stagnet1/stagnet1.toml k8s/charts/apps/vegawallet/stagnet/stagnet.toml
+          fi
+
+          if [ -f stagnet2/stagnet2.toml ]; then
+            sed -i 's|Host=.*|Host="0.0.0.0"|g' stagnet2/stagnet2.toml
+            sed -i 's|Port=.*|Port=80|g' stagnet2/stagnet2.toml
+            cp stagnet2/stagnet2.toml k8s/charts/apps/vegawallet/stagnet2/stagnet2.toml
+          fi
+
+          if [ -f devnet/devnet.toml ]; then
+            sed -i 's|Host=.*|Host="0.0.0.0"|g' devnet/devnet.toml
+            sed -i 's|Port=.*|Port=80|g' devnet/devnet.toml
+            cp devnet/devnet.toml k8s/charts/apps/vegawallet/devnet/devnet.toml
+          fi
+
+          cd k8s
+          git commit -am "Automated network configuration update from repository: $GITHUB_REPOSITORY"
+          git push

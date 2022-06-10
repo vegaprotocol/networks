@@ -25,11 +25,14 @@ jobs:
           git config --global user.email 'dev@vega.xyz'
           git clone git@github.com:vegaprotocol/k8s.git
 
+          # watch out on refactors - these ifs have different sed commands
+
           if [ -f fairground/fairground.toml ]; then
             echo "Updating fairground"
             sed -i  "1s|^|#this file is added automatically from github.com/vegaprotcol/networks\n|" fairground/fairground.toml
             sed -i 's|^Host.*|Host = "0.0.0.0"|' fairground/fairground.toml
             sed -i 's|^Port.*|Port = 80|' fairground/fairground.toml
+            sed -i 's|^Name.*|Name = "testnet"|' fairground/fairground.toml
             cp fairground/fairground.toml k8s/charts/apps/vegawallet/testnet/files/testnet.toml
             cat k8s/charts/apps/vegawallet/testnet/testnet.toml
           fi

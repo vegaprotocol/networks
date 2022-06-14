@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-01-31T12:00:00.000000000Z",
-  "chain_id": "vega-mainnet-0006",
+  "genesis_time": "2022-06-16T12:00:00.000000000Z",
+  "chain_id": "vega-mainnet-0007",
   "initial_height": "0",
   "consensus_params": {
     "block": {

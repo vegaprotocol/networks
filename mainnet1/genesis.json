@@ -416,7 +416,7 @@
     "network_limits": {
       "propose_market_enabled": false,
       "propose_asset_enabled": false,
-      "bootstrap_block_count": 900
+      "bootstrap_block_count": 1800
     },
     "checkpoint": {
       "load_hash": "d38966a2bea21ce04efcad1234fef2b99423556c128d29743066fc0e85b4d5c9"

@@ -1,5 +1,5 @@
 Name = "mainnet1"
-Level = "info"
+Level = "INFO"
 TokenExpiry = "168h0m0s"
 Port = 1789
 Host = "127.0.0.1"

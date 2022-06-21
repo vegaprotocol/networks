@@ -221,7 +221,8 @@
         "info_url": "https://xprv.io",
         "country": "UK",
         "name": "XPRV",
-        "avatar_url": ""
+        "avatar_url": "",
+        "vega_pub_key_index": 1
       },
       "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM=": {
         "id": "ea0019f6b89176f709cac4e4aba383cd6f9db6ea4c6ddfa0758fe962442fd8db",
@@ -414,4 +415,3 @@
     ]
   }
 }
-

@@ -19,14 +19,7 @@ Host = "127.0.0.1"
       "n10.testnet.vega.xyz:3007",
       "n11.testnet.vega.xyz:3007",
       "n12.testnet.vega.xyz:3007",
-      "n13.testnet.vega.xyz:3007",
-      "n14.testnet.vega.xyz:3007",
-      "n15.testnet.vega.xyz:3007",
-      "n16.testnet.vega.xyz:3007",
-      "n17.testnet.vega.xyz:3007",
-      "n18.testnet.vega.xyz:3007",
-      "n19.testnet.vega.xyz:3007",
-      "n20.testnet.vega.xyz:3007"
+      "n13.testnet.vega.xyz:3007"
     ]
     Retries = 5
   [API.REST]

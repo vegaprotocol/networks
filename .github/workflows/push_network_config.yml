@@ -1,4 +1,4 @@
-# FILE IS AUTOMATICALLY MANAGED BY github.com/vegaprotocol/terraform//github
+# FILE IS AUTOMATICALLY MANAGED BY github.com/vegaprotocol/terraform/github
 name: "Automated network configuration update for k8s"
 "on":
   # support both vega/networks & vega/networks-internal
@@ -34,7 +34,7 @@ jobs:
             sed -i 's|^Port.*|Port = 80|' fairground/fairground.toml
             sed -i 's|^Name.*|Name = "testnet"|' fairground/fairground.toml
             cp fairground/fairground.toml k8s/charts/apps/vegawallet/testnet/files/testnet.toml
-            cat k8s/charts/apps/vegawallet/testnet/testnet.toml
+            cat k8s/charts/apps/vegawallet/testnet/files/testnet.toml
           fi
 
           if [ -f stagnet1/stagnet1.toml ]; then
@@ -44,7 +44,7 @@ jobs:
             sed -i 's|^Port.*|Port = 80|' stagnet1/stagnet1.toml
             sed -i 's|^Name.*|Name = "stagnet"|' stagnet1/stagnet1.toml
             cp stagnet1/stagnet1.toml k8s/charts/apps/vegawallet/stagnet/files/stagnet.toml
-            cat k8s/charts/apps/vegawallet/stagnet/stagnet.toml
+            cat k8s/charts/apps/vegawallet/stagnet/files/stagnet.toml
           fi
 
           if [ -f stagnet2/stagnet2.toml ]; then
@@ -53,7 +53,7 @@ jobs:
             sed -i 's|^Host.*|Host = "0.0.0.0"|' stagnet2/stagnet2.toml
             sed -i 's|^Port.*|Port = 80|' stagnet2/stagnet2.toml
             cp stagnet2/stagnet2.toml k8s/charts/apps/vegawallet/stagnet2/files/stagnet2.toml
-            cat k8s/charts/apps/vegawallet/stagnet2/stagnet2.toml
+            cat k8s/charts/apps/vegawallet/stagnet2/files/stagnet2.toml
           fi
 
           if [ -f devnet/devnet.toml ]; then
@@ -62,7 +62,7 @@ jobs:
             sed -i 's|^Host.*|Host = "0.0.0.0"|' devnet/devnet.toml
             sed -i 's|^Port.*|Port = 80|' devnet/devnet.toml
             cp devnet/devnet.toml k8s/charts/apps/vegawallet/devnet/files/devnet.toml
-            cat k8s/charts/apps/vegawallet/devnet/devnet.toml
+            cat k8s/charts/apps/vegawallet/devnet/files/devnet.toml
           fi
 
           cd k8s

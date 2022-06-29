@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-06-21T12:00:00.000000000Z",
-  "chain_id": "vega-mainnet-0007",
+  "genesis_time": "2022-06-30T12:00:00.000000000Z",
+  "chain_id": "vega-mainnet-0008",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -383,8 +383,7 @@
       "governance.proposal.freeform.maxClose": "8760h0m0s",
       "governance.proposal.freeform.requiredMajority": "0.66",
       "reward.staking.delegation.optimalStakeMultiplier": "3.0",
-      "snapshot.interval.length": "10000",
-
+      "snapshot.interval.length": "300",
       "governance.proposal.updateMarket.requiredMajorityLP": "0.66",
       "governance.proposal.updateMarket.requiredParticipationLP": "0.00001",
       "governance.proposal.updateMarket.minProposerEquityLikeShare": "0.05",
@@ -406,21 +405,13 @@
       "transfer.fee.factor": "0.001"
     },
     "network_parameters_checkpoint_overwrite": [
-      "market.monitor.price.defaultParameters",
-      "blockchains.ethereumConfig",
-      "governance.proposal.market.requiredParticipation",
-      "governance.proposal.updateMarket.minProposerBalance",
-      "governance.proposal.updateNetParam.minProposerBalance",
-      "reward.staking.delegation.competitionLevel",
-      "spam.protection.proposal.min.tokens"
+      "snapshot.interval.length"
     ],
     "network_limits": {
       "propose_market_enabled": false,
       "propose_asset_enabled": false,
-      "bootstrap_block_count": 1800
     },
     "checkpoint": {
-      "load_hash": "82826279890b2de07b0cb35787b93e3a91853ca355d1f2db4ce3c17df2c3a7e0"
     }
   }
 }

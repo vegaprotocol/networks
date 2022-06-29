@@ -7,11 +7,6 @@ Host = "127.0.0.1"
 [API]
   [API.GRPC]
     Hosts = [
-      "n01.testnet.vega.xyz:3002",
-      "n02.testnet.vega.xyz:3002",
-      "n03.testnet.vega.xyz:3002",
-      "n04.testnet.vega.xyz:3002",
-      "n05.testnet.vega.xyz:3002",
       "n06.testnet.vega.xyz:3007",
       "n07.testnet.vega.xyz:3007",
       "n08.testnet.vega.xyz:3007",

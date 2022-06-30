@@ -409,7 +409,7 @@
     ],
     "network_limits": {
       "propose_market_enabled": false,
-      "propose_asset_enabled": false,
+      "propose_asset_enabled": false
     },
     "checkpoint": {
       "load_hash": "8f7e8cfb13ab6dbf31bc2de4400a566e70df17b8caf7604ec7ed624819aa2cd6",

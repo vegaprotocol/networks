@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-09-03T12:00:00.050701478Z",
-  "chain_id": "vega-testnet-0001-v10",
+  "chain_id": "vega-testnet-0001-v11",
   "initial_height": "0",
   "consensus_params": {
     "block": {
@@ -305,11 +305,10 @@
     },
     "network_limits": {
       "propose_market_enabled": false,
-      "propose_asset_enabled": false,
-      "bootstrap_block_count": 300
+      "propose_asset_enabled": false
     },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"collateral_bridge_contract\": { \"address\": \"0x0614188938f5C3bD8461D4B413A39eeC2C5f42D9\" }, \"confirmations\": 50, \"staking_bridge_contract\": { \"address\": \"0xfce2CC92203A266a9C8e67461ae5067c78f67235\", \"deployment_block_height\": 11001702}, \"multisig_control_contract\": {\"address\": \"0xB3D6202C894dED7C9eCbFc761c4AfCd47606a253\", \"deployment_block_height\": 11444364 } }",
+      "blockchains.ethereumConfig": "{\"network_id\": \"3\", \"chain_id\": \"3\", \"collateral_bridge_contract\": { \"address\": \"0xa6F1E140daC13002Dfd9789D6dBA59117c717D7a\" }, \"confirmations\": 50, \"staking_bridge_contract\": { \"address\": \"0xfce2CC92203A266a9C8e67461ae5067c78f67235\", \"deployment_block_height\": 11001702}, \"multisig_control_contract\": {\"address\": \"0xCF6d41235911184fe6F35D47207813bFF3B91601\", \"deployment_block_height\": 12710009 } }",
       "reward.asset": "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2",
       "governance.proposal.market.maxClose": "720h0m0s",
       "governance.proposal.market.maxEnact": "720h0m0s",
@@ -410,7 +409,6 @@
       "transfer.minTransferQuantumMultiple": "0.1"
     },
     "network_parameters_checkpoint_overwrite": [
-      "market.monitor.price.defaultParameters",
       "blockchains.ethereumConfig"
     ]
   }

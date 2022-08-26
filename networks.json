@@ -2,7 +2,7 @@
   {
     "name": "fairground",
     "configFileUrl": "https://raw.githubusercontent.com/vegaprotocol/networks/master/fairground/fairground.toml",
-    "sha": "abc49b9637d537af01dc2d2cebd50eee4635d82f"
+    "sha": "8e9da511eb6d1dc514f3050322b9bd7a301a69bf"
   },
   {
     "name": "mainnet1",

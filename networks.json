@@ -1,10 +1,5 @@
 [
   {
-    "name": "fairground",
-    "configFileUrl": "https://raw.githubusercontent.com/vegaprotocol/networks/master/fairground/fairground.toml",
-    "sha": "8e9da511eb6d1dc514f3050322b9bd7a301a69bf"
-  },
-  {
     "name": "mainnet1",
     "configFileUrl": "https://raw.githubusercontent.com/vegaprotocol/networks/master/mainnet1/mainnet1.toml",
     "sha": "0dfd8d1539ae28a460d5ef2d28067156192b944c"

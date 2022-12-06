@@ -17,14 +17,12 @@ Host = "127.0.0.1"
       "rockaway.mainnet.vega.community:3007",
       "greenfield-one.mainnet.vega.community:3007",
       "ryabina.mainnet.vega.community:3007",
-      "vega-data-grpc.chorus.one:443",
       "grpc.vega.xprv.io:443",
       "nala.mainnet.vega.community:3007"
     ]
     Retries = 5
   [API.REST]
     Hosts = [
-      "http://vega-data-rest.chorus.one",
       "http://vega.xprv.io/datanode",
       "http://nala.mainnet.vega.community:3009",
       "http://commodum.mainnet.vega.community:3009",
@@ -40,7 +38,6 @@ Host = "127.0.0.1"
     ]
   [API.GraphQL]
     Hosts = [
-      "https://vega-data-graphql.chorus.one",
       "https://vega.xprv.io/datanode/query",
       "http://nala.mainnet.vega.community:3008",
       "http://commodum.mainnet.vega.community:3008",

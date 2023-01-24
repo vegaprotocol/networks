@@ -1,0 +1,194 @@
+{
+  "genesis_time": "2023-01-24T16:17:37.324893014Z",
+  "chain_id": "test-chain-pXaGza",
+  "initial_height": "0",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "validators": [
+    {
+      "address": "XXXX",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "XXXXX"
+      },
+      "power": "10",
+      "name": ""
+    }
+  ],
+  "app_hash": "",
+  "app_state": {
+    "assets": {
+      "VOTE": {
+        "name": "VOTE",
+        "symbol": "VOTE",
+        "decimals": 5,
+        "quantum": "1",
+        "source": {
+          "builtin_asset": {
+            "max_faucet_amount_mint": "10000"
+          }
+        }
+      }
+    },
+    "validators": {
+      "4pqEB4IlNzq02o4ZMlgJTOXMFEUxs3mTtjn3+PVYcJs=": {
+        "id": "XXX",
+        "vega_pub_key": "XXX",
+        "vega_pub_key_index": 1,
+        "ethereum_address": "0xXXXX",
+        "tm_pub_key": "XXX",
+        "info_url": "",
+        "country": "",
+        "name": "",
+        "avatar_url": "",
+        "from_epoch": 0,
+        "submitter_address": ""
+      }
+    },
+    "network": {
+      "replay_attack_threshold": 150
+    },
+    "network_parameters": {
+      "blockchains.ethereumConfig": "{\"network_id\": \"XXX\", \"chain_id\": \"XXX\", \"collateral_bridge_contract\": { \"address\": \"0xXXX\" }, \"confirmations\": 3, \"staking_bridge_contract\": { \"address\": \"0xXXX\", \"deployment_block_height\": 0}, \"token_vesting_contract\": { \"address\": \"0xXXX\", \"deployment_block_height\": 0 }, \"multisig_control_contract\": { \"address\": \"0xXXX\", \"deployment_block_height\": 0 }}",
+      "governance.proposal.asset.maxClose": "8760h0m0s",
+      "governance.proposal.asset.maxEnact": "8760h0m0s",
+      "governance.proposal.asset.minClose": "48h0m0s",
+      "governance.proposal.asset.minEnact": "48h0m0s",
+      "governance.proposal.asset.minProposerBalance": "1",
+      "governance.proposal.asset.minVoterBalance": "1",
+      "governance.proposal.asset.requiredMajority": "0.66",
+      "governance.proposal.asset.requiredParticipation": "0.00001",
+      "governance.proposal.freeform.maxClose": "8760h0m0s",
+      "governance.proposal.freeform.minClose": "48h0m0s",
+      "governance.proposal.freeform.minProposerBalance": "1",
+      "governance.proposal.freeform.minVoterBalance": "1",
+      "governance.proposal.freeform.requiredMajority": "0.66",
+      "governance.proposal.freeform.requiredParticipation": "0.00001",
+      "governance.proposal.market.maxClose": "8760h0m0s",
+      "governance.proposal.market.maxEnact": "8760h0m0s",
+      "governance.proposal.market.minClose": "48h0m0s",
+      "governance.proposal.market.minEnact": "48h0m0s",
+      "governance.proposal.market.minProposerBalance": "1",
+      "governance.proposal.market.minVoterBalance": "1",
+      "governance.proposal.market.requiredMajority": "0.66",
+      "governance.proposal.market.requiredParticipation": "0.00001",
+      "governance.proposal.updateAsset.maxClose": "8760h0m0s",
+      "governance.proposal.updateAsset.maxEnact": "8760h0m0s",
+      "governance.proposal.updateAsset.minClose": "48h0m0s",
+      "governance.proposal.updateAsset.minEnact": "48h0m0s",
+      "governance.proposal.updateAsset.minProposerBalance": "1",
+      "governance.proposal.updateAsset.minVoterBalance": "1",
+      "governance.proposal.updateAsset.requiredMajority": "0.66",
+      "governance.proposal.updateAsset.requiredParticipation": "0.00001",
+      "governance.proposal.updateMarket.maxClose": "8760h0m0s",
+      "governance.proposal.updateMarket.maxEnact": "8760h0m0s",
+      "governance.proposal.updateMarket.minClose": "48h0m0s",
+      "governance.proposal.updateMarket.minEnact": "48h0m0s",
+      "governance.proposal.updateMarket.minProposerBalance": "1",
+      "governance.proposal.updateMarket.minProposerEquityLikeShare": "0.66",
+      "governance.proposal.updateMarket.minVoterBalance": "1",
+      "governance.proposal.updateMarket.requiredMajority": "0.66",
+      "governance.proposal.updateMarket.requiredMajorityLP": "0.66",
+      "governance.proposal.updateMarket.requiredParticipation": "0.00001",
+      "governance.proposal.updateMarket.requiredParticipationLP": "0.00001",
+      "governance.proposal.updateNetParam.maxClose": "8760h0m0s",
+      "governance.proposal.updateNetParam.maxEnact": "8760h0m0s",
+      "governance.proposal.updateNetParam.minClose": "48h0m0s",
+      "governance.proposal.updateNetParam.minEnact": "48h0m0s",
+      "governance.proposal.updateNetParam.minProposerBalance": "1",
+      "governance.proposal.updateNetParam.minVoterBalance": "1",
+      "governance.proposal.updateNetParam.requiredMajority": "0.66",
+      "governance.proposal.updateNetParam.requiredParticipation": "0.00001",
+      "limits.assets.proposeEnabledFrom": "",
+      "limits.markets.maxPeggedOrders": "1500",
+      "limits.markets.proposeEnabledFrom": "",
+      "market.auction.maximumDuration": "168h0m0s",
+      "market.auction.minimumDuration": "30m0s",
+      "market.fee.factors.infrastructureFee": "0.0005",
+      "market.fee.factors.makerFee": "0.00025",
+      "market.liquidity.bondPenaltyParameter": "1",
+      "market.liquidity.maximumLiquidityFeeFactorLevel": "1",
+      "market.liquidity.minimum.probabilityOfTrading.lpOrders": "1e-8",
+      "market.liquidity.probabilityOfTrading.tau.scaling": "1",
+      "market.liquidity.providers.fee.distributionTimeStep": "0s",
+      "market.liquidity.stakeToCcyVolume": "1",
+      "market.liquidity.targetstake.triggering.ratio": "0",
+      "market.liquidityProvision.minLpStakeQuantumMultiple": "1",
+      "market.liquidityProvision.shapes.maxSize": "5",
+      "market.margin.scalingFactors": "{\"search_level\": 1.1, \"initial_margin\": 1.2, \"collateral_release\": 1.4}",
+      "market.monitor.price.defaultParameters": "{\"triggers\": []}",
+      "market.stake.target.scalingFactor": "10",
+      "market.stake.target.timeWindow": "1h0m0s",
+      "market.value.windowLength": "168h0m0s",
+      "network.checkpoint.timeElapsedBetweenCheckpoints": "1m",
+      "network.floatingPointUpdates.delay": "5m",
+      "network.markPriceUpdateMaximumFrequency": "5s",
+      "network.transaction.defaultgas": "1",
+      "network.transactions.maxgasperblock": "500000",
+      "network.transactions.minBlockCapacity": "32",
+      "network.validators.ersatz.multipleOfTendermintValidators": "0.5",
+      "network.validators.ersatz.rewardFactor": "0.5",
+      "network.validators.incumbentBonus": "1",
+      "network.validators.minimumEthereumEventsForNewValidator": "3",
+      "network.validators.multisig.numberOfSigners": "13",
+      "network.validators.tendermint.number": "30",
+      "reward.asset": "VOTE",
+      "reward.staking.delegation.competitionLevel": "1.1",
+      "reward.staking.delegation.delegatorShare": "0.883",
+      "reward.staking.delegation.maxPayoutPerEpoch": "7000000000000000000000",
+      "reward.staking.delegation.maxPayoutPerParticipant": "0",
+      "reward.staking.delegation.minValidators": "5",
+      "reward.staking.delegation.minimumValidatorStake": "0",
+      "reward.staking.delegation.optimalStakeMultiplier": "3.0",
+      "reward.staking.delegation.payoutDelay": "24h0m0s",
+      "reward.staking.delegation.payoutFraction": "1.0",
+      "rewards.marketCreationQuantumMultiple": "10000000",
+      "snapshot.interval.length": "1000",
+      "spam.pow.difficulty": "15",
+      "spam.pow.hashFunction": "sha3_24_rounds",
+      "spam.pow.increaseDifficulty": "0",
+      "spam.pow.numberOfPastBlocks": "100",
+      "spam.pow.numberOfTxPerBlock": "2",
+      "spam.protection.delegation.min.tokens": "1000000000000000000",
+      "spam.protection.max.batchSize": "15",
+      "spam.protection.max.delegations": "390",
+      "spam.protection.max.proposals": "3",
+      "spam.protection.max.votes": "3",
+      "spam.protection.maxUserTransfersPerEpoch": "20",
+      "spam.protection.minimumWithdrawalQuantumMultiple": "10",
+      "spam.protection.proposal.min.tokens": "100000000000000000000000",
+      "spam.protection.voting.min.tokens": "100000000000000000000",
+      "transfer.fee.factor": "0.001",
+      "transfer.minTransferQuantumMultiple": "0.1",
+      "validator.performance.scaling.factor": "0",
+      "validators.delegation.minAmount": "1",
+      "validators.epoch.length": "24h0m0s",
+      "validators.vote.required": "0.67"
+    },
+    "network_parameters_checkpoint_overwrite": null,
+    "network_limits": {
+      "propose_market_enabled": true,
+      "propose_asset_enabled": true
+    },
+    "checkpoint": {
+      "load_hash": "",
+      "state": ""
+    }
+  }
+}

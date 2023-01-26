@@ -38,6 +38,24 @@
       },
       "power": "10",
       "name": "Nodes Guru"
+    },
+    {
+      "address": "5392F6E0AE0BD93A08EFA2E04AEAD5189C19D262",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "bbWrfs2AzI9DCIlVecgvMJOi351z1gYurvMVqmO/cVg="
+      },
+      "power": "10",
+      "name": "P2P.ORG Validator"
+    },
+    {
+      "address": "67E3E5A41858E086AF53E6DC7C19328C64690798",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE="
+      },
+      "power": "10",
+      "name": "Lovali"
     }
   ],
   "app_hash": "",
@@ -68,7 +86,7 @@
         "avatar_url": "",
         "vega_pub_key_index": 1
       },
-     "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=": {
+      "y2iL4RlqFQvC8wAgU8pv4ge5XlYDvxmnKUx9/GkR9Ho=": {
 	 "id": "bbf0705fc8b82a9205f4cce1ce0d35f208cdfd5bc42df3c533fc209d8788c900",
          "vega_pub_key": "99f391c2299ea293ee0379d79635b143c53a75891784ea304300b9269db29269",
         "ethereum_address": "0x59eAf83cd47dDeF6F4627383a0EDa9f70D5f6Dcb",
@@ -77,6 +95,28 @@
          "country": "RU",
          "name": "Nodes Guru",
          "avatar_url": "",
+        "vega_pub_key_index": 1
+       },
+       "bbWrfs2AzI9DCIlVecgvMJOi351z1gYurvMVqmO/cVg=": {
+        "id": "15166f7b046c460d1b6a61c9e796ba9081f94ce5ad97362ec61ff51ae4bb4c8d",
+        "vega_pub_key": "95ea1f2024ff0673b3f2dbcd1c5194b2296eee0d6da298a92ac430c94757cb27",
+        "ethereum_address": "0xE44C64a043Ff6f44B86282cfeEBA25cdaF17f2E0",
+        "tm_pub_key": "bbWrfs2AzI9DCIlVecgvMJOi351z1gYurvMVqmO/cVg=",
+        "info_url": "http://p2p.org",
+        "country": "RU",
+        "name": "P2P.ORG Validator",
+        "avatar_url": "",
+        "vega_pub_key_index": 1
+      },
+      "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE=": {
+        "id": "0759769e41bf5688b4d8d2bb674742bb1f0352cf84652bb9671936d943a6d83f",
+        "vega_pub_key": "4c129867cbedfbd6bf17603e9708fb72c5c5f9524607deb6bd846379be015c37",
+        "ethereum_address": "0x730C5E8c5d6CD4AC6E1bEfDbD5732e713C524d33",
+        "tm_pub_key": "EM7TSC5NvNAhoxyAQcG5VJld1E+0WmSEcuuMsfWCjfE=",
+        "info_url": "https://www.lovali.xyz",
+        "country": "FI",
+        "name": "lovali-node01",
+        "avatar_url": "",
         "vega_pub_key_index": 1
       }
     },

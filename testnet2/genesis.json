@@ -22,13 +22,13 @@
   },
   "validators": [
     {
-      "address": "XXXX",
+      "address": "C07EE11A22C853B509105906F7CB902F36056B29",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "XXXXX"
+        "value": "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM="
       },
       "power": "10",
-      "name": ""
+      "name": "Commodum"
     }
   ],
   "app_hash": "",
@@ -48,18 +48,16 @@
       }
     },
     "validators": {
-      "4pqEB4IlNzq02o4ZMlgJTOXMFEUxs3mTtjn3+PVYcJs=": {
-        "id": "XXX",
-        "vega_pub_key": "XXX",
-        "vega_pub_key_index": 1,
-        "ethereum_address": "0xXXXX",
-        "tm_pub_key": "XXX",
-        "info_url": "",
-        "country": "",
-        "name": "",
+      "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM=": {
+        "id": "ea0019f6b89176f709cac4e4aba383cd6f9db6ea4c6ddfa0758fe962442fd8db",
+        "vega_pub_key": "d665ae57018b992105885c3d33ddff5b7d2d0baa2c32147117e460215a31764f",
+        "ethereum_address": "0x323214232ce28C420D91445588e84EFB6B1559E9",
+        "tm_pub_key": "WIWT1vHJAuJ+WCy0y6U7ZV70U34rtwiSE7QANQn1cKM=",
+        "info_url": "https://commodum.io",
+        "country": "UK",
+        "name": "Commodum",
         "avatar_url": "",
-        "from_epoch": 0,
-        "submitter_address": ""
+        "vega_pub_key_index": 1
       }
     },
     "network": {

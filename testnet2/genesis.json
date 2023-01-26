@@ -56,6 +56,15 @@
       },
       "power": "10",
       "name": "Lovali"
+    },
+    {
+      "address": "32937C48EA84EA7B6605F06A1105F8AF1D0E717A",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "ACbjTS0Z3B3OTvR57jGbqbwIFk0ccVk1C6CLxo9eU6c="
+      },
+      "power": "10",
+      "name": "XPRV"
     }
   ],
   "app_hash": "",
@@ -116,6 +125,18 @@
         "info_url": "https://www.lovali.xyz",
         "country": "FI",
         "name": "lovali-node01",
+        "avatar_url": "",
+        "vega_pub_key_index": 1
+      },
+      "ACbjTS0Z3B3OTvR57jGbqbwIFk0ccVk1C6CLxo9eU6c=": {
+        "id": "6e9f5ea3cb97bbabf5f0599d4bfc6f6dad90f50f70a086fbb55e87f695f1d906",
+        "vega_pub_key": "8b9fb2150223720d172520a26d48fe48e71bb5a169603f0b7dc7975655b0bcf7",
+        "vega_pub_key_index": 1,
+        "ethereum_address": "0x8c2a56a21B736A2428f1c4C9515B63b2bD09DF10",
+        "tm_pub_key": "ACbjTS0Z3B3OTvR57jGbqbwIFk0ccVk1C6CLxo9eU6c=",
+        "info_url": "https://xprv.io",
+        "country": "UK",
+        "name": "XPRV",
         "avatar_url": "",
         "vega_pub_key_index": 1
       }

@@ -34,14 +34,15 @@
   "app_hash": "",
   "app_state": {
     "assets": {
-      "VOTE": {
-        "name": "VOTE",
-        "symbol": "VOTE",
-        "decimals": 5,
-        "quantum": "1",
+      "d1984e3d365faa05bcafbe41f50f90e3663ee7c0da22bb1e24b164e9532691b2": {
+        "name": "VEGA",
+        "symbol": "VEGA",
+        "decimals": 18,
+        "quantum": "1000000000000000000",
+	"total_supply": "64999723000000000000000000",
         "source": {
-          "builtin_asset": {
-            "max_faucet_amount_mint": "10000"
+          "erc20": {
+            "contract_address": "0x4d2f52bf29aae53f3bb0473e06c425d495a1ef76"
           }
         }
       }

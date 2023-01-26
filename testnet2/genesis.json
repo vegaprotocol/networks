@@ -124,7 +124,7 @@
       "replay_attack_threshold": 150
     },
     "network_parameters": {
-      "blockchains.ethereumConfig": "{\"network_id\": \"XXX\", \"chain_id\": \"XXX\", \"collateral_bridge_contract\": { \"address\": \"0xXXX\" }, \"confirmations\": 3, \"staking_bridge_contract\": { \"address\": \"0xXXX\", \"deployment_block_height\": 0}, \"token_vesting_contract\": { \"address\": \"0xXXX\", \"deployment_block_height\": 0 }, \"multisig_control_contract\": { \"address\": \"0xXXX\", \"deployment_block_height\": 0 }}",
+      "blockchains.ethereumConfig": "{\"network_id\": \"XXX\", \"chain_id\": \"XXX\", \"collateral_bridge_contract\": { \"address\": \"0xXXX\" }, \"confirmations\": 3, \"staking_bridge_contract\": { \"address\": \"0x7183c92cfDf82b22A704f4d34a49E64e8dF8580e\", \"deployment_block_height\": 2769513 }, \"multisig_control_contract\": { \"address\": \"0xXXX\", \"deployment_block_height\": 0 }}",
       "governance.proposal.asset.maxClose": "720h",
       "governance.proposal.asset.maxEnact": "720h",
       "governance.proposal.asset.minClose": "10m",

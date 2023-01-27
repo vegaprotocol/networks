@@ -13,7 +13,11 @@ This repository contains the Genesis configuration files for public Vega network
 * [Backups](#backups)
 * [Running a Production Network](#running-a-production-network)
 * [Data Node](#data-node)
-* [Ethereum Event Queue](#ethereum-event-queue)
+* [Ethereum Event Forwarder](#ethereum-event-forwarder)
+* [Monitoring](#monitoring)
+* [Restore from Checkpoint](#restore-from-checkpoint)
+* [Restore from Snapshot](#restore-from-snapshot)
+* [Tendermint Configuration](#tendermint-configuration)
 
 ## The Vega Software
 
@@ -35,6 +39,14 @@ root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# vega tm version
 ## Environment Setup
 
 It is best to run your Vega node in a clean environment, where Tendermint has not been installed before. The following instructions assume this is the case; if it's not then you might not be able to rely on them.
+
+### Vega Home Path
+
+The Vega home directory varies depending on OS. In these instructions it is assumed to be `/etc/vega`. You can set your own home directory when initialising your environment by executing `vega init --home /my/home/dir`.
+
+The following command may also be helpful: `vega paths list`
+
+More information is available [here](https://github.com/vegaprotocol/vega-snapshots#files-location).
 
 ### Initialize Vega
 
@@ -59,17 +71,22 @@ drwx------  2 root root 4096 Aug 20 12:06 nodewallet/
 
 ### Generating Vega Keys
 
-Next, we need to generate our Vega keypair. This Vega keypair is used to identify our node on the Vega blockchain. You will be asked to enter your passphrase again, and the mnemonic used to create your private keys will be displayed in the console. Make a note of this mnemonic, and store it securely offline.
+Next, we need to generate our Vega keypair, we recommend you generate your keypairs following the [isolated vega wallet guide](https://github.com/vegaprotocol/networks/blob/master/isolated-vega-wallets.md)
 
+Once your vega wallet have been generated, you will need to import them in your nodewallet. First we need to locate the wallet, this can be done using the following command:
 ```
-root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# vega nodewallet generate --chain vega
-please enter node wallet passphrase:
-please enter blockchain wallet passphrase:
-generation successful
-additional data:
-{
-    "mnemonic": "outside hungry soccer rally more rough tuna lunch wagon hood click labor stem total soon junk siren employ forward spider model mad expand pizza"
-}
+root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# vega paths list | grep -w "WalletsDataHome"
+  WalletsDataHome			/etc/vega/data/wallets
+```
+
+> note: this path may differ depending of your operating system.
+
+Now we can import the wallet previously created:
+```
+vega nodewallet import --force --chain=vega --wallet-path="/etc/vega/data/wallets/testwallet.29973a5c.isolated"
+Enter node wallet passphrase:
+Enter blockchain wallet passphrase:
+import successful
 ```
 
 ### Generating Ethereum Keys
@@ -102,6 +119,18 @@ root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# vega tm init
 I[2021-08-20|12:24:58.308] Generated private validator                  module=main keyFile=/root/.tendermint/config/priv_validator_key.json stateFile=/root/.tendermint/data/priv_validator_state.json
 I[2021-08-20|12:24:58.309] Generated node key                           module=main path=/root/.tendermint/config/node_key.json
 I[2021-08-20|12:24:58.309] Generated genesis file                       module=main path=/root/.tendermint/config/genesis.json
+```
+
+### Ethereum Configuration
+
+The Vega network requires a synchronized Ethereum node to list to events on the ERC20 collateral bridge and staking smart contract. You can configure the URL for your Ethereum node inside `/etc/vega/config.toml` by editing the section below:
+
+```
+[NodeWallet]
+  Level = "Info"
+  [NodeWallet.ETH]
+    Level = "Info"
+    Address = "https://ropsten.infura.io/v3/YOUR-API-KEY"
 ```
 
 ## Joining a Network
@@ -167,25 +196,162 @@ You might like to backup the following directories in case anything goes wrong:
 * `~/.tendermint` - the Tendermint home directory containing the Vega blockchain
 * `/etc/vega` - the Vega home directory containing your encrypted wallets (both Vega and Ethereum keys)
 
-## Running a Production Network
-
-The instructions above describe how to run a single-node Vega network, where Tendermint and the Vega application are running on a single host. They also make use of the default Infura configuration that comes with the Vega binary. When running a production network it will be distributed across many hosts, where each host connects to their own Ethereum node (maybe Infura, maybe internally hosted). The following guide explains how to configure these steps.
-
-### Multi-Node Setup
-
-TBC
-
-### Ethereum Configuration
-
-TBC
-
 ## Data Node
 
-The Data Node exposes APIs that make it easier to interact with the Vega network.The APIs made available by the Data Node application are REST and GraphQL. The following instructions explain how to run a Data Node alongside your validator.
+The Data Node exposes APIs that make it easier to interact with the Vega network.The APIs made available by the Data Node application are REST, gRPC and GraphQL. The following instructions explain how to run a Data Node alongside your validator.
 
-TBC
+Firstly, you need to initialize your environment with the command below:
 
-## Ethereum Event Queue
-The Vega blockchain implements a bridge to Ethereum, where collateral assets are stored in a smart contract. In order to keep the Vega network in sync with events on Ethereum it is necessary to run the Event Queue application alongside your validator. The Event Queue is a relatively simple Node.js application.
+```
+root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# data-node init
+2021-09-09T15:23:14.057Z	INFO	data-node/init.go:90	configuration generated successfully	{"path": "/etc/vega_data_node"}
+```
+
+Next, edit the `/etc/vega/config.toml` file and set `Enabled=true` under the `Broker` configuration section:
+
+```
+[Broker]
+  Level = "Info"
+  [Broker.Socket]
+    DialTimeout = "2m0s"
+    DialRetryInterval = "5s"
+    SocketQueueTimeout = "3s"
+    EventChannelBufferSize = 10000000
+    SocketChannelBufferSize = 1000000
+    MaxSendTimeouts = 10
+    IP = "0.0.0.0"
+    Port = 3005
+    Enabled = true
+    Transport = "tcp"
+```
+
+Now you can run the data node binary alongside Tendermint and Vega with the following command:
+
+```
+root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# data-node node
+2021-09-09T15:27:25.986Z	INFO	cfgwatcher	config/watcher.go:74	config watcher started successfully{"config": "/etc/vega_data_node/config.toml"}
+2021-09-09T15:27:25.986Z	INFO	node/node_pre.go:68	Starting Vega	{"config-path": "/etc/vega_data_node", "version": "", "version-hash": ""}
+```
+
+If everything is working correctly you will be able to access gRPC on port 3007, GraphQL on 3008 and REST on port 3009.
+
+Detailed API docs are available [here](https://docs.fairground.vega.xyz/).
+
+## Ethereum Event Forwarder
+
+The Vega blockchain implements a bridge to Ethereum, where collateral assets are stored in a smart contract. In order to keep the Vega network in sync with events on Ethereum it is necessary to run the `ethereum-event-forwarder` application alongside your validator. The Event Queue is a relatively simple Node.js application, and it is available at the following public repository:
 
 There are a few smart contracts on the Ethereum side that the bridge watches for events. For details & addresses, see [contracts.md](./contracts.md).
+
+- [vegaprotocol/ethereum-event-forwarder](https://github.com/vegaprotocol/ethereum-event-forwarder)
+
+In order to avoid spam on the validator node, we implemented an allow-listing mecanism. You will need to create a Vega wallet for the `ethereum-event-forwarder`, using the following steps:
+
+Create a wallet using the following command:
+
+```
+vega wallet init # optional if you already done that previously
+vega wallet key generate --wallet="ethereum-event-queue-testnet"
+```
+
+This command will dump information to the console, be sure to save the mnemonic, also copy the public key and use it in the following section of the Vega config (config.toml) in the Vega root directory:
+
+```
+[EvtForward]
+  Level = "Info"
+  RetryRate = "10s"
+  BlockchainQueueAllowlist = ["ADD_THE_WALLET_PUBKEY_HERE"]
+```
+
+Then we need to save the private key as well to be used by the `ethereum-event-forwarder` see the repository README (secret.key). By running the following command you should be able to see the private key of the wallet you just created:
+
+```
+vega wallet key list --wallet="ethereum-event-queue-testnet"
+```
+
+Lastly, the `config.toml` to be used with the `ethereum-event-forwarder` is availble in this repository at the [following location](https://github.com/vegaprotocol/networks/blob/master/testnet1/ethereum-event-forwarder-config.toml). This config is for `testnet1`, you should use the config file for the network that you are trying to join by navigating to the relevant directory in this repository.
+
+## Monitoring
+
+The guidance below should be helpful for monitoring a network to ensure the node are online and functioning as expected.
+
+* [Zabbix](https://www.zabbix.com) is useful for monitoring CPU usage, average load, system memory, swap usage, available disk space, disk I/O and network I/O.
+* Zabbix per-app monitoring is also useful for Tendermint, Vega and Data Node usage stats
+* http://localhost:3003/statistics exposes consensus and app specific data from each node; e.g. transactions per block, blocks per second, trades per block, up-time
+* Tendermint and consensus monitoring is available via [RPC over HTTP](https://docs.tendermint.com/master/rpc) using port 26657
+
+## Restore from Checkpoint
+
+The Vega blockchain periodically stores checkpoints of important state parameters, such as balances. This allows the chain to be restarted from a previously valid state in the event of a critical issue being discovered, or in the event of consensus failure.
+
+The checkpoint files are written to `/etc/vega/checkpoints` and each checkpoint is identified by a hash, which is present in the name of the checkpoint file. The checkpoint file name adheres to the following pattern: `<date>-<block>-<checkpoint-hash>.cp`.
+
+In order to start a network using a checkpoint file the Genesis file needs to be populated with a valid checkpoint hash:
+
+```
+{
+   "checkpoint": {
+       "load_hash": ""
+   }
+}
+```
+
+Prior to starting a chain from a checkpoint you will want to make sure you execute `vega tm unsafe_reset_all` to nuke the previous chain.
+
+A new chain can now be started (with block height of zero) using some of the previous state. Once the chain is up and running one of the validators should restore the checkpoint file using the following command:
+
+```
+vega checkpoint restore -f=<checkpoint-file>.cp
+```
+
+The block height will start to incremement before the restore transaction has been executed, but the Vega application will ignore all transactions until the checkpoint has been restored.
+
+### Checkpoint Data
+
+Checkpoints contain the following data:
+
+* Assets (pending and active)
+* Collateral (total balance per party/asset)
+* Network parameters (all of them, key-value)
+* Governance (enacted proposals only, on restore, these proposals will get enacted unless between the checkpoint being created and restored, some proposals have expired)
+* Epoch: The current epoch
+* Delegation (active and pending delegation actions)
+
+## Restore from Snapshot
+
+Snapshots allow a node to go "offline" and rejoin the network later without needing to replay the entire chain. Instructions for rejoining an existing network using a snapshot file are coming soon.
+
+## Tendermint Configuration
+
+The following Tendermint configuration (`/root/.tendermint/config/config.toml`) is recommended:
+
+```
+[consensus]
+
+# Make progress as soon as we have all the precommits (as if TimeoutCommit = 0)
+skip_timeout_commit = true
+
+# EmptyBlocks mode and possible interval between empty blocks
+create_empty_blocks = true
+create_empty_blocks_interval = "0s"
+# How long we wait for a proposal block before prevoting nil
+timeout_propose = "3s"
+# How much timeout_propose increases with each round
+timeout_propose_delta = "500ms"
+# How long we wait after receiving +2/3 prevotes for "anything" (ie. not a single block or nil)
+timeout_prevote = "1s"
+# How much the timeout_prevote increases with each round
+timeout_prevote_delta = "500ms"
+# How long we wait after receiving +2/3 precommits for "anything" (ie. not a single block or nil)
+timeout_precommit = "1s"
+# How much the timeout_precommit increases with each round
+timeout_precommit_delta = "500ms"
+# How long we wait after committing a block, before starting on the new
+# height (this gives us a chance to receive some more precommits, even
+# though we already have +2/3).
+timeout_commit = "1s"
+
+[mempool]
+
+recheck = true
+```

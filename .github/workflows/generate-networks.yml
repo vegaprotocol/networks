@@ -1,0 +1,36 @@
+---
+name: Generate networks
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: scripts
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        id: Node
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install
+        run: npm i
+      - name: Generate script
+        run: node ./generate-json.js
+      - name: Add and commit
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: "vega"
+          message: "generate networks"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,8 @@
+[
+  {
+    "name": "mainnet1",
+    "configFileUrl": "https://raw.githubusercontent.com/vegaprotocol/networks/master/mainnet1/mainnet1.toml",
+    "explorer": "https://explorer.vega.xyz/",
+    "sha": "0dfd8d1539ae28a460d5ef2d28067156192b944c"
+  }
+]

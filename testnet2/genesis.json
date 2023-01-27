@@ -101,6 +101,24 @@
       },
       "power": "10",
       "name": "Validatrium"
+    },
+    {
+      "address": "DB5F29741F4DEB3941B6FCF6250407ABF4F450E9",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "7sNI/IrIQFe+OuntZekffT9NntRB+1QMGoZw3lj3vwY="
+      },
+      "power": "10",
+      "name": "Pathrocknetwork"
+    },
+    {
+      "address": "113FEF052918F07E7CCC61FD477659F4AEBE1546",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0="
+      },
+      "power": "10",
+      "name": "Nala DAO"
     }
   ],
   "app_hash": "",
@@ -220,6 +238,27 @@
         "name": "Validatrium",
         "avatar_url": "",
         "from_epoch": 0
+      },
+      "7sNI/IrIQFe+OuntZekffT9NntRB+1QMGoZw3lj3vwY=": {
+        "id": "dd0ca1fb08a9a9b4f2c903d776fac54befadb547eeae32538e5e59838f8c257c",
+        "vega_pub_key": "4f6dbc0648191ce400a27fcbba6e1f2440bef1769898c18f0c7272987f6b6f06",
+        "vega_pub_key_index": 1,
+        "ethereum_address": "0x1ec7E496076407fD93293380f22B84c1D739b7Ac",
+        "tm_pub_key": "7sNI/IrIQFe+OuntZekffT9NntRB+1QMGoZw3lj3vwY=",
+        "info_url": "https://pathrocknetwork.org/",
+        "country": "Germany",
+        "name": "Pathrocknetwork",
+        "avatar_url": "",
+        "from_epoch": 0
+      },
+      "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0=": {
+        "id": "82a0c4f727873e769b602cf20e0396ee080d2e079bc9b29bc5573cbc950c71e4",
+        "vega_pub_key": "494c187e4c06453f13b5a7c1c385c76a2c29b0e3147dc491592456199b5f6f7b",
+        "ethereum_address": "0xD2ed89D9080DeFDe5e22Ce0aEA18AD54692B0b58",
+        "tm_pub_key": "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0=",
+        "info_url": "https://www.naladao.com",
+        "country": "Australia",
+        "vega_pub_key_index": 1
       }
     },
     "network": {

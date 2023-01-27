@@ -92,6 +92,15 @@
       },
       "power": "10",
       "name": "B-Harvest"
+    },
+    {
+      "address": "D79AE44BA98EA318E26A7E08E0E97DA66067E346",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "aVSRJodi6J4j4puZRLp2mECB0HN1E7r7TAlnxGN5Yyk="
+      },
+      "power": "10",
+      "name": "Validatrium"
     }
   ],
   "app_hash": "",
@@ -199,6 +208,18 @@
         "name": "B-Harvest",
         "avatar_url": "",
         "vega_pub_key_index": 1
+      },
+      "aVSRJodi6J4j4puZRLp2mECB0HN1E7r7TAlnxGN5Yyk=": {
+        "id": "fa10441ce808235a1eb14cb7e7668f748370d54721854df88b0b271664cb0da1",
+        "vega_pub_key": "5d302a51f7650d2e3fcd42c75baa5be0857fde6a074dc9c61cbb750df806c056",
+        "vega_pub_key_index": 1,
+        "ethereum_address": "0xFD67dCAfe59e9e6a0AEB899f92A2D1C62D9b0BfB",
+        "tm_pub_key": "aVSRJodi6J4j4puZRLp2mECB0HN1E7r7TAlnxGN5Yyk=",
+        "info_url": "https://validatrium.com",
+        "country": "UA",
+        "name": "Validatrium",
+        "avatar_url": "",
+        "from_epoch": 0
       }
     },
     "network": {

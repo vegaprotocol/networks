@@ -119,6 +119,15 @@
       },
       "power": "10",
       "name": "Nala DAO"
+    },
+    {
+      "address": "7D6F05CCC50ABF30ABF2FEBBF7F3326A6F43B077",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "rWbSo+zsooT757cRDISzVAd7PZP9/8n6NuPwKlfTvjU="
+      },
+      "power": "10",
+      "name": "StakingCabin"
     }
   ],
   "app_hash": "",
@@ -259,6 +268,19 @@
         "info_url": "https://www.naladao.com",
         "country": "Australia",
         "vega_pub_key_index": 1
+      },
+      "rWbSo+zsooT757cRDISzVAd7PZP9/8n6NuPwKlfTvjU=": {
+        "id": "c8f719e605b8c54d2e0d9caa56f8e3ded8701330c99218e99cddec0422fa64fc",
+        "vega_pub_key": "2efe4d89af6a7a2483b8cec79d08b8569d0274346559b8ddcf5a299199ec2e9d",
+        "vega_pub_key_index": 1,
+        "ethereum_address": "0x8928d05c595DA0A22C1b74C2fe387CdA9ECa6054",
+        "tm_pub_key": "rWbSo+zsooT757cRDISzVAd7PZP9/8n6NuPwKlfTvjU=",
+        "info_url": "https://www.stakingcabin.com/",
+        "country": "CA",
+        "name": "StakingCabin",
+        "avatar_url": "",
+        "from_epoch": 0,
+        "submitter_address": ""
       }
     },
     "network": {

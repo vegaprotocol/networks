@@ -1,0 +1,25 @@
+Host = "127.0.0.1"
+Level = "info"
+Name = "testnet2"
+Port = 1789
+TokenExpiry = "168h0m0s"
+
+[API]
+
+  [API.GRPC]
+    Hosts = ["api.validators-testnet.vega.xyz:3007"]
+    Retries = 5
+
+  [API.GraphQL]
+    Hosts = ["https://api.validators-testnet.vega.xyz/query"]
+
+  [API.REST]
+    Hosts = ["https://api.validators-testnet.vega.xyz"]
+
+[Console]
+  LocalPort = 1847
+  URL = ""
+
+[TokenDApp]
+  LocalPort = 1848
+  URL = "https://validator-testnet.governance.vega.xyz/"

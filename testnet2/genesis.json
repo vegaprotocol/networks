@@ -393,6 +393,7 @@
       "spam.protection.max.proposals": "3",
       "spam.protection.max.votes": "3",
       "spam.protection.maxUserTransfersPerEpoch": "20",
+      "spam.protection.minimumWitdrawalQuantumMultiple": "10",      
       "spam.protection.proposal.min.tokens": "2000000000000000000000",
       "spam.protection.voting.min.tokens": "1000000000000000000",
       "transfer.fee.factor": "0.001",

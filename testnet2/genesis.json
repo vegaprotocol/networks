@@ -119,6 +119,15 @@
       },
       "power": "10",
       "name": "StakingCabin"
+    },
+    {
+      "address": "AA26F2492F79783AFD51A148A042677C15BE1860",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "794AFpbqJvHF79tmhAK3fvSLnoXuuiig2ecrdeSJ/bk="
+      },
+      "power": "10",
+      "name": "AnyValid"
     }
   ],
   "app_hash": "",
@@ -262,6 +271,18 @@
         "avatar_url": "",
         "from_epoch": 0,
         "submitter_address": ""
+      },
+      "794AFpbqJvHF79tmhAK3fvSLnoXuuiig2ecrdeSJ/bk=": {
+        "id": "d6f8f0d0e5d2fd8537173566157364e50343cb22cc3a97ab9a415c0258d54200",
+        "vega_pub_key": "469476d863d2a3a23b32d44939588e423d8f771aabeca3586e7f475c7cb4ee2d",
+        "vega_pub_key_index": 1,
+        "ethereum_address": "0xBdAE5C836B2E5E50EFCE2F9846a577e099767573",
+        "tm_pub_key": "794AFpbqJvHF79tmhAK3fvSLnoXuuiig2ecrdeSJ/bk=",
+        "info_url": "https://anyvalid.com",
+        "country": "RU",
+        "name": "AnyValid",
+        "avatar_url": "https://anyvalid.com/images/AnyValid.png",
+        "from_epoch": 0
       }
     },
     "network": {

@@ -112,15 +112,6 @@
       "name": "Pathrocknetwork"
     },
     {
-      "address": "113FEF052918F07E7CCC61FD477659F4AEBE1546",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0="
-      },
-      "power": "10",
-      "name": "Nala DAO"
-    },
-    {
       "address": "7D6F05CCC50ABF30ABF2FEBBF7F3326A6F43B077",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
@@ -258,15 +249,6 @@
         "name": "Pathrocknetwork",
         "avatar_url": "",
         "from_epoch": 0
-      },
-      "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0=": {
-        "id": "82a0c4f727873e769b602cf20e0396ee080d2e079bc9b29bc5573cbc950c71e4",
-        "vega_pub_key": "494c187e4c06453f13b5a7c1c385c76a2c29b0e3147dc491592456199b5f6f7b",
-        "ethereum_address": "0xD2ed89D9080DeFDe5e22Ce0aEA18AD54692B0b58",
-        "tm_pub_key": "qNimlUjczGi1iUKCP4UCRPJIUQJnY6RSxpTU+h+mic0=",
-        "info_url": "https://www.naladao.com",
-        "country": "Australia",
-        "vega_pub_key_index": 1
       },
       "rWbSo+zsooT757cRDISzVAd7PZP9/8n6NuPwKlfTvjU=": {
         "id": "c8f719e605b8c54d2e0d9caa56f8e3ded8701330c99218e99cddec0422fa64fc",

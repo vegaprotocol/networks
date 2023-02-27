@@ -364,7 +364,7 @@
       "network.floatingPointUpdates.delay": "5m",
       "network.markPriceUpdateMaximumFrequency": "5s",
       "network.transaction.defaultgas": "1",
-      "network.transactions.maxgasperblock": "1000000",
+      "network.transactions.maxgasperblock": "3000000",
       "network.transactions.minBlockCapacity": "32",
       "network.validators.ersatz.multipleOfTendermintValidators": "0",
       "network.validators.ersatz.rewardFactor": "0.5",
@@ -407,9 +407,9 @@
       "validators.vote.required": "0.67"
     },
     "network_parameters_checkpoint_overwrite": [
-      "governance.proposal.updateMarket.minProposerEquityLikeShare"
-    ],	    
-    "network_parameters_checkpoint_overwrite": null,
+      "governance.proposal.updateMarket.minProposerEquityLikeShare",
+      "network.transactions.maxgasperblock"
+    ],
     "network_limits": {
       "propose_market_enabled": true,
       "propose_asset_enabled": true

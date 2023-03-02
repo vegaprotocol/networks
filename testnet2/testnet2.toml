@@ -18,7 +18,7 @@ TokenExpiry = "168h0m0s"
 
 [Console]
   LocalPort = 1847
-  URL = ""
+  URL = "https://validator-testnet.console.vega.xyz/"
 
 [TokenDApp]
   LocalPort = 1848

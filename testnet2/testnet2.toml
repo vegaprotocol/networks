@@ -1,8 +1,9 @@
-Host = "127.0.0.1"
-Level = "info"
+
 Name = "testnet2"
-Port = 1789
-TokenExpiry = "168h0m0s"
+
+[[Metadata]]
+Key = "network"
+Value = "testnet2"
 
 [API]
 
@@ -16,10 +17,7 @@ TokenExpiry = "168h0m0s"
   [API.REST]
     Hosts = ["https://api.validators-testnet.vega.xyz"]
 
-[Console]
-  LocalPort = 1847
-  URL = ""
-
-[TokenDApp]
-  LocalPort = 1848
-  URL = "https://validator-testnet.governance.vega.xyz/"
+[Apps]
+  Console = "https://validator-testnet.console.vega.xyz/"
+  Governance = "https://validator-testnet.governance.vega.xyz/"
+  Explorer = "https://validator-testnet.explorer.vega.xyz/"

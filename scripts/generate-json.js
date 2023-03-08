@@ -1,6 +1,12 @@
 require("isomorphic-fetch");
 const fs = require("fs");
 
+const EXPLORER_URLS = {
+  mainnet1: 'https://explorer.vega.xyz/',
+  testnet1: 'https://explorer.fairground.wtf/',
+  testnet2: 'https://validator-testnet.explorer.vega.xyz/',
+}
+
 const run = async () => {
   try {
     // Get contents of the repo
@@ -41,6 +47,7 @@ const run = async () => {
           arr.push({
             name: network.name,
             configFileUrl: configFile.download_url,
+            explorer: EXPLORER_URLS[network.name] || '',
             sha: configFile.sha,
           });
         } else {

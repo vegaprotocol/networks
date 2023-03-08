@@ -17,7 +17,8 @@ Host = "127.0.0.1"
       "rockaway.mainnet.vega.community:3007",
       "greenfield-one.mainnet.vega.community:3007",
       "grpc.vega.xprv.io:443",
-      "nala.mainnet.vega.community:3007"
+      "nala.mainnet.vega.community:3007",
+      "vega.mainnet.stakingcabin.com:3007"
     ]
     Retries = 5
   [API.REST]
@@ -32,7 +33,8 @@ Host = "127.0.0.1"
       "http://nodes-guru.mainnet.vega.community:3009",
       "http://p2p.mainnet.vega.community:3009",
       "http://rockaway.mainnet.vega.community:3009",
-      "http://greenfield-one.mainnet.vega.community:3009"
+      "http://greenfield-one.mainnet.vega.community:3009",
+      "http://vega.mainnet.stakingcabin.com:3009"
     ]
   [API.GraphQL]
     Hosts = [
@@ -46,7 +48,8 @@ Host = "127.0.0.1"
       "http://nodes-guru.mainnet.vega.community:3008",
       "http://p2p.mainnet.vega.community:3008",
       "http://rockaway.mainnet.vega.community:3008",
-      "http://greenfield-one.mainnet.vega.community:3008"
+      "http://greenfield-one.mainnet.vega.community:3008",
+      "http://vega.mainnet.stakingcabin.com:3008"
     ]
 
 [Console]

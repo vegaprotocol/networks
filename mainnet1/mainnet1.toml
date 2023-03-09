@@ -49,7 +49,7 @@ Host = "127.0.0.1"
       "http://p2p.mainnet.vega.community:3008",
       "http://rockaway.mainnet.vega.community:3008",
       "http://greenfield-one.mainnet.vega.community:3008",
-      "http://vega.mainnet.stakingcabin.com:3008"
+      "https://vega.mainnet.stakingcabin.com/query"
     ]
 
 [Console]

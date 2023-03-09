@@ -14,7 +14,8 @@ Host = "127.0.0.1"
       "grpc.velvet.tm.p2p.org:443",
       "rockaway.mainnet.vega.community:3007",
       "greenfield-one.mainnet.vega.community:3007",
-      "grpc.vega.xprv.io:443"
+      "grpc.vega.xprv.io:443",
+      "vega.mainnet.stakingcabin.com:3007"
     ]
     Retries = 5
   [API.REST]
@@ -26,7 +27,8 @@ Host = "127.0.0.1"
       "https://rest.velvet.tm.p2p.org:443",
       "http://rockaway.mainnet.vega.community:3009",
       "http://greenfield-one.mainnet.vega.community:3009",
-      "http://vega.xprv.io/datanode"
+      "http://vega.xprv.io/datanode",
+      "http://vega.mainnet.stakingcabin.com:3009"
     ]
   [API.GraphQL]
     Hosts = [
@@ -37,7 +39,8 @@ Host = "127.0.0.1"
       "https://gql.velvet.tm.p2p.org:443/query",
       "http://rockaway.mainnet.vega.community:3008",
       "http://greenfield-one.mainnet.vega.community:3008",
-      "https://vega.xprv.io/datanode/query"
+      "https://vega.xprv.io/datanode/query",
+      "https://vega.mainnet.stakingcabin.com/query"
     ]
 
 [Console]

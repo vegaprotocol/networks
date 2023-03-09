@@ -11,7 +11,7 @@ Host = "127.0.0.1"
       "lovali.mainnet.vega.community:3007",
       "b-harvest.mainnet.vega.community:3007",
       "nodes-guru.mainnet.vega.community:3007",
-      "p2p.mainnet.vega.community:3007",
+      "grpc.velvet.tm.p2p.org:443",
       "rockaway.mainnet.vega.community:3007",
       "greenfield-one.mainnet.vega.community:3007",
       "grpc.vega.xprv.io:443"
@@ -23,7 +23,7 @@ Host = "127.0.0.1"
       "http://lovali.mainnet.vega.community:3009",
       "http://b-harvest.mainnet.vega.community:3009",
       "http://nodes-guru.mainnet.vega.community:3009",
-      "http://p2p.mainnet.vega.community:3009",
+      "https://rest.velvet.tm.p2p.org:443",
       "http://rockaway.mainnet.vega.community:3009",
       "http://greenfield-one.mainnet.vega.community:3009",
       "http://vega.xprv.io/datanode"
@@ -34,7 +34,7 @@ Host = "127.0.0.1"
       "http://lovali.mainnet.vega.community:3008",
       "http://b-harvest.mainnet.vega.community:3008",
       "http://nodes-guru.mainnet.vega.community:3008",
-      "http://p2p.mainnet.vega.community:3008",
+      "https://gql.velvet.tm.p2p.org:443/query",
       "http://rockaway.mainnet.vega.community:3008",
       "http://greenfield-one.mainnet.vega.community:3008",
       "https://vega.xprv.io/datanode/query"

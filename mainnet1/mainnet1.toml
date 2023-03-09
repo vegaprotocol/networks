@@ -7,7 +7,7 @@ Host = "127.0.0.1"
 [API]
   [API.GRPC]
     Hosts = [
-      "commodum.mainnet.vega.community:3007",
+      "vega-mainnet-data-grpc.commodum.io:443",
       "lovali.mainnet.vega.community:3007",
       "b-harvest.mainnet.vega.community:3007",
       "nodes-guru.mainnet.vega.community:3007",
@@ -19,7 +19,7 @@ Host = "127.0.0.1"
     Retries = 5
   [API.REST]
     Hosts = [
-      "http://commodum.mainnet.vega.community:3009",
+      "https://vega-mainnet-data-rest.commodum.io",
       "http://lovali.mainnet.vega.community:3009",
       "http://b-harvest.mainnet.vega.community:3009",
       "http://nodes-guru.mainnet.vega.community:3009",
@@ -30,7 +30,7 @@ Host = "127.0.0.1"
     ]
   [API.GraphQL]
     Hosts = [
-      "http://commodum.mainnet.vega.community:3008",
+      "https://vega-mainnet-data-graphql.commodum.io/query",
       "http://lovali.mainnet.vega.community:3008",
       "http://b-harvest.mainnet.vega.community:3008",
       "http://nodes-guru.mainnet.vega.community:3008",

@@ -15,7 +15,6 @@ Host = "127.0.0.1"
       "rockaway.mainnet.vega.community:3007",
       "greenfield-one.mainnet.vega.community:3007",
       "grpc.vega.xprv.io:443",
-      "nala.mainnet.vega.community:3007",
       "vega.mainnet.stakingcabin.com:3007"
     ]
     Retries = 5
@@ -29,7 +28,7 @@ Host = "127.0.0.1"
       "http://rockaway.mainnet.vega.community:3009",
       "http://greenfield-one.mainnet.vega.community:3009",
       "http://vega.xprv.io/datanode",
-      "http://vega.mainnet.stakingcabin.com:3009"      
+      "http://vega.mainnet.stakingcabin.com:3009"
     ]
   [API.GraphQL]
     Hosts = [

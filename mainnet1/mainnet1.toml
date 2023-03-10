@@ -17,7 +17,8 @@ Host = "127.0.0.1"
       "grpc.vega.xprv.io:443",
       "vega.mainnet.stakingcabin.com:3007",
       "vega-mainnet.anyvalid.com:3002",
-      "mainnet.vega.blockscope.net:3007"
+      "mainnet.vega.blockscope.net:3007",
+      "grpcvega.gpvalidator.com:3007"
     ]
     Retries = 5
   [API.REST]
@@ -32,7 +33,8 @@ Host = "127.0.0.1"
       "http://vega.xprv.io/datanode",
       "http://vega.mainnet.stakingcabin.com:3009",
       "http://vega-mainnet.anyvalid.com:3003",
-      "http://mainnet.vega.blockscope.net:3009"
+      "http://mainnet.vega.blockscope.net:3009",
+      "http://restvega.gpvalidator.com:3009"
     ]
   [API.GraphQL]
     Hosts = [
@@ -45,7 +47,8 @@ Host = "127.0.0.1"
       "http://greenfield-one.mainnet.vega.community:3008/query",
       "https://vega.xprv.io/datanode/query",
       "https://vega.mainnet.stakingcabin.com/query",
-      "http://mainnet.vega.blockscope.net:3008/query"
+      "http://mainnet.vega.blockscope.net:3008/query",
+      "http://graphqlvega.gpvalidator.com:3008/query"
     ]
 
 [Console]

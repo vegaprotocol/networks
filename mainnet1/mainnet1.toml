@@ -9,7 +9,6 @@ Host = "127.0.0.1"
     Hosts = [
       "vega-mainnet-data-grpc.commodum.io:443",
       "lovali.mainnet.vega.community:3007",
-      "b-harvest.mainnet.vega.community:3007",
       "vega-grpc.bharvest.io:3007",
       "vega-data.nodes.guru:3007",
       "grpc.velvet.tm.p2p.org:443",
@@ -37,7 +36,6 @@ Host = "127.0.0.1"
       "http://lovali.mainnet.vega.community:3008",
       "https://vega-graphql.bharvest.io/query",
       "https://vega-data.nodes.guru:3008",
-      "http://nodes-guru.mainnet.vega.community:3008",
       "https://gql.velvet.tm.p2p.org:443/query",
       "http://rockaway.mainnet.vega.community:3008",
       "http://greenfield-one.mainnet.vega.community:3008",

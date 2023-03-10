@@ -43,7 +43,7 @@ Host = "127.0.0.1"
       "http://greenfield-one.mainnet.vega.community:3008",
       "https://vega.xprv.io/datanode/query",
       "https://vega.mainnet.stakingcabin.com/query",
-      "http://mainnet.vega.blockscope.net:3008"
+      "http://mainnet.vega.blockscope.net:3008/query"
     ]
 
 [Console]

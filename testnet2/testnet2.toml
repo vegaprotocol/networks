@@ -14,14 +14,21 @@ Value = "testnet2"
       "api-n03.validators-testnet.vega.rocks:3007",
       "api-n04.validators-testnet.vega.rocks:3007",
       "api-n05.validators-testnet.vega.rocks:3007",
+      "vega-testnet.anyvalid.com:3007"
     ]
     Retries = 5
 
   [API.GraphQL]
-    Hosts = ["https://api-validators-testnet.vega.rocks/graphql"]
+    Hosts = [
+      "https://api-validators-testnet.vega.rocks/graphql",
+      "https://vega-testnet.anyvalid.com/query"
+    ]
 
   [API.REST]
-    Hosts = ["https://api-validators-testnet.vega.rocks"]
+    Hosts = [
+      "https://api-validators-testnet.vega.rocks",
+      "https://vega-testnet.anyvalid.com:3009"
+    ]
 
 [Apps]
   Console = "https://validator-testnet.console.vega.xyz/"

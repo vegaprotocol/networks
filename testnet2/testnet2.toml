@@ -8,14 +8,23 @@ Value = "testnet2"
 [API]
 
   [API.GRPC]
-    Hosts = ["api.validators-testnet.vega.xyz:3007"]
+    Hosts = [
+    "api.validators-testnet.vega.xyz:3007",
+    "vega-testnet.anyvalid.com:3007"
+    ]
     Retries = 5
 
   [API.GraphQL]
-    Hosts = ["https://api.validators-testnet.vega.xyz/query"]
+    Hosts = [
+    "https://api.validators-testnet.vega.xyz/query",
+    "https://vega-testnet.anyvalid.com/query"
+    ]
 
   [API.REST]
-    Hosts = ["https://api.validators-testnet.vega.xyz"]
+    Hosts = [
+    "https://api.validators-testnet.vega.xyz",
+    "https://vega-testnet.anyvalid.com:3009"
+    ]
 
 [Apps]
   Console = "https://validator-testnet.console.vega.xyz/"

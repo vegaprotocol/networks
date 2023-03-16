@@ -8,26 +8,32 @@ Value = "testnet2"
 [API]
   [API.GRPC]
     Hosts = [
+      "grpc.venom.tm.p2p.org:443",
       "api-n00.validators-testnet.vega.rocks:3007",
       "api-n02.validators-testnet.vega.rocks:3007",
       "api-n03.validators-testnet.vega.rocks:3007",
       "api-n04.validators-testnet.vega.rocks:3007",
       "api-n05.validators-testnet.vega.rocks:3007",
       "vega-testnet.anyvalid.com:3007",
-      "testnet.grpc.vega.xprv.io:443"
+      "testnet.grpc.vega.xprv.io:443",
+      "vega-testnet.nodes.guru:3007"
     ]
     Retries = 5
   [API.GraphQL]
     Hosts = [
+      "https://gql.venom.tm.p2p.org/query",
       "https://api-validators-testnet.vega.rocks/graphql",
       "https://vega-testnet.anyvalid.com/query",
-      "https://testnet.vega.xprv.io/datanode/query"
+      "https://testnet.vega.xprv.io/datanode/query",
+      "https://vega-testnet.nodes.guru:3008/graphql"
     ]
   [API.REST]
     Hosts = [
+      "https://rest.venom.tm.p2p.org",
       "https://api-validators-testnet.vega.rocks",
       "https://vega-testnet.anyvalid.com:3009",
-      "https://testnet.vega.xprv.io/datanode"
+      "https://testnet.vega.xprv.io/datanode",
+      "https://vega-testnet.nodes.guru:3009"
     ]
 
 [Apps]

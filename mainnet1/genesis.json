@@ -137,7 +137,7 @@
         "value": "GaMcnnlXJGAgf43pQIg3UBwQqlyLRH7ow+CTzzVtBIQ="
       },
       "power": "10",
-      "name": "RBF"
+      "name": "RockawayX Infra"
     }
   ],
   "app_hash": "",
@@ -294,9 +294,9 @@
         "vega_pub_key": "0ac70c4ccc7f961614fe49b93e639ddf916269b7dcf8391db264cefeadf5a6b7",
         "ethereum_address": "0xaa5184EB96aDf3f14151412fd895a30F5A2E6995",
         "tm_pub_key": "GaMcnnlXJGAgf43pQIg3UBwQqlyLRH7ow+CTzzVtBIQ=",
-        "info_url": "https://rbf.capital/staking",
+        "info_url": "https://rockawayx.com/infrastructure",
         "country": "CZ",
-        "name": "RBF",
+        "name": "RockawayX Infra",
         "avatar_url": "",
         "vega_pub_key_index": 1
       }

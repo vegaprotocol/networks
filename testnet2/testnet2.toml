@@ -1,3 +1,4 @@
+FileVersion = 2
 
 Name = "testnet2"
 
@@ -41,8 +42,8 @@ Value = "testnet2"
       "https://testnet.vega.xprv.io/datanode",
       "https://vega-testnet.nodes.guru:3009",
       "https://testnet.vega.greenfield.xyz:3009",
-      "https://vega-testnet-data-rest.commodum.io"
-      "https://vega-rest.testnet.lovali.xyz",
+      "https://vega-testnet-data-rest.commodum.io",
+      "https://vega-rest.testnet.lovali.xyz"
     ]
 
 [Apps]

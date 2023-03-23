@@ -1,3 +1,5 @@
+FileVersion = 1
+
 Name = "mainnet1"
 Level = "info"
 TokenExpiry = "168h0m0s"

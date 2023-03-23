@@ -20,7 +20,8 @@ Value = "testnet2"
       "vega-testnet.nodes.guru:3007",
       "testnet.vega.greenfield.xyz:3007",
       "vega-testnet-data-grpc.commodum.io:443",
-      "vega-grpc.testnet.lovali.xyz:433"
+      "vega-grpc.testnet.lovali.xyz:433",
+      "vega-test-data.bharvest.io:3007"
     ]
     Retries = 5
   [API.GraphQL]
@@ -32,7 +33,8 @@ Value = "testnet2"
       "https://vega-testnet.nodes.guru:3008/graphql",
       "https://testnet.vega.greenfield.xyz:443/query",
       "https://vega-testnet-data-graphql.commodum.io/query",
-      "https://vega-query.testnet.lovali.xyz:433/query"
+      "https://vega-query.testnet.lovali.xyz:433/query",
+      "https://vega-test-data.bharvest.io/graphql"
     ]
   [API.REST]
     Hosts = [
@@ -43,7 +45,8 @@ Value = "testnet2"
       "https://vega-testnet.nodes.guru:3009",
       "https://testnet.vega.greenfield.xyz:3009",
       "https://vega-testnet-data-rest.commodum.io",
-      "https://vega-rest.testnet.lovali.xyz"
+      "https://vega-rest.testnet.lovali.xyz",
+      "https://vega-test-data.bharvest.io:3009"
     ]
 
 [Apps]

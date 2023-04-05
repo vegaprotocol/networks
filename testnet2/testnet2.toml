@@ -9,13 +9,13 @@ Value = "testnet2"
 [API]
   [API.GRPC]
     Hosts = [
-      "grpc.venom.tm.p2p.org:443",
+      "tls://grpc.venom.tm.p2p.org:443",
       "vega-testnet.anyvalid.com:3007",
-      "testnet.grpc.vega.xprv.io:443",
+      "tls://testnet.grpc.vega.xprv.io:443",
       "vega-testnet.nodes.guru:3007",
       "testnet.vega.greenfield.xyz:3007",
-      "vega-testnet-data-grpc.commodum.io:443",
-      "vega-grpc.testnet.lovali.xyz:433",
+      "tls://vega-testnet-data-grpc.commodum.io:443",
+      "tls://vega-grpc.testnet.lovali.xyz:433",
       "vega-test-data.bharvest.io:3007"
     ]
     Retries = 5

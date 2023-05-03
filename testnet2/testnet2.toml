@@ -35,7 +35,7 @@ Value = "testnet2"
       "https://rest.venom.tm.p2p.org",
       "https://vega-testnet.anyvalid.com",
       "https://testnet.vega.xprv.io/datanode",
-      "https://vega-testnet.nodes.guru:3009",
+      "https://vega-testnet.nodes.guru:3008",
       "https://testnet.vega.greenfield.xyz:3009",
       "https://vega-testnet-data-rest.commodum.io",
       "https://vega-rest.testnet.lovali.xyz",

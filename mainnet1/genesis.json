@@ -467,8 +467,9 @@
       "market.stake.target.scalingFactor",
       "network.validators.incumbentBonus",
       "network.validators.ersatz.rewardFactor",
-      "transfer.minTransferQuantumMultiple"
+      "transfer.minTransferQuantumMultiple",
       "market.fee.factors.infrastructureFee",
+      "spam.protection.delegation.min.tokens"
     ],
     "network_limits": {
       "propose_market_enabled": true,

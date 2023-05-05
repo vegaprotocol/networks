@@ -406,7 +406,7 @@
       "reward.staking.delegation.maxPayoutPerEpoch": "9890000000000000000000",
       "governance.proposal.updateAsset.minProposerBalance": "20000000000000000000000",
       "governance.proposal.updateAsset.requiredMajority": "0.66",
-      "governance.proposal.updateAsset.minVoterBalance": "100000000000000000",
+      "governance.proposal.updateAsset.minVoterBalance": "1000000000000000000",
       "governance.proposal.updateAsset.requiredParticipation": "0.09",
       "governance.proposal.updateAsset.minEnact": "168h",
       "governance.proposal.updateAsset.minClose": "168h",

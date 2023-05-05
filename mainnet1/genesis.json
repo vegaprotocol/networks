@@ -201,7 +201,7 @@
       "+HhGS+j9J++PPAx260mVus7LNehp8LOAZ3+FQPxRa4o=": {
         "id": "00073a3888e1571461a415b1e1f14d3bd694ae9aeacec67671207bb3e53cbd11",
         "vega_pub_key": "63a1755006642bda9ab1bfa84660f944d30a113d1609590ca90c50b24aede472",
-        "ethereumAdddress": "0xfd4c01c821762eeeb4f84b11b0f9779fd4ba3501",
+        "ethereum_address": "0xfd4c01c821762eeeb4f84b11b0f9779fd4ba3501",
         "tm_pub_key": "+HhGS+j9J++PPAx260mVus7LNehp8LOAZ3+FQPxRa4o=",
         "info_url": "https://pathrocknetwork.org/",
         "country": "Germany",
@@ -212,7 +212,7 @@
       "8yBLSAE2QSVJGR7XQEHjp7b98gnzZ86+okjJwuVObAY=": {
         "id": "9c2a9590fd4767a8e4649c87bb79f43265833d20ad578ae15db338ca582ab042",
         "vega_pub_key": "a7030aabc0df87e0a3878862521b6acb03d827815825f4561d2857d4da94ada6",
-        "ethereumAdddress": "0x1c5fc37e6d4c09cf9fb85651998194d13b3de5e8",
+        "ethereum_address": "0x1c5fc37e6d4c09cf9fb85651998194d13b3de5e8",
         "tm_pub_key": "8yBLSAE2QSVJGR7XQEHjp7b98gnzZ86+okjJwuVObAY=",
         "info_url": "https://www.stakingcabin.com",
         "country": "CA",
@@ -223,7 +223,7 @@
       "TuOE7G7yAxOcYTL36venCrk4kidaMPzDM9LyXYXk/fg=": {
         "id": "6f4a5c540b31d7643cd0187fab82fa26edae53f8aeb6fdcf9b257fd61c74b245",
         "vega_pub_key": "2c7c9eb1083cc9d4f048d2e0f4a5876637fe9e24bd7f7dbe1b5820f2ca633fab",
-        "ethereumAdddress": "0x9b21cf6c0730e7e143e4ac4206f3297787a163b6",
+        "ethereum_address": "0x9b21cf6c0730e7e143e4ac4206f3297787a163b6",
         "tm_pub_key": "TuOE7G7yAxOcYTL36venCrk4kidaMPzDM9LyXYXk/fg=",
         "info_url": "validatrium.com",
         "country": "UA",
@@ -234,7 +234,7 @@
       "qK/QvMGaiURLyIr0EsqnBVSyMaVQR0rXbD4ucHwQecE=": {
         "id": "ecc4a7fe4006ea3ecc6d304940b6d99833ac85f28067b94b089f145533500d3e",
         "vega_pub_key": "acc55c7205cfcd5480e0235acab56a01487a39dc858a641fc04df6ba016870ee",
-        "ethereumAdddress": "0x4fee0ef4fa73109d34c69bc4015e5ad34e2f646f",
+        "ethereum_address": "0x4fee0ef4fa73109d34c69bc4015e5ad34e2f646f",
         "tm_pub_key": "qK/QvMGaiURLyIr0EsqnBVSyMaVQR0rXbD4ucHwQecE=",
         "info_url": "https://anyvalid.com",
         "country": "RU",
@@ -245,7 +245,7 @@
       "mljOD9Ps9zadMSTJTyPondE5Zgt7Qy7iP+6Ma97Sggs=": {
         "id": "2d439861a2c0cd2fe408ac14b3a5758ce9c888bb2cda6cc98610e6b34e82c462",
         "vega_pub_key": "a6458a63b4a92f6b4669d563b2a993023b7da673654160c84844f7c9f37cc489",
-        "ethereumAdddress": "0x1a778c7dc9a1ed646b7d1220e4e93e4f6d3f89e7",
+        "ethereum_address": "0x1a778c7dc9a1ed646b7d1220e4e93e4f6d3f89e7",
         "tm_pub_key": "mljOD9Ps9zadMSTJTyPondE5Zgt7Qy7iP+6Ma97Sggs=",
         "info_url": "https://gpvalidator.com",
         "country": "PT",

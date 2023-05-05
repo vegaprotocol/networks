@@ -99,7 +99,7 @@
         "type": "tendermint/PubKeyEd25519",
         "value": "+HhGS+j9J++PPAx260mVus7LNehp8LOAZ3+FQPxRa4o="
       },
-      "voting_power": "10",
+      "power": "10",
       "name": "PathrockNetwork"
     },
     {
@@ -108,7 +108,7 @@
         "type": "tendermint/PubKeyEd25519",
         "value": "8yBLSAE2QSVJGR7XQEHjp7b98gnzZ86+okjJwuVObAY="
       },
-      "voting_power": "10",
+      "power": "10",
       "name": "StakingCabin"
     },
     {
@@ -117,7 +117,7 @@
         "type": "tendermint/PubKeyEd25519",
         "value": "TuOE7G7yAxOcYTL36venCrk4kidaMPzDM9LyXYXk/fg="
       },
-      "voting_power": "10",
+      "power": "10",
       "name": "Validatrium.com"
     },
     {
@@ -126,7 +126,7 @@
         "type": "tendermint/PubKeyEd25519",
         "value": "qK/QvMGaiURLyIr0EsqnBVSyMaVQR0rXbD4ucHwQecE="
       },
-      "voting_power": "10",
+      "power": "10",
       "name": "AnyValid"
     },
     {
@@ -135,7 +135,7 @@
         "type": "tendermint/PubKeyEd25519",
         "value": "mljOD9Ps9zadMSTJTyPondE5Zgt7Qy7iP+6Ma97Sggs="
       },
-      "voting_power": "10",
+      "power": "10",
       "name": "GPValidator"
     }
   ],

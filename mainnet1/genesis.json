@@ -22,15 +22,6 @@
   },
   "validators": [
     {
-      "address": "A4DD0AF93444959959B32F59057E71F46CC5CC55",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "IChJgIe/233kWxGJThlcRHhPy/zozlWhtmAoWCfBJB0="
-      },
-      "power": "10",
-      "name": "Chorus One"
-    },
-    {
       "address": "37E84F66FD7D8DC6BC65F29CB29E3C7092D53523",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
@@ -40,24 +31,6 @@
       "name": "Greenfield One"
     },
     {
-      "address": "15B7DA235BEED81158737FBFE79C6264D5E2E5FF",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "g2QGqXnfkNmmVO4QSw/wu5kpk8rbaY+I4qYNzk7QJTc="
-      },
-      "power": "10",
-      "name": "Ryabina"
-    },
-    {
-      "address": "53D53755DA3B815AB029C0062DD6A2B392E640DC",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "Chx00Gr/+/tzwoZVUdMzcIl6O79muzwUIveCfGXaemc="
-      },
-      "power": "10",
-      "name": "Staking Facilities"
-    },
-    {
       "address": "91484AD0B6343D73690F1D36A80EF92B67622C47",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
@@ -65,15 +38,6 @@
       },
       "power": "10",
       "name": "NodesGuru"
-    },
-    {
-      "address": "D13E2E3867E1B13DEBA8C9E225B4296477098DEA",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "YnG3Ll/e/k1kVEvms90GAuwdf3N20CESh4wAritLgyU="
-      },
-      "power": "10",
-      "name": "Figment"
     },
     {
       "address": "0C8752F75C084919BAB5A6BC7BE8B21D8222262F",
@@ -101,15 +65,6 @@
       },
       "power": "10",
       "name": "P2P"
-    },
-    {
-      "address": "13FA0B679D6064772567C7A6050B42CCA1C7C8CD",
-      "pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "7kRL1jCJH8QUDTHK90/Nz9lIAvl8/s1Z70XL1EXFkaM="
-      },
-      "power": "10",
-      "name": "Nala DAO"
     },
     {
       "address": "B8095C5B57FDC602137B96E0426A3770DCF10323",
@@ -155,17 +110,6 @@
       }
     },
     "validators": {
-      "IChJgIe/233kWxGJThlcRHhPy/zozlWhtmAoWCfBJB0=": {
-        "id": "efbdf943443bd7595e83b0d7e88f37b7932d487d1b94aab3d004997273bb43fc",
-        "vega_pub_key": "b7f43431670b6ec2997e8aba976778ce8e031d962d1f1d24102a58e59b781a4e",
-        "ethereum_address": "0x28d5a6B3D96836B2341C95C1587B474F38d33Ac2",
-        "tm_pub_key": "IChJgIe/233kWxGJThlcRHhPy/zozlWhtmAoWCfBJB0=",
-        "info_url": "https://chorus.one",
-        "country": "CH",
-        "name": "Chorus One",
-        "avatar_url": "https://chorus.one/logo-360x360.jpg",
-        "vega_pub_key_index": 1
-      },
       "0ShTSZ9Ss8AFHuDz1nIGMrGucjXhFdJyUTT7Eqibjq8=": {
         "id": "126751c5830b50d39eb85412fb2964f46338cce6946ff455b73f1b1be3f5e8cc",
         "vega_pub_key": "a6e6f7daf8610f9242ab6ab46b394f6fb79cf9533d48051ca7a2f142b8b700a8",
@@ -177,28 +121,6 @@
         "avatar_url": "https://www.greenfield.one/avatar.png",
         "vega_pub_key_index": 1
       },
-      "g2QGqXnfkNmmVO4QSw/wu5kpk8rbaY+I4qYNzk7QJTc=": {
-        "id": "5db9794f44c85b4b259907a00c8ea2383ad688dfef6ffb72c8743b6ae3eaefd4",
-        "vega_pub_key": "437a951ef5f30cccf8840fec47798d456512269fee7bae82b43630861d04cbca",
-        "ethereum_address": "0xe64f539dc59DA01ec95d10a665581fDbA0194215",
-        "tm_pub_key": "g2QGqXnfkNmmVO4QSw/wu5kpk8rbaY+I4qYNzk7QJTc=",
-        "info_url": "https://ryabina.io",
-        "country": "FR",
-        "name": "Ryabina",
-        "avatar_url": "https://ryabina.io/apple-touch-icon.png",
-        "vega_pub_key_index": 1
-      },
-      "Chx00Gr/+/tzwoZVUdMzcIl6O79muzwUIveCfGXaemc=": {
-        "id": "f3022974212780ea1196af08fd2e8a9c0d784d0be8e97637bd5e763ac4c219bd",
-        "vega_pub_key": "672552932d651349641fa3181578a2fe98bb5deedfcda0b480d05442a41b76af",
-        "ethereum_address": "0x9211696Be4bE710C83DA8a36e68C25Cc4020E979",
-        "tm_pub_key": "Chx00Gr/+/tzwoZVUdMzcIl6O79muzwUIveCfGXaemc=",
-        "info_url": "https://stakingfacilities.com",
-        "country": "DE",
-        "name": "Staking Facilities",
-        "avatar_url": "https://s3.amazonaws.com/keybase_processed_uploads/bfe5fc72eaafa5a4444eb048fd88a705_360_360.jpg",
-        "vega_pub_key_index": 1
-      },
       "uBr9FP/M/QyVtOa3j18+hjksXra7qxCa7e25/FVW5c0=": {
         "id": "4f69b1784656174e89eb094513b7136e88670b42517ed0e48cb6fd3062eb8478",
         "vega_pub_key": "f4686749895bf51c6df4092ef6be4279c384a3c380c24ea7a2fd20afc602a35d",
@@ -208,17 +130,6 @@
         "country": "RU",
         "name": "NodesGuru",
         "avatar_url": "https://nodes.guru/new_logo.svg",
-        "vega_pub_key_index": 1
-      },
-      "YnG3Ll/e/k1kVEvms90GAuwdf3N20CESh4wAritLgyU=": {
-        "id": "ac735acc9ab11cf1d8c59c2df2107e00092b4ac96451cb137a1629af5b66242a",
-        "vega_pub_key": "07c616caa7d2f12ece01466463ead4ebc921bc9ac79a05e28c5208beffa49f40",
-        "ethereum_address": "0x6532A4E841136d5eDC346A1bE2a6D518E0395520",
-        "tm_pub_key": "YnG3Ll/e/k1kVEvms90GAuwdf3N20CESh4wAritLgyU=",
-        "info_url": "https://figment.io",
-        "country": "Canada",
-        "name": "Figment",
-        "avatar_url": "https://figment.io/apple-touch-icon.png",
         "vega_pub_key_index": 1
       },
       "hz528OlxLZoV+476oJP2lzrhAZwZNjjLAfvpd2wLvcg=": {
@@ -254,17 +165,6 @@
         "avatar_url": "https://storage.googleapis.com/p2p-logo/prod/p2p-black.svg",
         "vega_pub_key_index": 1
       },
-      "7kRL1jCJH8QUDTHK90/Nz9lIAvl8/s1Z70XL1EXFkaM=": {
-        "id": "8d33c6e06207ed5735c8b5b6c0c6234f44eb381b242a25a538ed3315369d2203",
-        "vega_pub_key": "7d69327393cdfaaae50e5e215feca65273eafabfb38f32b8124e66298af346d5",
-        "ethereum_address": "0x4e5fe67964254EA035F7F927803102712557edEa",
-        "tm_pub_key": "7kRL1jCJH8QUDTHK90/Nz9lIAvl8/s1Z70XL1EXFkaM=",
-        "info_url": "https://www.naladao.com",
-        "name": "Nala DAO",
-        "country": "AU",
-        "avatar_url": "https://nala-images.s3.ap-southeast-2.amazonaws.com/icons/nalasmall.jpg",
-        "vega_pub_key_index": 1
-      },
       "2ze1jT6SxaWUI9yECwYJaPIf1lBSU7myu6wfe4wqnMs=": {
         "id": "25794776055552a92e7b27dd8f15563ffb78defe7694d6c4da8bb258daca897c",
         "vega_pub_key": "b7e500deb24cc19bd6ebb2311997f0904ca0d9e51541249e9650ab41fd8ac376",
@@ -296,6 +196,61 @@
         "country": "CZ",
         "name": "RBF",
         "avatar_url": "",
+        "vega_pub_key_index": 1
+      },
+      "+HhGS+j9J++PPAx260mVus7LNehp8LOAZ3+FQPxRa4o=": {
+        "id": "00073a3888e1571461a415b1e1f14d3bd694ae9aeacec67671207bb3e53cbd11",
+        "vega_pub_key": "63a1755006642bda9ab1bfa84660f944d30a113d1609590ca90c50b24aede472",
+        "ethereumAdddress": "0xfd4c01c821762eeeb4f84b11b0f9779fd4ba3501",
+        "tm_pub_key": "+HhGS+j9J++PPAx260mVus7LNehp8LOAZ3+FQPxRa4o=",
+        "info_url": "https://pathrocknetwork.org/",
+        "country": "Germany",
+        "name": "PathrockNetwork",
+        "avatar_url": "https://i.imgur.com/iKAK68ut.png",
+        "vega_pub_key_index": 1
+      },
+      "8yBLSAE2QSVJGR7XQEHjp7b98gnzZ86+okjJwuVObAY=": {
+        "id": "9c2a9590fd4767a8e4649c87bb79f43265833d20ad578ae15db338ca582ab042",
+        "vega_pub_key": "a7030aabc0df87e0a3878862521b6acb03d827815825f4561d2857d4da94ada6",
+        "ethereumAdddress": "0x1c5fc37e6d4c09cf9fb85651998194d13b3de5e8",
+        "tm_pub_key": "8yBLSAE2QSVJGR7XQEHjp7b98gnzZ86+okjJwuVObAY=",
+        "info_url": "https://www.stakingcabin.com",
+        "country": "CA",
+        "name": "StakingCabin",
+        "avatar_url": "https://stakingcabin.com/img/icons/logo512.png",
+        "vega_pub_key_index": 1
+      },
+      "TuOE7G7yAxOcYTL36venCrk4kidaMPzDM9LyXYXk/fg=": {
+        "id": "6f4a5c540b31d7643cd0187fab82fa26edae53f8aeb6fdcf9b257fd61c74b245",
+        "vega_pub_key": "2c7c9eb1083cc9d4f048d2e0f4a5876637fe9e24bd7f7dbe1b5820f2ca633fab",
+        "ethereumAdddress": "0x9b21cf6c0730e7e143e4ac4206f3297787a163b6",
+        "tm_pub_key": "TuOE7G7yAxOcYTL36venCrk4kidaMPzDM9LyXYXk/fg=",
+        "info_url": "validatrium.com",
+        "country": "UA",
+        "name": "Validatrium.com",
+        "avatar_url": "https://github.com/cosmostation/cosmostation_token_resource/raw/master/moniker/axelar/axelarvaloper1xy97mfxvm2qwtw7vt9e3m850eknxfwxd9l5ate.png",
+        "vega_pub_key_index": 1
+      },
+      "qK/QvMGaiURLyIr0EsqnBVSyMaVQR0rXbD4ucHwQecE=": {
+        "id": "ecc4a7fe4006ea3ecc6d304940b6d99833ac85f28067b94b089f145533500d3e",
+        "vega_pub_key": "acc55c7205cfcd5480e0235acab56a01487a39dc858a641fc04df6ba016870ee",
+        "ethereumAdddress": "0x4fee0ef4fa73109d34c69bc4015e5ad34e2f646f",
+        "tm_pub_key": "qK/QvMGaiURLyIr0EsqnBVSyMaVQR0rXbD4ucHwQecE=",
+        "info_url": "https://anyvalid.com",
+        "country": "RU",
+        "name": "AnyValid",
+        "avatar_url": "https://anyvalid.com/images/AnyValid.png",
+        "vega_pub_key_index": 1
+      },
+      "mljOD9Ps9zadMSTJTyPondE5Zgt7Qy7iP+6Ma97Sggs=": {
+        "id": "2d439861a2c0cd2fe408ac14b3a5758ce9c888bb2cda6cc98610e6b34e82c462",
+        "vega_pub_key": "a6458a63b4a92f6b4669d563b2a993023b7da673654160c84844f7c9f37cc489",
+        "ethereumAdddress": "0x1a778c7dc9a1ed646b7d1220e4e93e4f6d3f89e7",
+        "tm_pub_key": "mljOD9Ps9zadMSTJTyPondE5Zgt7Qy7iP+6Ma97Sggs=",
+        "info_url": "https://gpvalidator.com",
+        "country": "PT",
+        "name": "GPvalidator",
+        "avatar_url": "https://gpvalidator.com/wp-content/uploads/2021/12/Untitled.png",
         "vega_pub_key_index": 1
       }
     },

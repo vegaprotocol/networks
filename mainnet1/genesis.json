@@ -401,7 +401,7 @@
       "limits.markets.proposeEnabledFrom": "2100-12-30T00:00:00Z",
       "limits.assets.proposeEnabledFrom": "2100-12-30T00:00:00Z",
       "market.liquidity.stakeToCcyVolume": "1.0",
-      "rewards.marketCreationQuantumMultiple": "10000000",
+      "rewards.marketCreationQuantumMultiple": "50000000",
       "network.transaction.defaultgas": "1",
       "reward.staking.delegation.maxPayoutPerEpoch": "9890000000000000000000",
       "governance.proposal.updateAsset.minProposerBalance": "20000000000000000000000",

@@ -444,8 +444,8 @@
       "spam.protection.max.batchSize"
     ],
     "network_limits": {
-      "propose_market_enabled": false,
-      "propose_asset_enabled": false
+      "propose_market_enabled": true,
+      "propose_asset_enabled": true
     },
     "checkpoint": {}
   }

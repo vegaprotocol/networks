@@ -92,6 +92,51 @@
       },
       "power": "10",
       "name": "RBF"
+    },
+    {
+      "address": "EF5375EE42A95B8526B69181FE95EAC333B973D0",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "+HhGS+j9J++PPAx260mVus7LNehp8LOAZ3+FQPxRa4o="
+      },
+      "voting_power": "10",
+      "name": "PathrockNetwork"
+    },
+    {
+      "address": "049555E21E8876BED52624C7E26BF52A13456EC8",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "8yBLSAE2QSVJGR7XQEHjp7b98gnzZ86+okjJwuVObAY="
+      },
+      "voting_power": "10",
+      "name": "StakingCabin"
+    },
+    {
+      "address": "EF25A5C51060D0A2D6EF5A75A5D4862A8CB6AEE1",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "TuOE7G7yAxOcYTL36venCrk4kidaMPzDM9LyXYXk/fg="
+      },
+      "voting_power": "10",
+      "name": "Validatrium.com"
+    },
+    {
+      "address": "D5EF6E19FD447D1C803BEE9C4DC1CF7CD38D560F",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "qK/QvMGaiURLyIr0EsqnBVSyMaVQR0rXbD4ucHwQecE="
+      },
+      "voting_power": "10",
+      "name": "AnyValid"
+    },
+    {
+      "address": "4C1E9B6C26D3E536453763F637AD3F09B65AE79B",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "mljOD9Ps9zadMSTJTyPondE5Zgt7Qy7iP+6Ma97Sggs="
+      },
+      "voting_power": "10",
+      "name": "GPValidatori"
     }
   ],
   "app_hash": "",

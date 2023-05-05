@@ -339,7 +339,7 @@
       "governance.proposal.updateNetParam.requiredParticipation": "0.09",
       "market.margin.scalingFactors": "{\"search_level\": 1.1, \"initial_margin\": 1.5, \"collateral_release\": 1.7}",
       "market.fee.factors.makerFee": "0.0002",
-      "market.fee.factors.infrastructureFee": "0.001",
+      "market.fee.factors.infrastructureFee": "0.0005",
       "market.auction.minimumDuration": "30s",
       "market.auction.maximumDuration": "168h",
       "market.liquidity.bondPenaltyParameter": "0.000001",
@@ -468,6 +468,7 @@
       "network.validators.incumbentBonus",
       "network.validators.ersatz.rewardFactor",
       "transfer.minTransferQuantumMultiple"
+      "market.fee.factors.infrastructureFee",
     ],
     "network_limits": {
       "propose_market_enabled": true,

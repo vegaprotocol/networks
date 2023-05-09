@@ -1,5 +1,5 @@
 
-# Ethereum contracts - mainnet
+# Ethereum contracts - Mainnet
 | Contract               | Description                                                      | Mainnet address                             | Etherscan                                                                               | Source                                                             |
 | ---------------------- | ---------------------------------------------------------------- | --------------------------------------------|:-------------------------------------------------------------------------: | ------------------------------------------------------------------ |
 | Staking bridge         | Staking & delegation of VEGA tokens                              | `0x195064D33f09e0c42cF98E665D9506e0dC17de68`| [🔎](https://etherscan.io/address/0x195064D33f09e0c42cF98E665D9506e0dC17de68) | [Staking_Bridge](https://github.com/vegaprotocol/Staking_Bridge)   |

@@ -36,7 +36,7 @@ Host = "127.0.0.1"
       "https://vega.xprv.io/datanode",
       "https://vega.mainnet.stakingcabin.com",
       "https://vega-mainnet.anyvalid.com",
-      "http://graphql-vega.gpvalidator.com:3009",
+      "http://graphqlvega.gpvalidator.com:3008",
       "https://vega.aurora-edge.com",
       "https://darling.network"
     ]

@@ -12,7 +12,7 @@
 | ∟ VEGA v1 (deprecated) | V1 token, replaced by v2 above                                   | `0xd249b16f61cb9489fe0bb046119a48025545b58a`| [🔎](https://etherscan.io/address/0xd249b16f61cb9489fe0bb046119a48025545b58a) | [Vega_Token](https://github.com/vegaprotocol/vega_token)           |
 
 
-# Ethereum contracts - Testnet
+# Ethereum contracts - Validator Testnet (testnet2)
 | Contract               | Description                                                      | Mainnet address                             | Etherscan                                                                               | Source                                                             |
 | ---------------------- | ---------------------------------------------------------------- | --------------------------------------------|:-------------------------------------------------------------------------: | ------------------------------------------------------------------ |
 | Staking bridge         | Staking & delegation of VEGA tokens                              | `0x7183c92cfdf82b22a704f4d34a49e64e8df8580e`| [🔎](https://sepolia.etherscan.io/address/0x7183c92cfdf82b22a704f4d34a49e64e8df8580e) | [Staking_Bridge](https://github.com/vegaprotocol/Staking_Bridge)   |

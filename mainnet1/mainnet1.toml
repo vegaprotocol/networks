@@ -32,7 +32,7 @@ Host = "127.0.0.1"
       "https://rest.velvet.tm.p2p.org",
       "http://rockaway.mainnet.vega.community:3009",
       "https://vega.greenfield.xyz:3009",
-      "http://vega.xprv.io/datanode",
+      "https://vega.xprv.io/datanode",
       "http://vega.mainnet.stakingcabin.com:3009",
       "https://vega-mainnet.anyvalid.com",
       "http://mainnet.vega.blockscope.net:3009",

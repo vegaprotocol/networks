@@ -1,10 +1,10 @@
-FileVersion = 1
+FileVersion = 2
 
 Name = "mainnet1"
-Level = "info"
-TokenExpiry = "168h0m0s"
-Port = 1789
-Host = "127.0.0.1"
+
+[[Metadata]]
+Key = "network"
+Value = "mainnet"
 
 [API]
   [API.GRPC]
@@ -57,10 +57,7 @@ Host = "127.0.0.1"
       "https://darling.network/graphql"
     ]
 
-[Console]
-  URL = ""
-  LocalPort = 1847
-
-[TokenDApp]
-  URL = "token.vega.xyz"
-  LocalPort = 1848
+[Apps]
+Console = ""
+Governance = "https://governance.vega.xyz/"
+Explorer = "https://explorer.vega.xyz/"

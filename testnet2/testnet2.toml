@@ -4,7 +4,7 @@ Name = "testnet2"
 
 [[Metadata]]
 Key = "network"
-Value = "testnet2"
+Value = "testnet"
 
 [API]
   [API.GRPC]

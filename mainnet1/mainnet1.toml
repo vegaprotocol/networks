@@ -27,7 +27,7 @@ Host = "127.0.0.1"
     Hosts = [
       "https://vega-mainnet-data.commodum.io",
       "https://vega-rest.mainnet.lovali.xyz",
-      "https://vega-data.bharvest.io,
+      "https://vega-data.bharvest.io",
       "http://vega-data.nodes.guru:3009",
       "https://rest.velvet.tm.p2p.org",
       "http://rockaway.mainnet.vega.community:3009",

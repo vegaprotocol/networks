@@ -34,7 +34,7 @@ Host = "127.0.0.1"
       "https://vega.greenfield.xyz:3009",
       "http://vega.xprv.io/datanode",
       "http://vega.mainnet.stakingcabin.com:3009",
-      "http://vega-mainnet.anyvalid.com:3003",
+      "https://vega-mainnet.anyvalid.com:3003",
       "http://mainnet.vega.blockscope.net:3009",
       "http://restvega.gpvalidator.com:3009"
     ]
@@ -49,6 +49,7 @@ Host = "127.0.0.1"
       "https://vega.greenfield.xyz:443/query",
       "https://vega.xprv.io/datanode/query",
       "https://vega.mainnet.stakingcabin.com/query",
+      "https://vega-mainnet.anyvalid.com/graphql",
       "http://mainnet.vega.blockscope.net:3008/query",
       "http://graphqlvega.gpvalidator.com:3008/query"
     ]

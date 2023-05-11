@@ -20,6 +20,7 @@ Value = "mainnet"
       "vega.mainnet.stakingcabin.com:3007",
       "vega-mainnet.anyvalid.com:3007",
       "grpcvega.gpvalidator.com:3007",
+      "datanode.vega.pathrocknetwork.org:3007",
       "tls://vega-grpc.aurora-edge.com:443",
       "darling.network:3007"
     ]
@@ -37,6 +38,7 @@ Value = "mainnet"
       "https://vega.mainnet.stakingcabin.com",
       "https://vega-mainnet.anyvalid.com",
       "http://graphqlvega.gpvalidator.com:3008",
+      "https://datanode.vega.pathrocknetwork.org",
       "https://vega.aurora-edge.com",
       "https://darling.network"
     ]
@@ -53,6 +55,7 @@ Value = "mainnet"
       "https://vega.mainnet.stakingcabin.com/query",
       "https://vega-mainnet.anyvalid.com/graphql",
       "http://graphqlvega.gpvalidator.com:3008/graphql",
+      "https://datanode.vega.pathrocknetwork.org/graphql",
       "https://vega.aurora-edge.com/graphql",
       "https://darling.network/graphql"
     ]

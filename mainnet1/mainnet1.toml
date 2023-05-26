@@ -9,20 +9,17 @@ Value = "mainnet"
 [API]
   [API.GRPC]
     Hosts = [
-      "vega-grpc.mainnet.lovali.xyz:3007",
       "datanode.vega.pathrocknetwork.org:3007",
       "tls://vega-grpc.aurora-edge.com:443",
     ]
     Retries = 5
   [API.REST]
     Hosts = [
-      "https://vega-query.mainnet.lovali.xyz",
       "https://datanode.vega.pathrocknetwork.org",
       "https://vega.aurora-edge.com",
     ]
   [API.GraphQL]
     Hosts = [
-      "https://vega-query.mainnet.lovali.xyz/graphql",
       "https://datanode.vega.pathrocknetwork.org/graphql",
       "https://vega.aurora-edge.com/graphql",
     ]

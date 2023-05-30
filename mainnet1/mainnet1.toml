@@ -11,17 +11,20 @@ Value = "mainnet"
     Hosts = [
       "datanode.vega.pathrocknetwork.org:3007",
       "tls://vega-grpc.aurora-edge.com:443",
+      "darling.network:3007"
     ]
     Retries = 5
   [API.REST]
     Hosts = [
       "https://datanode.vega.pathrocknetwork.org",
       "https://vega.aurora-edge.com",
+      "https://darling.network"
     ]
   [API.GraphQL]
     Hosts = [
       "https://datanode.vega.pathrocknetwork.org/graphql",
       "https://vega.aurora-edge.com/graphql",
+      "https://darling.network/graphql"
     ]
 
 [Apps]

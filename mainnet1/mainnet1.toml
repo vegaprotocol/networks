@@ -9,6 +9,8 @@ Value = "mainnet"
 [API]
   [API.GRPC]
     Hosts = [
+      "tls://vega-mainnet-data-grpc.commodum.io:443",
+      "vega-data.nodes.guru:3007",
       "datanode.vega.pathrocknetwork.org:3007",
       "tls://vega-grpc.aurora-edge.com:443",
       "darling.network:3007"
@@ -16,12 +18,16 @@ Value = "mainnet"
     Retries = 5
   [API.REST]
     Hosts = [
+      "https://vega-mainnet-data.commodum.io",
+      "https://vega-data.nodes.guru:3008",
       "https://datanode.vega.pathrocknetwork.org",
       "https://vega.aurora-edge.com",
       "https://darling.network"
     ]
   [API.GraphQL]
     Hosts = [
+      "https://vega-mainnet-data.commodum.io/graphql",
+      "https://vega-data.nodes.guru:3008/graphql",
       "https://datanode.vega.pathrocknetwork.org/graphql",
       "https://vega.aurora-edge.com/graphql",
       "https://darling.network/graphql"

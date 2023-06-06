@@ -43,6 +43,6 @@ Value = "testnet"
     ]
 
 [Apps]
-  Console = "https://validator-testnet.console.vega.xyz/"
-  Governance = "https://validator-testnet.governance.vega.xyz/"
-  Explorer = "https://validator-testnet.explorer.vega.xyz/"
+  Console = "https://console.validators-testnet.vega.rocks/"
+  Governance = "https://governance.validators-testnet.vega.rocks/"
+  Explorer = "https://explorer.validators-testnet.vega.rocks/"

@@ -4,7 +4,7 @@ const fs = require("fs");
 const EXPLORER_URLS = {
   mainnet1: 'https://explorer.vega.xyz/',
   testnet1: 'https://explorer.fairground.wtf/',
-  testnet2: 'https://validator-testnet.explorer.vega.xyz/',
+  testnet2: 'https://explorer.validators-testnet.vega.rocks/',
 }
 
 const run = async () => {

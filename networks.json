@@ -3,12 +3,12 @@
     "name": "mainnet1",
     "configFileUrl": "https://raw.githubusercontent.com/vegaprotocol/networks/master/mainnet1/mainnet1.toml",
     "explorer": "https://explorer.vega.xyz/",
-    "sha": "155ba02d817ef14c6dcfd1874c0fb9d568414635"
+    "sha": "c428545af9cd29b130ae545f0d244dafaff4b49f"
   },
   {
     "name": "testnet2",
     "configFileUrl": "https://raw.githubusercontent.com/vegaprotocol/networks/master/testnet2/testnet2.toml",
-    "explorer": "https://validator-testnet.explorer.vega.xyz/",
-    "sha": "db1327e72a2cb49bbdc0b1e5b97024e679807700"
+    "explorer": "https://explorer.validators-testnet.vega.rocks/",
+    "sha": "c90a1f3c9b38f5697479edbd213fb74d4eabe115"
   }
 ]

@@ -235,7 +235,7 @@ root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# data-node node
 
 If everything is working correctly you will be able to access gRPC on port 3007, GraphQL on 3008 and REST on port 3009.
 
-Detailed API docs are available [here](https://docs.fairground.vega.xyz/).
+Detailed API docs are available [here](https://docs.vega.xyz/).
 
 ## Ethereum Event Forwarder
 

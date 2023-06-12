@@ -133,8 +133,8 @@ ln -s $HOME/networks/mainnet1/data-node-run/vegavisor_home/v0.71.5 $HOME/network
 ~/networks/mainnet1/data-node-run/vegavisor_home/current/vega tm init --home ~/networks/mainnet1/data-node-run/tendermint_home
 
 # replace genesis
-mv /home/daniel/networks/mainnet1/data-node-run/tendermint_home/config/genesis.json /home/daniel/networks/mainnet1/data-node-run/tendermint_home/config/genesis.json.bk
-cp /home/daniel/networks/mainnet1/genesis.json /home/daniel/networks/mainnet1/data-node-run/tendermint_home/config/genesis.json
+mv ~/networks/mainnet1/data-node-run/tendermint_home/config/genesis.json ~/networks/mainnet1/data-node-run/tendermint_home/config/genesis.json.bk
+cp ~/networks/mainnet1/genesis.json ~/networks/mainnet1/data-node-run/tendermint_home/config/genesis.json
 ```
 
 ### 6. Update network configs
@@ -148,7 +148,12 @@ Update tendermint config:
 - The fields for starting from network-history 0 are in the `tendermint_config_overrides_network_history.toml`
 
 
-Update data-node config. The fields you have to update are in the `datanode_config_overrides.toml`
+Update data-node config:
+
+- The fields for starting from block 0 are in the `datanode_config_overrides_block_0.toml`
+- The fields for starting from network-history 0 are in the `datanode_config_overrides_network_history.toml`
+
+
 
 
 ### 7. Start the postgresql
@@ -190,7 +195,7 @@ The section, you have to update:
 
 ```toml
 [SQLStore.ConnectionConfig]
-    Host = "192.168.1.75"
+    Host = "localhost"
     Port = 5432
     Username = "vega"
     Password = "vega"

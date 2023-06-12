@@ -1,3 +1,12 @@
 [Snapshot]
   KeepRecent = 1000
   StartHeight = -1
+
+[Blockchain]
+  [Blockchain.Tendermint]
+    RPCAddr = "tcp://127.0.0.1:26657"
+
+[Broker]
+  [Broker.Socket]
+    DialTimeout = "4h"
+    Enabled = true

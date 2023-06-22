@@ -19,6 +19,7 @@ Value = "mainnet"
       "tls://grpc.velvet.tm.p2p.org:443",
       "vega-data-mainnet.rockrpc.net:3007",
       "vega.greenfield.xyz:3007",
+      "vega-mainnet.anyvalid.com:3007",
       "vega-data.nodes.guru:3007"
     ]
     Retries = 5
@@ -34,6 +35,7 @@ Value = "mainnet"
       "https://rest.velvet.tm.p2p.org",
       "https://vega-data-mainnet.rockrpc.net",
       "https://vega.greenfield.xyz",
+      "https://vega-mainnet.anyvalid.com",
       "https://vega-data.nodes.guru:3008"
     ]
   [API.GraphQL]
@@ -48,6 +50,7 @@ Value = "mainnet"
       "https://gql.velvet.tm.p2p.org/graphql",
       "https://vega-data-mainnet.rockrpc.net/graphql",
       "https://vega.greenfield.xyz/graphql",
+      "https://vega-mainnet.anyvalid.com/graphql",
       "https://vega-data.nodes.guru:3008/graphql"
     ]
 

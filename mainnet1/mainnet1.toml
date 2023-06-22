@@ -15,7 +15,8 @@ Value = "mainnet"
       "datanode.vega.pathrocknetwork.org:3007",
       "tls://vega-grpc.aurora-edge.com:443",
       "darling.network:3007",
-      "vega-grpc.mainnet.lovali.xyz:3007"
+      "vega-grpc.mainnet.lovali.xyz:3007",
+      "vega-data.nodes.guru:3007"
     ]
     Retries = 5
   [API.REST]
@@ -26,7 +27,8 @@ Value = "mainnet"
       "https://datanode.vega.pathrocknetwork.org",
       "https://vega.aurora-edge.com",
       "https://darling.network",
-      "https://vega-query.mainnet.lovali.xyz"
+      "https://vega-query.mainnet.lovali.xyz",
+      "https://vega-data.nodes.guru:3008"
     ]
   [API.GraphQL]
     Hosts = [
@@ -36,7 +38,8 @@ Value = "mainnet"
       "https://datanode.vega.pathrocknetwork.org/graphql",
       "https://vega.aurora-edge.com/graphql",
       "https://darling.network/graphql",
-      "https://vega-query.mainnet.lovali.xyz/graphql"
+      "https://vega-query.mainnet.lovali.xyz/graphql",
+      "https://vega-data.nodes.guru:3008/graphql"
     ]
 
 [Apps]

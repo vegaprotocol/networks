@@ -21,24 +21,22 @@ This repository contains the Genesis configuration files for public Vega network
 
 ## The Vega Software
 
-First of all, in order to create a Vega network, you will need access to the latest Vega protocol binary. The code for the Vega software, which implements a decentralised protocol for trading derivatives, is currently managed via a private GitHub repository. We will soon start to publish releases to a public repository as compiled binaries, similar to how the Ren project manages new [Darknode releases](https://github.com/renproject/darknode-release). Eventually, the protocol software will be public and open source, but this only expected to happen after Mainnet has been established for some time.
-
-*The guidance that follows is only useful if you already have a compiled Vega binary, which can currently only be obtained from the project team.*
+In order to create a Vega network, you will need access to the [latest](https://github.com/vegaprotocol/vega/releases/latest) Vega protocol binary.
 
 ## Tendermint
 
-The Vega protocol software implements BFT consensus using vanilla [Tendermint](https://github.com/tendermint/tendermint) via ABCI integration. In order to ensure compatibility between Tendermint versions, and the Vega binary that you are using, the Vega binary ships with the correct Tendermint version compiled inside of it. You are free to use a separate Tendermint installation if you wish, but it is advisable to use the version that is made available to you by the Vega binary to ensure compatability across releases.
+The Vega protocol software implements BFT consensus using vanilla [CometBFT (fork of Tendermint Core)](https://github.com/cometbft/cometbft) via ABCI integration. In order to ensure compatibility between CometBFT versions, and the Vega binary that you are using, the Vega binary ships with the correct CometBFT version compiled inside of it. You are free to use a separate CometBFT installation if you wish, but it is advisable to use the version that is made available to you by the Vega binary to ensure compatability across releases.
 
 Tendermint is available using the command below:
 
 ```
 root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# vega tm version
-0.34.11
+0.34.27
 ```
 
 ## Environment Setup
 
-It is best to run your Vega node in a clean environment, where Tendermint has not been installed before. The following instructions assume this is the case; if it's not then you might not be able to rely on them.
+It is best to run your Vega node in a clean environment, where CometBFT has not been installed before. The following instructions assume this is the case; if it's not then you might not be able to rely on them.
 
 ### Vega Home Path
 
@@ -91,7 +89,7 @@ import successful
 
 ### Generating Ethereum Keys
 
-The Vega network implements a bridge to Ethereum, where collateral assets are held in a smart contract. The Ethereum bridge contract is controlled by the Vega validators via multi-signing. Therefore, every Vega node needs to also manage "hot" Ethereum keys. In this step we generate a new Ethereum key, which is used to sign transactions on the Ethereum chain.
+The Vega network implements a [bridge to Ethereum](./conracts.md), where collateral assets are held in a smart contract. The Ethereum bridge contract is controlled by the Vega validators via multi-signing. Therefore, every Vega node needs to also manage "hot" Ethereum keys. In this step we generate a new Ethereum key, which is used to sign transactions on the Ethereum chain.
 
 ```
 root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# vega nodewallet generate --chain ethereum
@@ -110,9 +108,9 @@ drwx------ 4 root root 4096 Aug 20 12:13 ../
 -rw------- 1 root root  491 Aug 20 12:18 UTC--2021-08-20T12-18-46.295673471Z--a0fd251fe9d66d1b37236a04e70427c3d388972c
 ```
 
-### Initialize Tendermint
+### Initialize CometBFT
 
-We need to initialize Tendermint on our node. The Tendermint home directly is initialized using the command below:
+We need to initialize CometBFT on our node. The Tendermint home directly is initialized using the command below:
 
 ```
 root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# vega tm init

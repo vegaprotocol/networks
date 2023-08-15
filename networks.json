@@ -8,7 +8,7 @@
   {
     "name": "testnet2",
     "configFileUrl": "https://raw.githubusercontent.com/vegaprotocol/networks/master/testnet2/testnet2.toml",
-    "explorer": "https://validator-testnet.explorer.vega.xyz/",
+    "explorer": "https://explorer.validators-testnet.vega.rocks/",
     "sha": "db1327e72a2cb49bbdc0b1e5b97024e679807700"
   }
 ]

@@ -13,7 +13,6 @@ This repository contains the Genesis configuration files for public Vega network
 * [Backups](#backups)
 * [Running a Production Network](#running-a-production-network)
 * [Data Node](#data-node)
-* [Ethereum Event Forwarder](#ethereum-event-forwarder)
 * [Monitoring](#monitoring)
 * [Restore from Checkpoint](#restore-from-checkpoint)
 * [Restore from Snapshot](#restore-from-snapshot)
@@ -234,40 +233,6 @@ root@ubuntu-s-4vcpu-8gb-amd-lon1-01:~# data-node node
 If everything is working correctly you will be able to access gRPC on port 3007, GraphQL on 3008 and REST on port 3009.
 
 Detailed API docs are available [here](https://docs.fairground.vega.xyz/).
-
-## Ethereum Event Forwarder
-
-The Vega blockchain implements a bridge to Ethereum, where collateral assets are stored in a smart contract. In order to keep the Vega network in sync with events on Ethereum it is necessary to run the `ethereum-event-forwarder` application alongside your validator. The Event Queue is a relatively simple Node.js application, and it is available at the following public repository:
-
-There are a few smart contracts on the Ethereum side that the bridge watches for events. For details & addresses, see [contracts.md](./contracts.md).
-
-- [vegaprotocol/ethereum-event-forwarder](https://github.com/vegaprotocol/ethereum-event-forwarder)
-
-In order to avoid spam on the validator node, we implemented an allow-listing mecanism. You will need to create a Vega wallet for the `ethereum-event-forwarder`, using the following steps:
-
-Create a wallet using the following command:
-
-```
-vega wallet init # optional if you already done that previously
-vega wallet key generate --wallet="ethereum-event-queue-testnet"
-```
-
-This command will dump information to the console, be sure to save the mnemonic, also copy the public key and use it in the following section of the Vega config (config.toml) in the Vega root directory:
-
-```
-[EvtForward]
-  Level = "Info"
-  RetryRate = "10s"
-  BlockchainQueueAllowlist = ["ADD_THE_WALLET_PUBKEY_HERE"]
-```
-
-Then we need to save the private key as well to be used by the `ethereum-event-forwarder` see the repository README (secret.key). By running the following command you should be able to see the private key of the wallet you just created:
-
-```
-vega wallet key list --wallet="ethereum-event-queue-testnet"
-```
-
-Lastly, the `config.toml` to be used with the `ethereum-event-forwarder` is availble in this repository at the [following location](https://github.com/vegaprotocol/networks/blob/master/testnet1/ethereum-event-forwarder-config.toml). This config is for `testnet1`, you should use the config file for the network that you are trying to join by navigating to the relevant directory in this repository.
 
 ## Monitoring
 

@@ -1,8 +1,7 @@
 # Vega Protocol: Networks
 
-This repository contains the Genesis configuration files for public Vega networks. Below you will find instructions explaining how to create and operate a Vega network, as well as guidance on proposing changes to the Genesis configuration of existing networks.
-
-*Please note that the configuration in this repository is not currently being used to support any functional networks. This is a new process that has been established to launch Vega networks with third-party validators, and will evolve over the next few weeks as the Restricted Mainnet is established.*
+This repository contains the Genesis and the Vegawallet configuration files for public Vega networks: the Alpha Mainnet and the Testnet.
+Below you will find instructions explaining how to create and operate a Vega network.
 
 ## Contents
 

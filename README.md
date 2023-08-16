@@ -236,12 +236,45 @@ Detailed API docs are available [here](https://docs.fairground.vega.xyz/).
 
 ## Monitoring
 
-The guidance below should be helpful for monitoring a network to ensure the node are online and functioning as expected.
+The guidance below should help monitor a single node as well as a network.
 
-* [Zabbix](https://www.zabbix.com) is useful for monitoring CPU usage, average load, system memory, swap usage, available disk space, disk I/O and network I/O.
-* Zabbix per-app monitoring is also useful for Tendermint, Vega and Data Node usage stats
-* http://localhost:3003/statistics exposes consensus and app specific data from each node; e.g. transactions per block, blocks per second, trades per block, up-time
-* Tendermint and consensus monitoring is available via [RPC over HTTP](https://docs.tendermint.com/master/rpc) using port 26657
+* general - you can use any tool to monitor CPU, load, memory, swap, disk usage, disk I/O, networking I/O etc.
+* validator node or core node
+  * Prometheus - in `[Metrics]` section of core's `config.toml` you can configure and enable metrics for Prometheus,
+    * important: please don't expose this endpoint to the Internet on production. Instead, use a local scraper like grafana-agent,
+  * Statistics - `/statistics` of `[API.REST]` exposes core data about the node, e.g. transactions per block, blocks per second, trades etc.
+    * you can use `vegaTime` (time of the latest block processed by the node's core) and `currentTime` (clock time) to quickly tell if the node is healthy and up to date,
+  * CometBFT - available via [RPC over HTTP](https://docs.cometbft.com/v0.34/rpc/) using port 26657,
+* data-node
+  * every data-node needs a running core service, so please configure `core node` monitoring from the previous point,
+  * Prometheus - in `[Metrics]` section of data-node's `config.toml` you can configure and enable metrics for Prometheus,
+    * important: please don't expose this endpoint to the Internet on production. Instead, use a local scraper like grafana-agent,
+    * note: this is a different endpoint than core
+  * Statistics - `/statistics` of `[Gateway]` exposes core data about the node, e.g. transactions per block, blocks per second, trades etc.
+    * important: this is information from the core process, not data-node,
+    * response contains `x-block-*` headers.
+  * `x-block-*` response headers - every response contains `x-block-height` and `x-block-timestamp` headers that can be used for monitoring,
+    * you can compare `x-block-timestamp` with the wall clock to quickly tell if the node is healthy and up to date,
+  * PostgreSQL - use any tool to monitor the PostgreSQL db, e.g. [postgres_exporter](https://github.com/prometheus-community/postgres_exporter),
+    * TimescaleDB - you want to also monitor metrics of TimescaleDB extension,
+* network
+  * technical - blocks, validators, event stream, etc.
+    * core's Prometheus - it contains CometBFT metrics,
+    * CometBFT - scrape data from CometBFT [RPC over HTTP](https://docs.cometbft.com/v0.34/rpc/)
+    * data-node's Prometheus - general stats about events streamed from the core,
+  * financial - markets, trades, deposits, etc.
+    * core's Prometheus metrics - general stats,
+    * data-nodes's Prometheus metrics - general stats,
+    * data-nodes PostgreSQL - for precise data, the best option is to connect your monitoring tool directly to the database,
+      * TimescaleDB - data-node uses [TimescaleDB](https://www.timescale.com/) extension to PostgreSQL, which makes it a time-series database, which is perfect for monitoring and analytics tools like Grafana,
+      * please don't scrape data-node data and push it to Prometheus or a similar tool, because you will lose precision
+    * vega-monitoring - not-stable! early developer phase, a tool that adds more data into the data-node's database, more details [here](https://github.com/vegaprotocol/vega-monitoring)
+
+Example setup:
+* Grafana server to visualise,
+* Prometheus to store metrics,
+* Data-node's TimescaleDB for precise financial metrics,
+* Grafana-agent to scrape Prometheus endpoints from localhost, and cpu/disk/etc, and postgres_exporter, and send evrything to the Prometheus server.
 
 ## Restore from Checkpoint
 

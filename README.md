@@ -20,7 +20,7 @@ To create, run and fully use a Vega Network you will need:
   - Vegawallet CLI - to interact with a network,
   - Block Explorer - a service that exposes detailed information about blocks,
 * Vegavisor binary ([latest](https://github.com/vegaprotocol/vega/releases/latest)) - the recommended way of running a vega node
-* Vegawallet browser extension for Firefox and Chrome ([more](https://github.com/vegaprotocol/vegawallet-browser))
+* Vegawallet browser extension for Firefox and Chrome ([information and installation information](https://github.com/vegaprotocol/vegawallet-browser))
 * Ethereum Smart Contracts ([more](https://github.com/vegaprotocol/Multisig_Control_V2))
 
 More information can be found at [https://docs.vega.xyz](https://docs.vega.xyz):
@@ -28,10 +28,11 @@ More information can be found at [https://docs.vega.xyz](https://docs.vega.xyz):
 * [Advanced operations](https://docs.vega.xyz/testnet/node-operators/how-to)
 * [Visor overview](https://docs.vega.xyz/testnet/node-operators/visor)
 
-Other Info:
-* TODO: remove? [List of Smart Contracts](contracts.md)
-* TODO: remove? [Disaster Recovery](disaster-recovery.md)
-* TODO: remove? [Isolated vega wallets](isolated-vega-wallets.md)
+Other Information:
+
+* See the list oif the [list of smart contracts](contracts.md)
+* View the [Disaster Recovery](disaster-recovery.md) process
+* [Isolated vega wallets](isolated-vega-wallets.md)
 
 ## Public Vega Networks
 
@@ -44,15 +45,24 @@ Other Info:
 - Governance Site: https://governance.vega.xyz/
 
 ### The Testnet
-TODO
+- Genesis: [testnet2 genesis.json](https://github.com/vegaprotocol/networks/blob/master/testnet2/genesis.json)
+- Vegawallet config: [testnet2.toml](https://github.com/vegaprotocol/networks/blob/master/testnet2/testnet2.toml)
 
 ## Other Vega Networks
 
 ### The Mainnet Mirror
-TODO
+- Genesis: [mainnet mirror genesis.json](https://github.com/vegaprotocol/networks-internal/blob/main/mainnet-mirror/genesis.json)
+- Vegawallet config: [vegawallet-fairground.toml](https://github.com/vegaprotocol/networks-internal/blob/main/mainnet-mirror/vegawallet-mainnet-mirror.toml)
+- Trading Console: https://console.mainnet-mirror.vega.rocks/ (you will be redirected to the IPFS site)
+- Block Explorer: https://explorer.mainnet-mirror.vega.rocks/
+- Governance Site: https://governance.mainnet-mirror.vega.rocks/
 
 ### Fairground
-TODO
+- Genesis: [fairground genesis.json](https://github.com/vegaprotocol/networks-internal/blob/main/fairground/genesis.json)
+- Vegawallet config: [vegawallet-fairground.toml](https://github.com/vegaprotocol/networks-internal/blob/main/fairground/vegawallet-fairground.toml)
+- Trading Console: https://console.fairground.wtf/ (you will be redirected to the IPFS site)
+- Block Explorer: https://explorer.fairground.wtf/
+- Governance Site: https://governance.fairground.wtf/
 
 ## Monitoring
 

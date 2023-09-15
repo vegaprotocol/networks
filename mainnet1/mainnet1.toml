@@ -16,7 +16,6 @@ Value = "mainnet"
       "tls://vega-grpc.aurora-edge.com:443",
       "darling.network:3007",
       "tls://grpc.velvet.tm.p2p.org:443",
-      "vega-data.nodes.guru:3007",
       "vega-grpc.mainnet.lovali.xyz:3007",
       # !! not passing vaguer validations
       # "vega-data-mainnet.rockrpc.net:3007",
@@ -37,7 +36,6 @@ Value = "mainnet"
       "https://vega.aurora-edge.com",
       "https://darling.network",
       "https://rest.velvet.tm.p2p.org",
-      "https://vega-data.nodes.guru:3008",
       "https://vega-rest.mainnet.lovali.xyz",
       # !! not passing vaguer validations
       # "https://vega-data-mainnet.rockrpc.net",
@@ -57,7 +55,6 @@ Value = "mainnet"
       "https://vega.aurora-edge.com/graphql",
       "https://darling.network/graphql",
       "https://gql.velvet.tm.p2p.org/graphql",
-      "https://vega-data.nodes.guru:3008/graphql",
       "https://vega-query.mainnet.lovali.xyz/graphql",
       # !! not passing vaguer validations
       # "https://vega-data-mainnet.rockrpc.net/graphql",

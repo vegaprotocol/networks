@@ -24,7 +24,7 @@ Value = "mainnet"
       # "vega.greenfield.xyz:3007",
       # !! not passing standard validations
       # "tls://grpc.vega.xprv.io:443",
-      # "vega.mainnet.stakingcabin.com:3007",
+      "vega.mainnet.stakingcabin.com:3007",
     ]
     Retries = 5
   [API.REST]
@@ -44,7 +44,7 @@ Value = "mainnet"
       # "https://vega.greenfield.xyz",
       # !! not passing standard validations
       # "https://vega.xprv.io/datanode",
-      # "https://vega.mainnet.stakingcabin.com",
+      "https://vega.mainnet.stakingcabin.com",
     ]
   [API.GraphQL]
     Hosts = [
@@ -63,7 +63,7 @@ Value = "mainnet"
       # "https://vega.greenfield.xyz/graphql",
       # !! not passing standard validations
       # "https://vega.xprv.io/datanode/query",
-      # "https://vega.mainnet.stakingcabin.com/query",
+      "https://vega.mainnet.stakingcabin.com/query",
     ]
 
 [Apps]

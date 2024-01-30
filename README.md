@@ -22,9 +22,9 @@ To create, run and fully use a Vega Network you will need:
 * Vegavisor binary ([latest](https://github.com/vegaprotocol/vega/releases/latest)) - the recommended way of running a vega node
 * Vegawallet browser extension for Firefox and Chrome ([information and installation information](https://github.com/vegaprotocol/vegawallet-browser))
 * Ethereum Smart Contracts ([more](https://github.com/vegaprotocol/Multisig_Control_V2))
+* To setup a [validator node or a data-node from scratch](https://docs.vega.xyz/testnet/node-operators)
 
 More information can be found at [https://docs.vega.xyz](https://docs.vega.xyz):
-* [Setup a validator node or a data-node from scratch](https://docs.vega.xyz/testnet/node-operators),
 * [Advanced operations](https://docs.vega.xyz/testnet/node-operators/how-to)
 * [Visor overview](https://docs.vega.xyz/testnet/node-operators/visor)
 

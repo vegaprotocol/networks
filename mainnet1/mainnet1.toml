@@ -17,7 +17,7 @@ Value = "mainnet"
       "darling.network:3007",
       "tls://grpc.velvet.tm.p2p.org:443",
       "vega-grpc.mainnet.lovali.xyz:3007",
-      "grpcvega.gpvalidator.com:3007",
+      #"grpcvega.gpvalidator.com:3007",
       "vega-mainnet.anyvalid.com:3007",
       # !! not passing vaguer validations
       # "vega-data-mainnet.rockrpc.net:3007",
@@ -37,7 +37,7 @@ Value = "mainnet"
       "https://darling.network",
       "https://rest.velvet.tm.p2p.org",
       "https://vega-rest.mainnet.lovali.xyz",
-      "https://graphqlvega.gpvalidator.com",
+      #"https://graphqlvega.gpvalidator.com",
       "https://vega-mainnet.anyvalid.com",
       # !! not passing vaguer validations
       # "https://vega-data-mainnet.rockrpc.net",
@@ -56,7 +56,7 @@ Value = "mainnet"
       "https://darling.network/graphql",
       "https://gql.velvet.tm.p2p.org/graphql",
       "https://vega-query.mainnet.lovali.xyz/graphql",
-      "https://graphqlvega.gpvalidator.com/graphql",
+      #"https://graphqlvega.gpvalidator.com/graphql",
       "https://vega-mainnet.anyvalid.com/graphql",
       # !! not passing vaguer validations
       # "https://vega-data-mainnet.rockrpc.net/graphql",

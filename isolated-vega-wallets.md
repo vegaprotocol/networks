@@ -2,7 +2,7 @@ Isolate vega keys and use isolated key in the nodewallet
 ========================================================
 
 Note:
-> I'm going to do all the steps from generating a wallet to importing it, you may want to reuse your existing wallets
+> This covers all the steps from generating a wallet to importing it, you may want to reuse your existing wallets
 
 First let's generate a new wallet with the following command:
 ```

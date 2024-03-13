@@ -39,10 +39,10 @@ In the event that the Vega master key is compromised, one can assume that the va
 3. Inform the other validators via the appropriate channels to immediately remove the compromised node from the network:
    1. Stop the network
    2. Update the genesis config file to remove the compromised node
-   3. Non-compromised validators should restart the network from a [snapshot file](https://docs.vega.xyz/testnet/node-operators/how-to/use-snapshots#restart-a-node-using-local-snapshots)
+   3. Non-compromised validators should restart the network from a [snapshot file](https://docs.vega.xyz/mainnet/node-operators/how-to/use-snapshots#restart-a-node-using-local-snapshots)
 4. Use newly generated ethereum key to associate ERC20 Vega tokens from the compromised node to the new master key.
 5. Inform all token holders that delegated to the compromised node to move their delegation.
-6. The compromised validator should start a new node and join the network using a [snapshot file](https://docs.vega.xyz/testnet/node-operators/how-to/use-snapshots#restarting-a-node-using-a-network-snapshot) from network history.
+6. The compromised validator should start a new node and join the network using a [snapshot file](https://docs.vega.xyz/mainnet/node-operators/how-to/use-snapshots#restarting-a-node-using-a-network-snapshot) from network history.
 
 
 ### Scenario 1.4: Tendermint key compromised
@@ -52,7 +52,7 @@ In the event a tendermint key gets compromised, a third party can double sign me
 **Note**: It is generally hard to detect a key compromise; this is normally discovered only through a general compromise (in which case all keys in working memory should be considered compromised), or by someone else using the key. In the specific case of the Tendermint key, a double signing could also stem from a misconfiguration or an error in switching between validator replicas; thus, a single double signing by a validator should be investigated, but does not require disaster recovery right away.
 
 1. Inform other validators that your tendermint key has been compromised and switch off your node.
-2. At network restart, add the new tendermint pubkey in the [genesis.json](https://github.com/vegaprotocol/networks#genesis-config-for-validator) and join others using a [snapshot file](https://docs.vega.xyz/testnet/node-operators/how-to/use-snapshots#restarting-a-node-using-a-network-snapshot) from network history.
+2. At network restart, add the new tendermint pubkey in the [genesis.json](https://github.com/vegaprotocol/networks#genesis-config-for-validator) and join others using a [snapshot file](https://docs.vega.xyz/mainnet/node-operators/how-to/use-snapshots#restarting-a-node-using-a-network-snapshot) from network history.
 
 
 ### Scenario 1.5: Several keys compromised in a short period of time
@@ -106,7 +106,7 @@ In the event that the genesis configuration is incorrect and this causes a major
 
 1. Stop the network in coordination with all validators.
 2. Update the [genesis configuration](https://github.com/vegaprotocol/networks#genesis-config-for-validator)
-3. Restart the network from a community agreed [snapshot file](https://docs.vega.xyz/testnet/node-operators/how-to/use-snapshots#restart-a-node-using-local-snapshots).
+3. Restart the network from a community agreed [snapshot file](https://docs.vega.xyz/mainnet/node-operators/how-to/use-snapshots#restart-a-node-using-local-snapshots).
 
 **NOTE:** This action will only work if the parameter/config is NOT part of the snapshot file data
 
@@ -115,7 +115,7 @@ In the event that the genesis configuration is incorrect and this causes a major
 1. Stop the network in coordination with all validators and inform Vega team immediately
 2. Vega team to create a software release that would hardcode the value in question into the binary to resolve the issue.
 3. Validators would need to ALL deploy the latest code
-4. Restart the network using a community agreed [snapshot file](https://docs.vega.xyz/testnet/node-operators/how-to/use-snapshots#restart-a-node-using-local-snapshots).
+4. Restart the network using a community agreed [snapshot file](https://docs.vega.xyz/mainnet/node-operators/how-to/use-snapshots#restart-a-node-using-local-snapshots).
 
 **NOTE:** Hardcoding values would be implemented at a block height so that it’s only hard coded for the time it’s needed, not in the software until the next deployment.
 
@@ -132,7 +132,7 @@ In the event that the genesis configuration is incorrect and this causes a major
 ### Scenario 3.2: If 3.1 is not viable due to age of the network
 
 1. Shut down the full network with coordination between validators.
-2. Restart the network using a community agreed [snapshot file](https://docs.vega.xyz/testnet/node-operators/how-to/use-snapshots#restart-a-node-using-local-snapshots).
+2. Restart the network using a community agreed [snapshot file](https://docs.vega.xyz/mainnet/node-operators/how-to/use-snapshots#restart-a-node-using-local-snapshots).
 
 **NOTE:** If there is a planned outage happening soon the node(s) could be brought back at that time to avoid unplanned outages.
 
@@ -153,7 +153,7 @@ If this should occur the following actions should be taken
 2. The Vega team will replay the chain to investigate the issue
 3. The Vega team will create a new software release that fixes the bug
 4. Validators would ALL need to deploy the latest software release (assuming sucessful governance vote to deploy)
-5. Restart network using a community agreed [snapshot file](https://docs.vega.xyz/testnet/node-operators/how-to/use-snapshots#restart-a-node-using-local-snapshots).
+5. Restart network using a community agreed [snapshot file](https://docs.vega.xyz/mainnet/node-operators/how-to/use-snapshots#restart-a-node-using-local-snapshots).
 
 
 ### Scenario 4.2: Critical big in a smart contract used by the network

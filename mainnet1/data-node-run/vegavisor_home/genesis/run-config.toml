@@ -1,0 +1,21 @@
+name = "genesis"
+
+[vega]
+  [vega.binary]
+    path = "vega"
+    args = [
+      "start",
+      "--home", "./vega_home",
+      "--tendermint-home", "./tendermint_home",
+  ]
+  [vega.rpc]
+    socketPath = "/tmp/vega.sock"
+    httpPath = "/rpc"
+
+[data_node]
+  [data_node.binary]
+    path = "vega"
+    args = [
+      "datanode", "start",
+      "--home", "./vega_home",
+    ]

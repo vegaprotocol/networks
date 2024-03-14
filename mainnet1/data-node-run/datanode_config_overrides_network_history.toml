@@ -1,0 +1,9 @@
+AutoInitialiseFromNetworkHistory = true
+
+[NetworkHistory]
+  Enabled = true
+  [NetworkHistory.Store]
+    BootstrapPeers = ["/dns/api1.vega.community/tcp/4001/ipfs/12D3KooWDZrusS1p2XyJDbCaWkVDCk2wJaKi6tNb4bjgSHo9yi5Q","/dns/api2.vega.community/tcp/4001/ipfs/12D3KooWEH9pQd6P7RgNEpwbRyavWcwrAdiy9etivXqQZzd7Jkrh"]
+
+[NetworkHistory.Initialise]
+  TimeOut = "4h"

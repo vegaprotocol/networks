@@ -1,0 +1,17 @@
+# Try every 2 seconds, 43200 retries is 24h
+maxNumberOfFirstConnectionRetries = 43200
+maxNumberOfRestarts = 3
+restartsDelaySeconds = 5
+stopDelaySeconds = 0
+stopSignalTimeoutSeconds = 15
+
+[upgradeFolders]
+  "vX.X.X" = "vX.X.X"
+
+[autoInstall]
+  enabled = true
+  repositoryOwner = "vegaprotocol"
+  repository = "vega"
+  [autoInstall.asset]
+    name = "vega-linux-amd64.zip"
+    binaryName = "vega"

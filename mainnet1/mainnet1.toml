@@ -11,7 +11,6 @@ Value = "mainnet"
     Hosts = [
       "vega-data.nodes.guru:3007",
       "vega-data.bharvest.io:3007",
-      "datanode.vega.pathrocknetwork.org:3007",
       "tls://vega-grpc.aurora-edge.com:443",
       "darling.network:3007",
       "tls://grpc.velvet.tm.p2p.org:443",
@@ -25,13 +24,15 @@ Value = "mainnet"
       # "tls://grpc.vega.xprv.io:443",
       "vega.mainnet.stakingcabin.com:3007",
       "tls://grpc.vega.mainnet.community:443",
+
+      # !! subjects not running data-node anymore
+      # "datanode.vega.pathrocknetwork.org:3007",
     ]
     Retries = 5
   [API.REST]
     Hosts = [
       "https://vega-data.nodes.guru:3008",
       "https://vega-data.bharvest.io",
-      "https://datanode.vega.pathrocknetwork.org",
       "https://vega.aurora-edge.com",
       "https://darling.network",
       "https://rest.velvet.tm.p2p.org",
@@ -45,12 +46,14 @@ Value = "mainnet"
       # "https://vega.xprv.io/datanode",
       "https://vega.mainnet.stakingcabin.com:3008",
       "https://vega.mainnet.community",
+
+      # !! subjects not running data-node anymore
+      # "https://datanode.vega.pathrocknetwork.org",
     ]
   [API.GraphQL]
     Hosts = [
       "https://vega-data.nodes.guru:3008/graphql",
       "https://vega-data.bharvest.io/graphql",
-      "https://datanode.vega.pathrocknetwork.org/graphql",
       "https://vega.aurora-edge.com/graphql",
       "https://darling.network/graphql",
       "https://gql.velvet.tm.p2p.org/graphql",
@@ -64,6 +67,9 @@ Value = "mainnet"
       # "https://vega.xprv.io/datanode/query",
       "https://vega.mainnet.stakingcabin.com:3008/query",
       "https://vega.mainnet.community/graphql",
+
+      # !! subjects not running data-node anymore
+      "https://datanode.vega.pathrocknetwork.org/graphql",
     ]
 
 [Apps]

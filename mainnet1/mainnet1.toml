@@ -18,7 +18,6 @@ Value = "mainnet"
       "vega-mainnet.anyvalid.com:3007",
       # !! not passing vaguer validations
       # "vega-data-mainnet.rockrpc.net:3007",
-      # "vega.greenfield.xyz:3007",
       # !! not passing standard validations
       # "tls://grpc.vega.xprv.io:443",
       "vega.mainnet.stakingcabin.com:3007",
@@ -27,6 +26,7 @@ Value = "mainnet"
       # !! subjects not running data-node anymore
       # "datanode.vega.pathrocknetwork.org:3007",
       # "tls://grpc.velvet.tm.p2p.org:443",
+      # "vega.greenfield.xyz:3007",
     ]
     Retries = 5
   [API.REST]
@@ -36,11 +36,9 @@ Value = "mainnet"
       "https://vega.aurora-edge.com",
       "https://darling.network",
       "https://vega-rest.mainnet.lovali.xyz",
-      "https://graphqlvega.gpvalidator.com",
       "https://vega-mainnet.anyvalid.com",
       # !! not passing vaguer validations
       # "https://vega-data-mainnet.rockrpc.net",
-      # "https://vega.greenfield.xyz",
       # !! not passing standard validations
       # "https://vega.xprv.io/datanode",
       "https://vega.mainnet.stakingcabin.com:3008",
@@ -49,6 +47,8 @@ Value = "mainnet"
       # !! subjects not running data-node anymore
       # "https://datanode.vega.pathrocknetwork.org",
       # "https://rest.velvet.tm.p2p.org",
+      # "https://vega.greenfield.xyz",
+      # "https://graphqlvega.gpvalidator.com",
     ]
   [API.GraphQL]
     Hosts = [
@@ -57,11 +57,9 @@ Value = "mainnet"
       "https://vega.aurora-edge.com/graphql",
       "https://darling.network/graphql",
       "https://vega-query.mainnet.lovali.xyz/graphql",
-      "https://graphqlvega.gpvalidator.com/graphql",
       "https://vega-mainnet.anyvalid.com/graphql",
       # !! not passing vaguer validations
       # "https://vega-data-mainnet.rockrpc.net/graphql",
-      # "https://vega.greenfield.xyz/graphql",
       # !! not passing standard validations
       # "https://vega.xprv.io/datanode/query",
       "https://vega.mainnet.stakingcabin.com:3008/query",
@@ -70,6 +68,8 @@ Value = "mainnet"
       # !! subjects not running data-node anymore
       # "https://datanode.vega.pathrocknetwork.org/graphql",
       # "https://gql.velvet.tm.p2p.org/graphql",
+      # "https://vega.greenfield.xyz/graphql",
+      # "https://graphqlvega.gpvalidator.com/graphql",
     ]
 
 [Apps]
